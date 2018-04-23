@@ -1,20 +1,3 @@
----
-title: Predefined skills for content enrichment (Azure Search) | Microsoft Docs
-description: Skills add semantics and structure to raw content.
-services: search
-manager: pablocas
-author: luiscabrer
-documentationcenter: ''
-
-ms.assetid: 
-ms.service: search
-ms.devlang: NA
-ms.workload: search
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.date: 05/01/2018
-ms.author: luisca
----
 # Predefined skills for content enrichment (Azure Search)
 
 A *cognitive skill* is an operation that transforms content in some way. Often, it is a component that extracts or infers structure, and therefore augments our understanding of the input data. Almost always, the output is text-based. A *skillset* is collection of skills that define the augmentation pipeline. 
