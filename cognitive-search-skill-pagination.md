@@ -1,20 +1,3 @@
----
-title: Microsoft.Skills.Text.Pagination cognitive search skill (Azure Search) | Microsoft Docs
-description: Break text into chunks or pages of text based on length in an Azure Search augmentation pipeline. 
-services: search
-manager: pablocas
-author: luiscabrer
-documentationcenter: ''
-
-ms.assetid: 
-ms.service: search
-ms.devlang: NA
-ms.workload: search
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.date: 05/01/2018
-ms.author: luisca
----
 #	Microsoft.Skills.Text.Pagination cognitive skill
 
 The pagination skill breaks text into chunks or pages of text. You can specify the desired maximum page length. This skill is especially useful if there are maximum text length requirements in other skills downstream. 
