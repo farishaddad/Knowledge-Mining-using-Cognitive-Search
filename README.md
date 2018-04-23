@@ -6,7 +6,7 @@
 ## From the Microsoft Cloud and AI Team
 
 This workshop leads you through a series of labs that explain what Cognitive Search is, the related Microsoft Technologies and how to create a solution to analyse unstructred data like photos, presentations, pdf and text. For the full list, see [Supported formats](https://docs.microsoft.com/en-us/azure/search/search-howto-indexing-azure-blob-storage#supported-document-formats).
-The code of this workshop is public and sample data is provided, but you can use or own, making this training a great tool for POCs or demos. The solution can be deployed on Azure, leveraging cognitive and data services.
+The code of this workshop is public and sample data is provided, but you can use or own, making this training a great tool not only for AI learning, but also for POCs or demos. The solution can be deployed on Azure, leveraging cognitive and data services.
 
 The material of this workshop is intended for professionals basically familiar with Azure Portal and Visual Studio C# development: Architects, Data Scientists, Developers. [If any of these topics are new to you, we have a learning path here that you can follow to bring you up to speed before you start this workshop](https://azure.microsoft.com/en-us/training/learning-paths/).
 
