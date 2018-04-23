@@ -1,21 +1,3 @@
----
-title: How to map enriched fields (Azure Search) | Microsoft Docs
-description: Define a set of steps to augment and extract structured information from your data
-services: search
-manager: pablocas
-author: luiscabrer
-documentationcenter: ''
-
-ms.assetid: 
-ms.service: search
-ms.devlang: NA
-ms.workload: search
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.date: 05/01/2018
-ms.author: luisca
----
-
 # How to map enriched fields to a searchable index
 
 Once you have [defined a skillset](cognitive-search-defining-skillset.md), you must map the output fields of any skill that directly contributes values to a given field in your search index. Field mappings are required for moving content from enriched documents into the index.
