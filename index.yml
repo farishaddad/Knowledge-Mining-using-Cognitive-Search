@@ -1,0 +1,38 @@
+﻿### YamlMime:YamlDocument
+documentType: LandingData
+title: Azure Search Documentation
+metadata:
+  document_id:  
+  title: Azure Search Documentation – Tutorials, quickstarts, API references
+  meta.description: Learn how to create an enterprise search solution over private, heterogenous content using Azure Search. Tutorials, API references, and other docs show you how to  consolidate searchable content into a single fast index, queryable using simple-to-advanced syntax for a broad range of scenarios.
+  services: search
+  author: HeidiSteen
+  manager: cgronlun
+  ms.service: search
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  ms.topic: landing-page
+  ms.date: 05/01/2018
+  ms.author: heidist
+abstract:
+  description: <b>New cognitive skills preview in Azure Search.</b> Use a preview REST API to bind an augmented indexing pipeline that transforms raw, unstructured content into semantically enriched, searchable content in an Azure Search index. <br/><br/>This documentation is part of a Microsoft private preview and must not be shared publicly.<br/><br/>For quick access to the public docs, click <a href="https://docs.microsoft.com/azure/search/">Azure Search Documentation</a>.
+  aside:
+    image:
+      alt: 
+      height: 110
+      src: https://docs.microsoft.com/azure/search/media/index/search-page-callouts3.png
+      width: 250  
+    title: Learn about Azure Search (9:32)
+    href: https://channel9.msdn.com/Events/Connect/2016/138/player
+    width: 250
+sections:
+- title: Reference (Public website)
+  items:
+  - type: list
+    style: cards
+    className: cardsD
+    items:
+    - title: Languages
+      html: <p><a href="/dotnet/api/?term=microsoft.azure.search">.NET</a></p><p><a href="/dotnet/api/?term=microsoft.azure.management.search">.NET (Management)</a></p><p><a href="http://azure-sdk-for-python.readthedocs.io/en/latest/ref/azure.mgmt.search.html">Python (Management)</a></p>
+    - title: REST
+      html: <p><a href="/rest/api/searchservice">Service API Reference</a></p><p><a href="/rest/api/searchmanagement">Management API Reference</a></p>
