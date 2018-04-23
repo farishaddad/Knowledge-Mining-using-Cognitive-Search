@@ -1,20 +1,3 @@
----
-title: Get started with cognitive search preview in Azure Search | Microsoft Docs
-description: Roadmap for design and development of a cognitive search solution in Azure Search, transforming unstructured data into searchable content.
-services: search
-manager: cgronlun
-author: HeidiSteen
-documentationcenter: ''
-
-ms.assetid: 
-ms.service: search
-ms.devlang: NA
-ms.workload: search
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.date: 05/01/2018
-ms.author: heidist
----
 # Get started with cognitive search preview
 
 This article provides a roadmap for developers creating a cognitive search solution in Azure Search, including how to provision resources, learning the basic workflow, and testing your work.
@@ -27,7 +10,7 @@ To perform each step, you can use a REST test tool such as Telerik Fiddler or Po
 
 Use the [Azure portal](https://portal.azure.com/) to create services used in an end-to-end workflow. You can search for the services you want to create.
 
- ![Dashboard portal](./media/cognitive-search-get-start-preview/create-service-full-portal.png)
+ ![Dashboard portal](./media/create-service-full-portal.png)
 
 ## Step 1: Set up the Azure Search Service
 
@@ -42,11 +25,11 @@ First, sign up for the Azure Search service.
 + Use the same resource group for all resources you create today to make cleanup easier.
 + Pin the service to the dashboard for fast access to service information.
 
-  ![Service definition page in the portal](./media/cognitive-search-get-start-preview/create-search-service.png)
+  ![Service definition page in the portal](./media/create-search-service.png)
 
 After the service is created, collect the following information once the service is created: "endpoint", "api-key". You can use either the primary or secondary key.
 
-  ![Endpoint and key information in the portal](./media/cognitive-search-get-start-preview/create-search-collect-info.png)
+  ![Endpoint and key information in the portal](./media/create-search-collect-info.png)
 
 ## Step 2: Set up Azure blob service and load sample data
 
@@ -113,7 +96,7 @@ Each step executes on the content of the document. During processing, Azure Sear
 
 A graphical representation of the skillset is shown below:
 
-![](media/cognitive-search-get-start-preview/skillset.png)
+![](media/skillset.png)
 
 ### Sample Request
 Make sure to replace the service name and the admin key in the request below. Reference the skillset name ```demoskillset``` for the rest of this demo.
