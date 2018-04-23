@@ -1,21 +1,3 @@
----
-title: How to create a skillset or augmentation pipeline (Azure Search) | Microsoft Docs
-description: Define a set of steps to augment and extract structured information from your data
-services: search
-manager: pablocas
-author: luiscabrer
-documentationcenter: ''
-
-ms.assetid: 
-ms.service: search
-ms.devlang: NA
-ms.workload: search
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.date: 05/01/2018
-ms.author: luisca
----
-
 # How to create a skillset in an enrichment pipeline
 
 Cognitive Search allows you to apply enrichment steps to your data. We call each of these enrichment steps *cognitive skills*, which are combined into a *skillset* referenced during indexing. When designing a skillset, you can use predefined skills or build an entirely new skill from the ground up. To view the list of existing skills, see [built-in skills page](cognitive-search-predefined-skills.md). For guidance on building custom skills, see [How to define a custom interface](cognitive-search-custom-skill-interface.md) and [Example: create a custom skill](cognitive-search-create-custom-skill-example.md).
@@ -42,7 +24,7 @@ Essentially, you want to end up with the following information indexed for each 
 
 The following diagram illustrates a hypothetical enrichment pipeline:
 
-![](media/cognitive-search-defining-skillset/sample-skillset.png)
+![](media/sample-skillset.png)
 
 
 Once you have a clear idea  of what the pipeline looks like, you can express the skillset that provides these steps. Functionally, the skillset is expressed when you upload your indexer definition to Azure Search. To learn more about how to upload your indexer, see the [indexer-documentation](https://docs.microsoft.com/rest/api/searchservice/create-indexer).
@@ -243,7 +225,7 @@ As you may have noticed by now, the skillset generates structured information ou
 
 A likely outcome would be a generated structure similar to the following illustration:
 
-![](media/cognitive-search-defining-skillset/enriched-doc.png)
+![](media/enriched-doc.png)
 
 Recall that this structure is internal. You cannot actually retrieve this graph in code.
 
