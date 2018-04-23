@@ -1,30 +1,3 @@
----
-title: "Create Index (Azure Search Service REST API)"
-ms.custom: ""
-ms.date: 05/01/2018
-ms.prod: "azure"
-ms.reviewer: ""
-ms.service: search
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: rest-api
-applies_to:
-  - "Azure"
-author: "Brjohnstmsft"
-ms.author: "brjohnst"
-manager: "jhubbard"
-translation.priority.mt:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pt-br"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
----
 # Create Index (Azure Search Service REST API)
   An index is the primary means of organizing and searching documents in Azure Search, similar to how a table organizes records in a database. Each index has a collection of documents that all conform to the index schema (field names, data types, and properties), but indexes also specify additional constructs (suggesters, scoring profiles, and CORS configuration) that define other search behaviors.  
 
