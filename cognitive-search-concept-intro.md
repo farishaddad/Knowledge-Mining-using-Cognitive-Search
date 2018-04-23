@@ -1,20 +1,3 @@
----
-title: Cognitive search in Azure Search | Microsoft Docs
-description: Cognitive search is a collection of features in Azure Search for transforming unstructured data into searchable content.
-services: search
-manager: cgronlun
-author: HeidiSteen
-documentationcenter: ''
-
-ms.assetid: 
-ms.service: search
-ms.devlang: NA
-ms.workload: search
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.date: 05/01/2018
-ms.author: heidist
----
 # Cognitive Search Concepts
 
 Cognitive search, currently in private preview, transforms raw, unstructured content into rich searchable content in an Azure Search index. At the heart of cognitive search is an extensible enrichment pipeline powered by a number of cognitive skills (for instance, natural language processing and computer vision capabilities) that extract structure and semantics from unstructured and non-textual data, and feeds it into a search index. 
