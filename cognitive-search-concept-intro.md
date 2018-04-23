@@ -2,7 +2,7 @@
 
 Cognitive search, currently in private preview, transforms raw, unstructured content into rich searchable content in an Azure Search index. At the heart of cognitive search is an extensible enrichment pipeline powered by a number of cognitive skills (for instance, natural language processing and computer vision capabilities) that extract structure and semantics from unstructured and non-textual data, and feeds it into a search index. 
 
-![Component diagram of enrichment, augmentation pipeline](./media/cognitive-search-intro/cogsearch-architecture.png)
+![Component diagram of enrichment, augmentation pipeline](./media/cogsearch-architecture.png)
 
 ## Pipeline components
 
