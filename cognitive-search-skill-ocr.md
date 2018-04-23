@@ -1,20 +1,3 @@
----
-title: Microsoft.Skills.Vision.Ocr cognitive search skill (Azure Search) | Microsoft Docs
-description: Extract text from image files in an Azure Search augmentation pipeline.
-services: search
-manager: pablocas
-author: luiscabrer
-documentationcenter: ''
-
-ms.assetid: 
-ms.service: search
-ms.devlang: NA
-ms.workload: search
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.date: 05/01/2018
-ms.author: luisca
----
 # Microsoft.Skills.Vision.Ocr cognitive skill
 
 This skill is not currently operational in the private preview.
