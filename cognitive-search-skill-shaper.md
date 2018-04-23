@@ -1,21 +1,3 @@
----
-title: Microsoft.Skills.Util.Shaper cognitive search skill (Azure Search) | Microsoft Docs
-description: Extract metadata and structured information from unstructured data and shape it as a complex type in an Azure Search augmentation pipeline.
-services: search
-manager: pablocas
-author: luiscabrer
-documentationcenter: ''
-
-ms.assetid: 
-ms.service: search
-ms.devlang: NA
-ms.workload: search
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.date: 05/01/2018
-ms.author: luisca
----
-
 #	Microsoft.Skills.Util.Shaper cognitive skill
 As you extract metadata and structured information from unstructured data, you might want to shape that information into a multi-part complex type that can be treated as a single item in an Azure Search index.
 
