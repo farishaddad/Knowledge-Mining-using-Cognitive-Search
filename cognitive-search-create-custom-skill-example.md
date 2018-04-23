@@ -1,20 +1,3 @@
----
-title: Example - Creating a custom skill | Microsoft Docs
-description: Create a custom skill from the Text Translate API.
-services: search
-manager: pablocas
-author: luiscabrer
-documentationcenter: ''
-
-ms.assetid: 
-ms.service: search
-ms.devlang: NA
-ms.workload: search
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.date: 05/01/2018
-ms.author: luisca
----
 
 # Example: Create a custom skill using the Text Translate API
 
