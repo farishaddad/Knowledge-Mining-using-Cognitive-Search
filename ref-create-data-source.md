@@ -1,30 +1,3 @@
----
-title: "Create Data Source (Azure Search Service REST API)"
-ms.custom: ""
-ms.date: 05/01/2018
-ms.prod: "azure"
-ms.reviewer: ""
-ms.service: search
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: rest-api
-applies_to:
-  - "Azure"
-author: "Brjohnstmsft"
-ms.author: "brjohnst"
-manager: "jhubbard"
-translation.priority.mt:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pt-br"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
----
 # Create Data Source (Azure Search Service REST API)
   In Azure Search, a data source is used with indexers, providing the connection information for ad hoc or scheduled data refresh of a target index. You can create a new data source within an Azure Search service using an HTTP POST request.  
 
