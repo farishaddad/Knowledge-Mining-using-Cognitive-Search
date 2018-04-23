@@ -25,5 +25,5 @@ Thank you for helping us make cognitive search better! We are here to help. The 
 
 | Alias | Used for |
 |-------|----------|
-| learnai@microsoft.com | Redelivery, suggestions, feedback |
+| learnai@microsoft.com | Redelivery, feedback |
 | rosouz@microsoft.com | Documentation issues or suggestions |
