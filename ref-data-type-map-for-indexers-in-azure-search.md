@@ -1,32 +1,3 @@
----
-title: "Data type map for indexers in Azure Search"
-ms.custom: ""
-ms.date: "2018-05-01"
-ms.prod: "azure"
-ms.reviewer: ""
-ms.service: "search"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "language-reference"
-applies_to:
-  - "Azure"
-ms.assetid: 4350e176-696f-4a89-b4bb-794ace3c251e
-caps.latest.revision: 10
-author: "Brjohnstmsft"
-ms.author: "brjohnst"
-manager: "jhubbard"
-translation.priority.mt:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pt-br"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
----
 # Data type map for indexers in Azure Search
   When building a schema for an indexer, the data types used in the data source must map to an allowed data type for the fields in the target index.  
 
