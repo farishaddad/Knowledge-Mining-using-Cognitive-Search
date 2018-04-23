@@ -1,20 +1,3 @@
----
-title: Microsoft.Skills.Text.LanguageDetection cognitive search skill (Azure Search) | Microsoft Docs
-description: Evaluates unstructured text, and for each record, returns a language identifier with a score indicating the strength of the analysis in an Azure Search augmentation pipeline.
-services: search
-manager: pablocas
-author: luiscabrer
-documentationcenter: ''
-
-ms.assetid: 
-ms.service: search
-ms.devlang: NA
-ms.workload: search
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.date: 05/01/2018
-ms.author: luisca
----
 #	Microsoft.Skills.Text.LanguageDetection cognitive skill
 
 For up to 120 languages, detect which language the input text is written in and report a single language code for every document submitted on the request. The language code is paired with a score indicating the strength of the analysis.
