@@ -1,5 +1,6 @@
 ## TO DO - Remove before publishing 
 - Add the github lab address
+- Add Link to the announcement
 
 # Azure Cognitive Search Workshop 
 
@@ -8,9 +9,9 @@
 This workshop leads you through a series of labs that explain what Cognitive Search is, the related Microsoft Technologies and how to create a solution to analyse unstructred data like photos, presentations, pdf and text. For the full list, see [Supported formats](https://docs.microsoft.com/en-us/azure/search/search-howto-indexing-azure-blob-storage#supported-document-formats).
 The code of this workshop is public and sample data is provided, but you can use or own, making this training a great tool not only for AI learning, but also for POCs or demos. The solution can be deployed on Azure, leveraging cognitive and data services.
 
-The material of this workshop is intended for professionals basically familiar with Azure Portal and Visual Studio C# development: Architects, Data Scientists, Developers. [If any of these topics are new to you, we have a learning path here that you can follow to bring you up to speed before you start this workshop](https://azure.microsoft.com/en-us/training/learning-paths/).
+The material of this workshop is intended for professionals basically familiar with Azure Portal and Visual Studio C# development: Architects, Data Scientists, Developers. If any of these topics are new to you, we have a [learning path](https://azure.microsoft.com/en-us/training/learning-paths/) that you can follow to bring you up to speed before you start this workshop. It is also important to notice this training is based on Azure Search, and [here](https://docs.microsoft.com/en-us/azure/search/) you can find quick starts to learn more about it. 
 
-*This training is related to the new Micrsoft Cognitive Search product, to be announced at Build on May, 7th 2018.*
+*This training is related to the new Micrsoft Cognitive Search product, announced at MS Build on May, 7th 2018.*
 
 ## Getting Started
 Cognitive search is a new enrichment pipeline that allows you to find rich structured information from documents. This enriched information can become part of your Azure Search index. If you are already familiar with Azure Search concepts and workflows, these tips can help you get started:
