@@ -1,6 +1,8 @@
 ## TO DO - Remove before publishing 
 - Add the github lab address
 - Add Link to the announcement
+- How to create an Azure free account
+
 
 # Azure Cognitive Search Workshop 
 
