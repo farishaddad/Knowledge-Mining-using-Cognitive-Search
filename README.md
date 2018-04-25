@@ -4,7 +4,7 @@
 <p style="border-bottom: 3px solid lightgrey;"></p>
 
 Cognitive Search 
-is a new enrichment pipeline that allows you to find rich structured information from documents. This one day training will focus on hands-on activities that develop proficiency on Cognitive Search, an AI-orietend product announced on [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an inroductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), [Azure Portal](https://portal.azure.com) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If this is not your case,  we have quick start materials in the pre-requisites section of this training.
+is a new enrichment pipeline that allows you to find rich structured information from documents. This one day training will focus on hands-on activities that develop proficiency on Cognitive Search, an AI-orietend product announced on [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an inroductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If this is not your case, we have quick start materials in the pre-requisites section of this training.
 
 ##**Goals**
 <p style="border-bottom: 3px solid lightgrey;"></p>
@@ -28,6 +28,7 @@ Since this is an AI training on top of Microsoft Azure Services, there are certa
 3. You need an Microsoft Azure to create the services we use in our solution. You can create a [free account](https://azure.microsoft.com/en-us/free/), use your [MSDN account](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/) or use any other subscription where you have permission to create services.
 4. You need a computer with [Visual Studio](https://www.visualstudio.com/downloads/) installed. The Community free edition can be used and it has Windows, MacOS and Linux options. If you don't have permission to install software in your computer, and you don't have Visual Studio installed, you can create a Virtual Machine on Azure.
 5. You need a computer with [Bash Command Prompt](https://docs.microsoft.com/en-us/windows/wsl/install-win10) installed. If you are using MacOs or Linux, this step isn't necessary.
+6. You may need quick start trainings for [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/) and [Azure Search](https://docs.microsoft.com/en-us/azure/search/)
 
 ##**Agenda**
 <p style="border-bottom: 3px solid lightgrey;"></p>
