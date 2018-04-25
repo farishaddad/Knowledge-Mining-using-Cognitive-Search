@@ -1,28 +1,44 @@
 ## TO DO - Remove before publishing 
-- Add the github lab address
+- Add the link to Cognitive Search page
 - Add Link to the announcement
 - How to create an Azure free account
 
 
-# Azure Cognitive Search Workshop 
+#Azure Cognitive Search Workshop 
 
-## From the Microsoft Cloud and AI Team
+## Welcome
+<p style="border-bottom: 3px solid lightgrey;"></p>
 
-This workshop leads you through a series of labs that explain what Cognitive Search is, the related Microsoft Technologies and how to create a solution to analyse unstructred data like photos, presentations, pdf and text. For the full list, see [Supported formats](https://docs.microsoft.com/en-us/azure/search/search-howto-indexing-azure-blob-storage#supported-document-formats).
-The code of this workshop is public and sample data is provided, but you can use or own, making this training a great tool not only for AI learning, but also for POCs or demos. The solution can be deployed on Azure, leveraging cognitive and data services.
+Welcome to the Azure Cognitive Search Workshop. This one day training will focus on hands-on activities that develop proficiency on Cognitive Search, an AI-orietend product announced on [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an inroductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), [Azure Portal](https://portal.azure.com) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If this is not the case, then we have quick start materials in the pre-requisites section of this training.
 
-The material of this workshop is intended for professionals basically familiar with Azure Portal and Visual Studio C# development: Architects, Data Scientists, Developers. If any of these topics are new to you, we have a [learning path](https://azure.microsoft.com/en-us/training/learning-paths/) that you can follow to bring you up to speed before you start this workshop. It is also important to notice this training is based on Azure Search, and [here](https://docs.microsoft.com/en-us/azure/search/) you can find quick starts to learn more about it. 
+##Goals
+<p style="border-bottom: 3px solid lightgrey;"></p>
 
-*This training is related to the new Micrsoft Cognitive Search product, announced at MS Build on May, 7th 2018.*
+Most challenges observed by customers in these realms are in stitching diverse content together. As such, we placed key concepts and hands-on labs in the context of a broader example.
 
-## Getting Started
+At the end of this workshop, you should be able to:
+
++ Understand what Cognitive Search is
++ Configure your Cognitive Search service
++ Implement Azure Search features to provide a positive search experience inside applications
++ Configure an Azure Search service to extend your data to enable Cognitive Search
++ Build a solution that enrich, index and search for cognitive data
+
+##Pre-requisites
+<p style="border-bottom: 3px solid lightgrey;"></p>
+
 Cognitive search is a new enrichment pipeline that allows you to find rich structured information from documents. This enriched information can become part of your Azure Search index. If you are already familiar with Azure Search concepts and workflows, these tips can help you get started:
 + Learn the key concepts: [Cognitive search (preview)](cognitive-search-concept-intro.md)
 + Step through a short tutorial. Start with service provisioning (Basic or above) in **West Central US** and continue with tasks essential to the workflow: [Get started with cognitive search preview](cognitive-search-get-start-preview.md)
 + Step through a longer, guided example to learn a few things about extensibility. We anticipate that custom enrichment is a primary scenario for most customers. Hopefully this example makes your investigation go a little smoother: [Example on creating a custom skill using the Text Translate API](cognitive-search-create-custom-skill-example.md)
 
+##Agenda
+<p style="border-bottom: 3px solid lightgrey;"></p>
+
+
 
 ## Contact us
+<p style="border-bottom: 3px solid lightgrey;"></p>
 
 Thank you for helping us make cognitive search better! We are here to help. The best way to reach the Learn AI Team is through email:
 
