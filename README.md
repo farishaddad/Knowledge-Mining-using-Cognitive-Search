@@ -3,14 +3,15 @@
 ##**Welcome**
 <p style="border-bottom: 3px solid lightgrey;"></p>
 
-Cognitive Search Workshop is a new enrichment pipeline that allows you to find rich structured information from documents. This one day training will focus on hands-on activities that develop proficiency on Cognitive Search, an AI-orietend product announced on [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an inroductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), [Azure Portal](https://portal.azure.com) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If this is not your case,  we have quick start materials in the pre-requisites section of this training.
+Cognitive Search 
+is a new enrichment pipeline that allows you to find rich structured information from documents. This one day training will focus on hands-on activities that develop proficiency on Cognitive Search, an AI-orietend product announced on [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an inroductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), [Azure Portal](https://portal.azure.com) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If this is not your case,  we have quick start materials in the pre-requisites section of this training.
 
 ##**Goals**
 <p style="border-bottom: 3px solid lightgrey;"></p>
 
 Most challenges observed by customers in these realms are in stitching diverse content together. As such, we placed key concepts and hands-on labs in the context of a broader example.
 
-At the end of this workshop, you should be able to:
+In this training you will create a cognitive data flow and the enriched information will become part of an Azure Search index. At the end of this workshop, you should be able to:
 
 + Understand what Cognitive Search is
 + Configure your Cognitive Search service
@@ -31,8 +32,9 @@ Since this is an AI training on top of Microsoft Azure Services, there are certa
 ##**Agenda**
 <p style="border-bottom: 3px solid lightgrey;"></p>
 
-Cognitive search is a new enrichment pipeline that allows you to find rich structured information from documents. This enriched information can become part of your Azure Search index. If you are already familiar with Azure Search concepts and workflows, these tips can help you get started:
-+ Learn the key concepts: [Cognitive search (preview)](cognitive-search-concept-intro.md)
+Since you have finish the pre-requisites, let's start the training. You just need to follow the workshop structure presented below.
+
++ Lab 1: Learn the key concepts: [Cognitive search (preview)](cognitive-search-concept-intro.md)
 + Step through a short tutorial. Start with service provisioning (Basic or above) in **West Central US** and continue with tasks essential to the workflow: [Get started with cognitive search preview](cognitive-search-get-start-preview.md)
 + Step through a longer, guided example to learn a few things about extensibility. We anticipate that custom enrichment is a primary scenario for most customers. Hopefully this example makes your investigation go a little smoother: [Example on creating a custom skill using the Text Translate API](cognitive-search-create-custom-skill-example.md)
 
