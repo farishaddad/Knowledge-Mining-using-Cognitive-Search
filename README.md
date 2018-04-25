@@ -34,7 +34,7 @@ Since this is an AI training on top of Microsoft Azure Services, there are certa
 
 Since you have finish the pre-requisites, let's start the training. You just need to follow the workshop structure presented below.
 
-+ Lab 1 - Learn Cognitive Search key concepts. 
++ [Lab 1](Lab-1-cognitive-search-key-concepts.md) - Cognitive Search key concepts. This is a read only introdiction
 + Step through a short tutorial. Start with service provisioning (Basic or above) in **West Central US** and continue with tasks essential to the workflow: [Get started with cognitive search preview](cognitive-search-get-start-preview.md)
 + Step through a longer, guided example to learn a few things about extensibility. We anticipate that custom enrichment is a primary scenario for most customers. Hopefully this example makes your investigation go a little smoother: [Example on creating a custom skill using the Text Translate API](cognitive-search-create-custom-skill-example.md)
 
