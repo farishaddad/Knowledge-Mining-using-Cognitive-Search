@@ -25,8 +25,8 @@ Since this is an AI training on top of Microsoft Azure Services, there are certa
 1. We will use Visual Studio for some activities. This [link](https://docs.microsoft.com/en-us/visualstudio/ide/visual-studio-ide) has the knwoledge you need to do this workshop. 
 2. Together we will create small C# applications. This [short video](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949) has the knowledge you need for this training.
 3. You need an Microsoft Azure to create the services we use in our solution. You can create a [free account](https://azure.microsoft.com/en-us/free/), use your [MSDN account](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/) or use any other subscription where you have permission to create services.
-
-
+4. You need a computer with [Visual Studio](https://www.visualstudio.com/downloads/) installed. The Community free edition can be used and it has Windows, MacOS and Linux options. If you don't have permission to install software in your computer, and you don't have Visual Studio installed, you can create a Virtual Machine on Azure.
+5. You need a computer with [Bash Command Prompt](https://docs.microsoft.com/en-us/windows/wsl/install-win10) installed. If you are using MacOs or Linux, this step isn't necessary.
 
 ##**Agenda**
 <p style="border-bottom: 3px solid lightgrey;"></p>
