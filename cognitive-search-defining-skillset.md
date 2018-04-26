@@ -232,5 +232,5 @@ Recall that this structure is internal. You cannot actually retrieve this graph 
 <a name="next-step"></a>
 
 ## Next steps
-
-Now that you are familiar with the enrichment pipeline and skillsets, continue with [mapping fields into your index](cognitive-search-output-field-mapping.md).
++ [How to define a custom interface](cognitive-search-custom-skill-interface.md)
++ Now that you are familiar with the enrichment pipeline and skillsets, continue with [mapping fields into your index](cognitive-search-output-field-mapping.md).
