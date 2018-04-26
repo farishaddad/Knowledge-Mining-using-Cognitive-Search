@@ -31,7 +31,7 @@ Since you have finish the pre-requisites, let's start the training. You just nee
 + [Lab 1](cognitive-search-concept-intro.md) - Cognitive Search key concepts. This is a read only introduction.
 + [Lab 2](cognitive-search-get-start-preview.md) - Get Start with Cognitive Search
 + [Lab 3](cognitive-search-output-field-mapping.md) - Map fields into your Azure Search Index
-+ Step through a longer, guided example to learn a few things about extensibility. We anticipate that custom enrichment is a primary scenario for most customers. Hopefully this example makes your investigation go a little smoother: [Example on creating a custom skill using the Text Translate API](cognitive-search-create-custom-skill-example.md)
++ [Lab 4](cognitive-search-create-custom-skill-example.md) - Create a Custom Skill
 
 
 
