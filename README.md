@@ -1,3 +1,8 @@
+#**TO DO**
++ Add Architecture Diagram
++ Add a "Use Case" to make it as a solution
++ Fix the "Next Steps" sections
+
 #Azure Cognitive Search Workshop 
 
 ##Welcome
