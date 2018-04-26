@@ -62,7 +62,6 @@ The following APIs are used in the cognitive search preview:
 | [Create Index](ref-create-index.md)  | Resource expressing an Azure Search index.  |
 | [Create Indexer](ref-create-indexer.md)  | Resource defining components used during indexing: including a data source, a skillset, field associations from source and intermediary data structures to target index, and the index itself.   |
 
-## Next steps
+## Next step
 
 + [How to create a skillset or augmentation pipeline](cognitive-search-defining-skillset.md)
-+ [How to define a custom interface](cognitive-search-custom-skill-interface.md)
