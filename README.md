@@ -27,7 +27,7 @@ Since this is an AI training on top of Microsoft Azure Services, there are certa
 2. Together we will create small C# applications. This [short video](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949) has the knowledge you need for this training.
 3. You need an Microsoft Azure to create the services we use in our solution. You can create a [free account](https://azure.microsoft.com/en-us/free/), use your [MSDN account](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/) or use any other subscription where you have permission to create services.
 4. You need a computer with [Visual Studio](https://www.visualstudio.com/downloads/) installed. The Community free edition can be used and it has Windows, MacOS and Linux options. If you don't have permission to install software in your computer, and you don't have Visual Studio installed, you can create a Virtual Machine on Azure.
-5. You need a computer [Postman](https://www.getpostman.com/) or [Fiddler](https://www.telerik.com/download/fiddler) to test the APIs we will interact with.
+5. You need a computer with [Postman](https://www.getpostman.com/) or [Fiddler](https://www.telerik.com/download/fiddler) installed to test the APIs we will interact with.
 6. You may need quick start trainings for [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/) and [Azure Search](https://docs.microsoft.com/en-us/azure/search/)
 
 ##Agenda
