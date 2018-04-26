@@ -64,7 +64,5 @@ The following APIs are used in the cognitive search preview:
 
 ## Next steps
 
-+ [Get started with the private preview](cognitive-search-get-start-preview.md)
 + [How to create a skillset or augmentation pipeline](cognitive-search-defining-skillset.md)
 + [How to define a custom interface](cognitive-search-custom-skill-interface.md)
-+ [Example: creating a custom skill](cognitive-search-create-custom-skill-example.md)
