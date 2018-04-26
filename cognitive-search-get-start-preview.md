@@ -437,8 +437,4 @@ This exercise does not walk you through custom skill definition, but if you plan
 + [How to define a custom interface](cognitive-search-custom-skill-interface.md)
 
 
-## Next step
-+ [Lab 1](cognitive-search-concept-intro.md) - 1 hour - Cognitive Search key concepts. This is a read only introduction.
-
-
 
