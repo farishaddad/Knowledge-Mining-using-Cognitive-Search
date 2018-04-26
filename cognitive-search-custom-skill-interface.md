@@ -127,8 +127,9 @@ When you create a Web API enricher, you can describe HTTP headers and parameters
 ```
 
 ## See also
-
-+ [Example: Creating a custom skill for the Translate Text API](cognitive-search-create-custom-skill-example.md)
 + [How to define a skillset](cognitive-search-defining-skillset.md)
 + [Create Skillset (REST)](ref-create-skillset.md)
 + [How to map enriched fields](cognitive-search-output-field-mapping.md)
+
+## Next Step
+[Back to Labs Menu](readme.md)
