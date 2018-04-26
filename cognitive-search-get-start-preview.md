@@ -431,10 +431,11 @@ Repeat the previous exercise, including an `enriched` field to capture the conte
 
 This exercise does not walk you through custom skill definition, but if you plan to create a custom skill at some point, or if you want to step through the [custom skill example](cognitive-search-create-custom-skill-example.md), one approach for providing the skill is using an [Azure Function](https://docs.microsoft.com/azure/azure-functions/functions-overview). Use of an Azure Function comes at an additional cost. See the [pricing page](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview#pricing) for details.
 
-## Next Reference Materials
+## See Also
 + [How to create a skillset or augmentation pipeline](cognitive-search-defining-skillset.md)
 + [Predefined skills](cognitive-search-predefined-skills.md)
 + [How to define a custom interface](cognitive-search-custom-skill-interface.md)
 
-
+## Next Step
+[Back to Labs Menu](readme.md)
 
