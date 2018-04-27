@@ -132,4 +132,4 @@ When you create a Web API enricher, you can describe HTTP headers and parameters
 + [How to map enriched fields](cognitive-search-output-field-mapping.md)
 
 ## Next Step
-[Back to Labs Menu](readme.md)
+[Back to Labs Main Menu](readme.md)
