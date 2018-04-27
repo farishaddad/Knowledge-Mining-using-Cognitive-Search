@@ -1,0 +1,9 @@
+curl -X POST -H 'Content-Type: application/json' -d '{   
+    "name" : "rodrigoblobcogsearch",  
+    "description" : "Demo files to demonstrate cognitive search capabilities.",  
+    "type" : "azureblob",
+    "credentials" : { "connectionString" : "DefaultEndpointsProtocol=https;AccountName=rodrigoblobcogsearch;AccountKey=7Tp7X5X4cZQzNPGz6Sgo51dfBOFQlInQ4G9iwmfIlUspIX9+dfBLhxjvcMeoxHfAu+EfN9o0HU7bb6L6UizlFw==;EndpointSuffix=core.windows.net;"},  
+    "container" : { "name" : ""cogsearch"}" }
+}' https://rodcogsearch.search.windows.net/datasources?api-version=2017-11-11-Preview
+
+
