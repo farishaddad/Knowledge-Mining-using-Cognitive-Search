@@ -1,4 +1,4 @@
-# How to map enriched fields to a searchable index
+#LAB 3: How to map enriched fields to a searchable index
 
 Once you have [defined a skillset](cognitive-search-defining-skillset.md), you must map the output fields of any skill that directly contributes values to a given field in your search index. Field mappings are required for moving content from enriched documents into the index.
 
