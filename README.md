@@ -34,7 +34,7 @@ Since this is an AI training on top of Microsoft Azure Services, there are certa
 Since you have finish the pre-requisites, let's start the training. You just need to follow the workshop structure presented below.
 
 + [Lab 1](cognitive-search-concept-intro.md) - 1 hour - Cognitive Search key concepts. This is a read only introduction.
-+ [Lab 2](cognitive-search-get-start-preview.md) - 2 hours - Get Start with Cognitive Search. Here we will create the service, the data source and the Azure Search Index.
++ [Lab 2](cognitive-search-get-start-preview.md) - 2 hours - Create a Cognitive Search Predefined Skill.
 + [Lab 3](cognitive-search-output-field-mapping.md) - 2 hours - Map fields into your Azure Search Index.
 + [Lab 4](cognitive-search-create-custom-skill-example.md) - 2 hours - Create a Cognitive Search Custom Skill.
 
