@@ -1,4 +1,4 @@
-# Get started with cognitive search
+#LAB 1: Get started with cognitive search
 This article provides a roadmap for developers creating a cognitive search solution in Azure Search, including how to provision resources, learning the basic workflow, and testing your work.
 
 This exercise creates multiple objects: an Azure blob data source, a skillset, an index. All objects are pulled together in an indexer definition, executing as an end-to-end pipeline that pulls data from its source, enriches it, and deposits it into an Azure Search index.
