@@ -295,6 +295,8 @@ For non-enriched indexing, the indexer definition provides an optional *fieldMap
 
 For cognitive search workloads having an enrichment pipeline, an indexer requires *outputFieldMappings*. These mappings are used when an internal process (the enrichment pipeline) is the source of field values. Behaviors unique to *outputFieldMappings* include the ability to handle complex types created as part of enrichment (through the shaper skill). Also, there may be many elements per document (for instance, multiple organizations in a document). The *outputFieldMappings* construct can direct the system to "flatten" collections of elements into a single record.
 
+**This step takes up to 10 minutes of processing to complete.**
+
 ### Sample Request
 
 Before you make this REST call, remember to replace the service name and the admin key in the request below if your tool does not preserve the request header between calls. 
