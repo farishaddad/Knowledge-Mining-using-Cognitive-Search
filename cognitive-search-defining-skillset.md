@@ -232,4 +232,4 @@ Recall that this structure is internal. You cannot actually retrieve this graph 
 <a name="next-step"></a>
 
 ## Next step
-+ [Lab 1.3 - How to define a custom interface](cognitive-search-custom-skill-interface.md)
++ [Lab 1.2 - How to define a custom interface](cognitive-search-custom-skill-interface.md)
