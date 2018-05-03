@@ -12,16 +12,6 @@ In this lab, you make REST API calls to perform following tasks:
 
 Output is a full text searchable index on Azure Search. You can enhance the index with other standard capabilities, such as [synonyms](search-synonyms.md), [scoring profiles](https://docs.microsoft.com/rest/api/searchservice/add-scoring-profiles-to-a-search-index), [analyzers](search-analyzers.md), and [filters](search-filters.md).
 
-If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin.
-
-## Prerequisites
-
-New to cognitive search? Read ["What is cognitive search?"](cognitive-search-concept-intro.md) to get acquainted, or try the [portal quickstart](cognitive-search-quickstart-blob.md) for a hands-on introduction to important concepts.
-
-To make REST calls to Azure Search, use PowerShell or a web test tool like Telerik Fiddler or Postman to formulate HTTP requests. If these tools are new to you, see [Explore Azure Search REST APIs using Fiddler or Postman](search-fiddler.md).
-
-Use the [Azure portal](https://portal.azure.com/) to create services used in an end-to-end workflow. 
-
 ### Set up Azure Search
 
 First, sign up for the Azure Search service. 
