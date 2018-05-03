@@ -86,7 +86,7 @@ When using the Search Explorer, you can specify [query parameters](https://docs.
 
    ![](./media/search-bar.png)
 
-## Next steps
+## See Also
 
 The following resources provide additional query syntax information and examples.
 
