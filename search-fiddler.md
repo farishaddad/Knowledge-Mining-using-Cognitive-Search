@@ -1,27 +1,14 @@
----
-title: Explore REST APIs in Fiddler or Postman (Azure Search REST) | Microsoft Docs
-description: How to use Fiddler or Postman to issue HTTP requests and REST API calls to Azure Search.
-author: HeidiSteen
-manager: cgronlun
-services: search
-ms.service: search
-ms.devlang: rest-api
-ms.topic: quickstart
-ms.date: 04/20/2018
-ms.author: heidist
----
-
 # Explore Azure Search REST APIs using Fiddler or Postman
 
 One of the easiest ways to explore the [Azure Search REST API](https://docs.microsoft.com/rest/api/searchservice) is using Fiddler or Postman to formulate HTTP requests and inspect the responses. With the right tools and these instructions, you can send requests and view responses before writing any code.
 
-> [!div class="checklist"]
-> * Download a web api test tool
-> * Get the api-key and endpoint for your search service
-> * Configure request headers
-> * Create an index
-> * Load an index
-> * Search an index
+In this tutorial you will:
+* Download a web api test tool
+* Get the api-key and endpoint for your search service
+* Configure request headers
+* Create an index
+* Load an index
+* Search an index
 
 If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin and then [sign up for Azure Search](search-create-service-portal.md).
 
