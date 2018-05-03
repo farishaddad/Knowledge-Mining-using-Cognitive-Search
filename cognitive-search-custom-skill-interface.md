@@ -129,7 +129,6 @@ When you create a Web API enricher, you can describe HTTP headers and parameters
 ## See also
 + [How to define a skillset](cognitive-search-defining-skillset.md)
 + [Create Skillset (REST)](ref-create-skillset.md)
-+ [LAB 3 - Mapping enriched fields](cognitive-search-output-field-mapping.md)
 
 ## Next Step
 [Back to Labs Main Menu](readme.md)
