@@ -36,12 +36,3 @@ Since you have finished the pre-requisites, let's start the training. You just n
 + [Lab 3](cognitive-search-output-field-mapping.md) - 2 hours - Map fields into your Azure Search Index.
 + [Lab 4](cognitive-search-create-custom-skill-example.md) - 2 hours - Create a Cognitive Search Custom Skill.
 
-
-
-##Contact us
-Thank you for helping us make cognitive search better! We are here to help. The best way to reach the Learn AI Team is through email:
-
-| Alias | Used for |
-|-------|----------|
-| learnai@microsoft.com | Redelivery, feedback |
-| rosouz@microsoft.com | Documentation issues or suggestions |
