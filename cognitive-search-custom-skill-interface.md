@@ -1,4 +1,4 @@
-# Custom Skills interface definition
+#Lab 1.2 -  Custom Skills interface definition
 
 Azure Search includes a range of [built-in skills](cognitive-search-predefined-skills.md) that can be used for [enrichment and augmentation](cognitive-search-concept-intro.md) in an indexing pipeline. 
 
