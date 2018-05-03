@@ -501,7 +501,7 @@ Content-Type: application/json
 
 Status code 204 is returned on successful deletion.
 
-As your code matures, you might want to refine a rebuild strategy. For more information, see [How to rebuild an index](search-howto-reindex.md).
+As your code matures, you might want to refine a rebuild strategy. For more information, see [How to rebuild an index](https://docs.microsoft.com/en-us/rest/api/searchservice/addupdate-or-delete-documents).
 
 ## Takeaways
 
