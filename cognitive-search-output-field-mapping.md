@@ -53,6 +53,48 @@ The path in a sourceFieldName can represent one element or multiple elements. In
 
 Once you have mapped your enriched fields to searchable fields, you can set the field attributes for each of the searchable fields [as part of the index definition](https://docs.microsoft.com/azure/search/search-what-is-an-index).
 
+##Azure Search Explorer
+Now let's query the index with Azure Search Explorer, It is in the Azure portal. You can use Search Explorer to submit simple or full Lucene query strings to any existing index in your service.
+
+## Open the service dashboard
+1. Click **All resources** in the jump bar on the left side of the [Azure portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Search%2FsearchServices).
+2. Select your Azure Search service.
+
+## Select an index
+
+Select the index you would like to search from the **Indexes** tile.
+
+   ![](./media/pick-index.png)
+
+## Open Search Explorer
+
+Click on the Search Explorer tile to slide open the search bar and results pane.
+
+   ![](./media/search-explorer-tile.png)
+
+## Start searching
+
+When using the Search Explorer, you can specify [query parameters](https://docs.microsoft.com/rest/api/searchservice/Search-Documents) to formulate the query.
+
+1. In **Query string**, type a query and then press **Search**. 
+
+   The query string is automatically parsed into the proper request URL to submit a HTTP request against the Azure Search REST API.   
+   
+   You can use any valid simple or full Lucene query syntax to create the request. The `*` character is equivalent to an empty or unspecified search that returns all documents in no particular order.
+
+2. In  **Results**, query results are presented in raw JSON, identical to the payload returned in an HTTP Response Body when issuing requests programmatically.
+
+   ![](./media/search-bar.png)
+
+## Next steps
+
+The following resources provide additional query syntax information and examples.
+
+ + [Simple query syntax](https://docs.microsoft.com/rest/api/searchservice/simple-query-syntax-in-azure-search) 
+ + [Lucene query syntax](https://docs.microsoft.com/rest/api/searchservice/lucene-query-syntax-in-azure-search) 
+ + [Lucene query syntax examples](https://docs.microsoft.com/azure/search/search-query-lucene-examples) 
+ + [OData Filter expression syntax](https://docs.microsoft.com/rest/api/searchservice/odata-expression-syntax-for-azure-search) 
+
 
 ## Next Step
 [Back to Labs Menu](readme.md)
