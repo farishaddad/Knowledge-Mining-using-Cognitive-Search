@@ -2,7 +2,9 @@
 
 Once you have [defined a skillset](cognitive-search-defining-skillset.md), you must map the output fields of any skill that directly contributes values to a given field in your search index. Field mappings are required for moving content from enriched documents into the index.
 
-To map fields, add `outputFieldMappings` to your indexer definition as shown below:
+Our first activity is to read the [mapping documentation](https://docs.microsoft.com/en-us/azure/search/search-indexer-field-mappings) to better understand why we need to do it.
+
+Next step is to map fields. We will add `outputFieldMappings` to your indexer definition as shown below:
 
 ```http
 PUT https://[servicename].search.windows.net/indexers/[indexer name]?api-version=2017-11-11-Preview
