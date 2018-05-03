@@ -1,4 +1,4 @@
-# How to create a skillset in an enrichment pipeline
+# LAB 1.1 -  How to create a skillset in an enrichment pipeline
 
 Cognitive Search allows you to apply enrichment steps to your data. We call each of these enrichment steps *cognitive skills*, which are combined into a *skillset* referenced during indexing. When designing a skillset, you can use predefined skills or build an entirely new skill from the ground up. To view the list of existing skills, see [built-in skills page](cognitive-search-predefined-skills.md). For guidance on building custom skills, see [How to define a custom interface](cognitive-search-custom-skill-interface.md) and [Example: create a custom skill](cognitive-search-create-custom-skill-example.md).
 
