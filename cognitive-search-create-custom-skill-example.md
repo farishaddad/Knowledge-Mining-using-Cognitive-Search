@@ -1,15 +1,14 @@
 
 # LAB 4: Create a custom skill using the Text Translate API
 
-In this example, learn how to create a web API custom skill that accepts text in any language and translates it to English. The example uses an [Azure Function](https://azure.microsoft.com/services/functions/) to wrap the [Translate Text API](https://azure.microsoft.com/services/cognitive-services/translator-text-api/) so that it implements the custom skill interface.
+In this lab, learn how to create a web API custom skill that accepts text in any language and translates it to English. The example uses an [Azure Function](https://azure.microsoft.com/services/functions/) to wrap the [Translate Text API](https://azure.microsoft.com/services/cognitive-services/translator-text-api/) so that it implements the custom skill interface.
 
-## Prerequisites
+## Extra Prerequisites
 
 + Read about [custom skill interface](cognitive-search-custom-skill-interface.md) article if you are not familiar with the input/output interface that a custom skill should implement.
 
 + [Sign up for the Translator Text API](../cognitive-services/translator/translator-text-how-to-signup.md), and get an API key to consume it.
 
-+ Install [Visual Studio 2017 version 15.5](https://www.visualstudio.com/vs/) or later, including the Azure development workload.
 
 ## Create an Azure Function
 
