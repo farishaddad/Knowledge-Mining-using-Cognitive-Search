@@ -18,7 +18,7 @@ At the start of the pipeline, you have unstructured text or non-text content (su
 
 Enrichment is implemented as *cognitive skills* that invoke atomic transformations. For example, once you have the textual representation of a PDF file, you could apply natural language processing in the form of an entity recognition skill, a language detection skill, or a key phrase extraction skill to break up undifferentiated text into semantically rich parts, consumable in search workloads. Altogether, the entire collection of skills used in your pipeline is called a *skillset*.  
 
-Cognitive search provides [predefined cognitive skills](cognitive-search-predefined-skills.md) that can be consumed out of the box. The pipeline is also extensible. You can build custom skills from the ground up, and connect it as part of the skillset. For more information, see [Example: create a custom skill](cognitive-search-create-custom-skill-example.md) and [How to define a custom interface](cognitive-search-custom-skill-interface.md).
+Cognitive search provides [predefined cognitive skills](cognitive-search-predefined-skills.md) that can be consumed out of the box. The pipeline is also extensible. You can build custom skills from the ground up, and connect it as part of the skillset. For more information, see [How to define a custom interface](cognitive-search-custom-skill-interface.md).
 
 A skillset can be minimal or highly complex. A skillset determines not only the type of processing, but also the order of operations. A skillset plus the field mappings defined as part of an indexer determines the augmentation pipeline. For more information about pulling all of these pieces together, see [How to create a skillset](cognitive-search-defining-skillset.md).
 
