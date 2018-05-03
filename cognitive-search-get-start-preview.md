@@ -4,12 +4,11 @@ In this lab, you learn the mechanics of programming data enrichment in Azure Sea
 
 In this lab, you make REST API calls to perform following tasks:
 
-> [!div class="checklist"]
-> * Create an indexing pipeline that enriches source data in route to an index
-> * Use built-in entity recognition, language detection, text manipulation, and key phrase extraction skills on a sample data set
-> * Learn how to chain skills together by mapping inputs to outputs in a skillset
-> * Execute requests and review results
-> * Reset the index and indexers for further development
+* Create an indexing pipeline that enriches source data in route to an index
+* Use built-in entity recognition, language detection, text manipulation, and key phrase extraction skills on a sample data set
+* Learn how to chain skills together by mapping inputs to outputs in a skillset
+* Execute requests and review results
+* Reset the index and indexers for further development
 
 Output is a full text searchable index on Azure Search. You can enhance the index with other standard capabilities, such as [synonyms](search-synonyms.md), [scoring profiles](https://docs.microsoft.com/rest/api/searchservice/add-scoring-profiles-to-a-search-index), [analyzers](search-analyzers.md), and [filters](search-filters.md).
 
