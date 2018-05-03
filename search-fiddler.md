@@ -240,15 +240,15 @@ REST clients are invaluable for impromptu exploration, but now that you know how
 + [Search an index (REST)](search-query-rest-api.md)
 
 <!--Image References-->
-[1]: ./media/search-fiddler/fiddler-url.png
-[2]: ./media/search-fiddler/AzureSearch_Fiddler2_PostDocs.png
-[3]: ./media/search-fiddler/AzureSearch_Fiddler3_Query.png
-[4]: ./media/search-fiddler/AzureSearch_Fiddler4_QueryResults.png
-[5]: ./media/search-fiddler/AzureSearch_Fiddler5_QueryStats.png
-[6]: ./media/search-fiddler/postman-url.png
-[7]: ./media/search-fiddler/fiddler-request.png
-[8]: ./media/search-fiddler/postman-request.png
-[9]: ./media/search-fiddler/fiddler-docs.png
-[10]: ./media/search-fiddler/postman-docs.png
-[11]: ./media/search-fiddler/postman-query.png
-[12]: ./media/search-fiddler/postman-system-query.png
+[1]: ./media/fiddler-url.png
+[2]: ./media/AzureSearch_Fiddler2_PostDocs.png
+[3]: ./media/AzureSearch_Fiddler3_Query.png
+[4]: ./media/AzureSearch_Fiddler4_QueryResults.png
+[5]: ./media/AzureSearch_Fiddler5_QueryStats.png
+[6]: ./media/postman-url.png
+[7]: ./media/fiddler-request.png
+[8]: ./media/postman-request.png
+[9]: ./media/fiddler-docs.png
+[10]: ./media/postman-docs.png
+[11]: ./media/postman-query.png
+[12]: ./media/postman-system-query.png
