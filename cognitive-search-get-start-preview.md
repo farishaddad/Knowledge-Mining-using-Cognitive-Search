@@ -53,13 +53,13 @@ The enrichment pipeline pulls from Azure data sources. Source data must originat
 
 1. After sample files are loaded, get the container name and a connection string for your Blob storage. You could do that by navigating to you storage account in the Azure portal. On **Access keys**, and then copy the **Connection String**  field.
 
-  The connection string should be a URL similar to the following example:
+  The connection string should be a URL similar to the following hypothetical example:
 
       ```http
       DefaultEndpointsProtocol=https;AccountName=cogsrchdemostorage;AccountKey=y1NIlE9wFVBIabcd562GzZl+JO9TEGdqOerqfbT78C8zrn28Te8DsWlxvKKnjh67P/HM5k80zt4shOt9vqlbg==;EndpointSuffix=core.windows.net
       ```
 
-There are other ways to specify the connection string, such as providing a shared access signature. To learn more about data source credentials, see [Indexing Azure Blob Storage](search-howto-indexing-azure-blob-storage.md#Credentials).
+There are other ways to specify the connection string, such as providing a shared access signature. To learn more about data source credentials, see [Indexing Azure Blob Storage](https://docs.microsoft.com/en-us/azure/search/search-howto-indexing-azure-blob-storage).
 
 ## Create a data source
 
@@ -521,7 +521,6 @@ The fastest way to clean up after a tutorial is by deleting the resource group c
 ## See Also
 + [How to create a skillset or augmentation pipeline](cognitive-search-defining-skillset.md)
 + [Predefined skills](cognitive-search-predefined-skills.md)
-+ [How to define a custom interface](cognitive-search-custom-skill-interface.md)
 
 ## Next Step
 [Back to Labs Menu](readme.md)
