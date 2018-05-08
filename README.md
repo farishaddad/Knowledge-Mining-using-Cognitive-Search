@@ -36,3 +36,10 @@ Since you have finished the pre-requisites, let's start the training. You just n
 + [Lab 3](cognitive-search-output-field-mapping.md) - 1 hour - Map fields into your Azure Search Index.
 + [Lab 4](cognitive-search-create-custom-skill-example.md) - 2 hours - Create a Cognitive Search Custom Skill.
 
+##useful Links
++ [Microsoft AI School](https://aischool.microsoft.com/learning-paths)
++ [Microsoft Analytics School](https://learnanalytics.microsoft.com/) 
++ [Microsoft AI Platform](https://www.microsoft.com/en-us/ai)
+
+#Thank you
+
