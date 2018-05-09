@@ -64,4 +64,4 @@ The following APIs are used in the cognitive search preview:
 
 ## Next step
 
-+ [Lab 1](cognitive-search-create-custom-skill-example.md)
++ [Solution](Solution.md)
