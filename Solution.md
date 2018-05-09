@@ -27,7 +27,9 @@ Please notice that:
 3. We will start simple and add more complex Cognitive Skills in labs 2 and 3.
 4. We will use Azure Search query capabilities to analyze the results.
 
-##Next Step
+## Next step
+
++ [Lab 1](Lab-1.md)
 
 
 
