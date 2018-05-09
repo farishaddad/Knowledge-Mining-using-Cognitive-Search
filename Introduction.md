@@ -64,4 +64,4 @@ The following APIs are used in the cognitive search preview:
 
 ## Next step
 
-+ [LAB 1.1 - How to create a skillset or augmentation pipeline](cognitive-search-defining-skillset.md)
++ [Lab 1](cognitive-search-create-custom-skill-example.md)
