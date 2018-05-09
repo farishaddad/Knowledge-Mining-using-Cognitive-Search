@@ -1,19 +1,18 @@
-#Azure Cognitive Search Workshop 
+#Azure Cognitive Search Workshop - Building an Enterprise Cognitive Search Solution
 
-##Welcome
-Cognitive Search 
-is a new enrichment pipeline that allows you to find rich structured information from documents. This one day training will focus on hands-on activities that develop proficiency on Cognitive Search, an AI-oriented product announced on [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an introductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If this is not your case, we have quick start materials in the pre-requisites section of this training.
+##Welcome 
+Azure Cognitive Search is a new enrichment pipeline that allows you to find rich structured information from documents. This one day training will focus on hands-on activities that develop proficiency on Cognitive Search, an AI-oriented product announced on [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an introductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If this is not your case, we have quick start materials in the pre-requisites section of this training.
 
 ##Goals
-Most challenges observed by customers in these realms are in stitching diverse content together. As such, we placed key concepts and hands-on labs in the context of a broader example.
+Today we will focus on hands-on activities to learn how to create a Cognitive Search solution for all types of business documents. You can bring your own documents or use the provided data set that includes pdfs, docs, ppts and images. In this training you will create a cognitive data flow and the enriched information will become part of an Azure Search index. 
 
-In this training you will create a cognitive data flow and the enriched information will become part of an Azure Search index. At the end of this workshop, you should be able to:
+At the end of this workshop, you should be able to:
 
 + Understand what Cognitive Search is
 + Configure your Cognitive Search service
 + Implement Azure Search features to provide a positive search experience inside applications
 + Configure an Azure Search service to extend your data to enable Cognitive Search
-+ Build a solution that can enrich, index and search for cognitive data
++ Build a solution that can enrich, index and search for business documents
 
 ##Pre-requisites
 Since this is an AI training on top of Microsoft Azure Services, there are certain things you need before we start.
@@ -31,12 +30,12 @@ Since this is an AI training on top of Microsoft Azure Services, there are certa
 ##Agenda
 Since you have finished the pre-requisites, let's start the training. You just need to follow the workshop structure presented below.
 
-+ [Lab 1](cognitive-search-concept-intro.md) - 1 hour - Cognitive Search key concepts. This is a read only introduction, and all of the links should be followed.
-+ [Lab 2](cognitive-search-get-start-preview.md) - 2 hours - Create a Cognitive Search Predefined Skill.
-+ [Lab 3](cognitive-search-output-field-mapping.md) - 1 hour - Map fields into your Azure Search Index.
-+ [Lab 4](cognitive-search-create-custom-skill-example.md) - 2 hours - Create a Cognitive Search Custom Skill.
++ [Introduction and Context for Cognitive](Introduction and Context.md) - 1 hour - Cognitive Search key concepts. 
++ [Lab 1](cognitive-search-get-start-preview.md) - 2 hours - Create a Cognitive Search Predefined Skill.
++ [Lab 2](cognitive-search-output-field-mapping.md) - 1 hour - Map fields into your Azure Search Index.
++ [Lab 3](cognitive-search-create-custom-skill-example.md) - 2 hours - Create a Cognitive Search Custom Skill.
 
-##useful Links
+##Useful Links
 + [Microsoft AI School](https://aischool.microsoft.com/learning-paths)
 + [Microsoft Analytics School](https://learnanalytics.microsoft.com/) 
 + [Microsoft AI Platform](https://www.microsoft.com/en-us/ai)
