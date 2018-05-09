@@ -9,10 +9,9 @@ Today we will focus on hands-on activities to learn how to create a Cognitive Se
 At the end of this workshop, you should be able to:
 
 + Understand what Cognitive Search is
-+ Configure your Cognitive Search service
-+ Implement Azure Search features to provide a positive search experience inside applications
-+ Configure an Azure Search service to extend your data to enable Cognitive Search
-+ Build a solution that can enrich, index and search for business documents
++ Understand what this solution does and how it can be used
++ Implement Cognitive Search enrichment pipelines
++ Learn how to search for cognitive skills from business documents
 
 ##Pre-requisites
 Since this is an AI training on top of Microsoft Azure Services, there are certain things you need before we start.
