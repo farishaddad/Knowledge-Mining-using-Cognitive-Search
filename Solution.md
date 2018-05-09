@@ -1,4 +1,8 @@
 #	Microsoft.Skills.Util.Shaper cognitive skill
+
+
+![](media/sample-skillset.png)
+
 As you extract metadata and structured information from unstructured data, you might want to shape that information into a multi-part complex type that can be treated as a single item in an Azure Search index.
 
 The shaper skill allows you to essentially create a structure, define the name of the members of that structure, and assign values to each member.
