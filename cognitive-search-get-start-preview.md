@@ -1,4 +1,4 @@
-#LAB 2: Get started with cognitive search
+#LAB 1
 
 In this lab, you learn the mechanics of programming data enrichment in Azure Search using *cognitive skills*. Cognitive skills are natural language processing (NLP) and image analysis operations that extract text and text representations of an image, detect language, entities, key phrases, and more. The end result is rich additional content in an Azure Search index, created by a cognitive search indexing pipeline. 
 
