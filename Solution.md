@@ -1,138 +1,33 @@
-#	Microsoft.Skills.Util.Shaper cognitive skill
+#	Solution Architecture and Data Flow
+
+In this workshop we will create a simple Cognitieve Search solution to ingest, extract, index and search cognitive skills for any kind of enterprise documents: Microsoft Office, images, pdfs and much more.
 
 
-![](media/sample-skillset.png)
+##Use Cases
 
-As you extract metadata and structured information from unstructured data, you might want to shape that information into a multi-part complex type that can be treated as a single item in an Azure Search index.
+Every company has this kind of unstructured data, making this solution usefull for all your clients. A common scenario has limited searching results because on lack of metadata and inexistence of AI processing to analyze the content. Cognitive Search uses the most advanced cognitive services, based no Microsoft AI Platform, to extract and create enriched metadadata about your documents, improving the search experiences. 
 
-The shaper skill allows you to essentially create a structure, define the name of the members of that structure, and assign values to each member.
+Possible uses for this solution are:
 
-By default, this technique supports objects that are one level deep. For more complex objects, you can chain several *Shaper* steps.
++ Demos: You leave an environment ready, loaded.
++ POCs: You just need to upload client's data.
++ Production: Since we are using PaaS, it has SLA and scallabilitty by design.
++ Personal Use: If you have lots of documents or photos, you can use it too.
 
-In the response, the output name is always "output". Internally, the pipeline can map a different name, such as "analyzedText" in the examples below, to "output", but the shaper skill itself returns "output" in the response. This point might be important if you are debugging enriched documents and notice the naming discrepancy, or if you build a custom skill and are structuring the reponse yourself.
+##Architecture
 
+This simple architecture allows us to focus on the technology and at the same time brings flexibilty for multiple uses.
 
-## @odata.type  
-Microsoft.Skills.Util.ShaperSkill
+![](media/architecture.png)
 
-## Sample 1: complex types
+Please notice that:
 
-Consider a scenario where you want to create a structure called *analyzedText* that has two members: *text* and *sentiment*, respectively. 
-In Azure Search, a multi-part searchable field is called a *complex type*, and it's not yet supported out of the box. In this preview, a shaper skill can be used to generate fields of a complex type in your index. 
+1. We will provide a data sample but you can use your own.
+2. You can upload the data to blob storage using [Azure Portal](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal) or [Azure Storage Explorer](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-storage-explorer), among other options.
+3. We will start simple and add more complex Cognitive Skills in labs 2 and 3.
+4. We will use Azure Search query capabilities to analyze the results.
 
-In this sample, you would provide the member names as the input. The output structure (your complex field in Azure Search) is specified through *targetName*. 
+##Next Step
 
-
-```json
-{
-  "@odata.type": "#Microsoft.Skills.Util.ShaperSkill",
-  "context": "/document/content/phrases/*",
-  "inputs": [
-    {
-      "name": "text",
-      "source": "/document/content/phrases/*"
-    },
-    {
-      "name": "sentiment",
-      "source": "/document/content/phrases/*/sentiment"
-    }
-  ],
-  "outputs": [
-    {
-      "name": "output",
-      "targetName": analyzedText"
-    }
-  ]
-}
-```
-
-###	Sample Input
-A JSON document providing usable input for this shaper skill could be:
-
-```json
-{
-    "values": [
-      {
-        "recordId": "1",
-        "data":
-           {
-             "text": "this movie is awesome" ,
-             "sentiment": 0.9
-           }
-      }
-    ]
-```
-
-
-###	Sample Output
-The shaper skill generates a new element called *analyzedText* with the combined elements of *text* and *sentiment*. 
-
-```json
-{
-    "values": [
-      {
-        "recordId": "1",
-        "data":
-           {
-            "analyzedText": 
-              {
-                "text": "this movie is awesome" ,
-                "sentiment": 0.9
-              }
-           }
-      }
-    ]
-}
-```
-
-## Sample 2: input consolidation
-
-In another example, imagine that at different stages of pipeline processing, you have extracted the title of a book, and chapter titles on different pages of the book. You could now create a single structure composed of these various inputs.
-
-The shaper skill definition for this scenario might look like the following example:
-
-```json
-{
-  "@odata.type": "#Microsoft.Skills.Util.ShaperSkill",
-  "context": "/document",
-  "inputs": [
-        {
-      "name": "title",
-      "source": "/document/content/title"
-    },
-    {
-      "name": "chapterTitles",
-      "source": "/document/content/pages/*/chapterTitles/*"
-    }
-  ],
-  "outputs": [
-    {
-      "output": "titlesAndChapters",
-      "targetName": "analyzedText"
-    }
-  ]
-}
-```
-###	Sample Output
-In this case, the shaper flattens all chapter titles to create a single array. 
-
-
-```json
-{
-    "values": [
-      {
-        "recordId": "1",
-        "data":
-        {
-        "titlesAndChapters": 
-          {
-            "title": "How to be happy" ,
-            "chapterTitles": ["Start young", "Laugh often", "Eat, sleep and exercise"]
-          }
-        }
-      }
-    ]
-}
-```
 
 
