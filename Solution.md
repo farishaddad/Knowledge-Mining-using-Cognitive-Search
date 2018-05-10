@@ -9,8 +9,8 @@ Every company has this kind of unstructured data, making this solution usefull f
 
 Possible uses for this solution are:
 
-+ Demos: You leave an environment ready, loaded.
-+ POCs: You just need to upload some client's data.
++ Demos: You leave an environment ready, loaded. 
++ POCs: You just need to upload some client's data. You can proove the concept in front of the client, in minutes.
 + Production: Since we are using PaaS, it has SLA and scallabilitty by design.
 + Personal Use: If you have lots of documents or photos, you can use it too.
 
