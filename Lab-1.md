@@ -492,11 +492,6 @@ This tutorial demonstrates the basic steps for building an enriched indexing pip
 
 Finally, you learned how to test results and reset the system for further iterations. You learned that issuing queries against the index returns the output created by the enriched indexing pipeline. In this release, there is a mechanism for viewing internal constructs (enriched documents created by the system). You also learned how to check indexer status, and which objects to delete before rerunning a pipeline.
 
-## Clean up resources
-
-The fastest way to clean up after a tutorial is by deleting the resource group containing the Azure Search service and Azure Blob service. Assuming you put both services in the same group, delete the resource group now to permanently delete everything in it, including the services and any stored content that you created for this tutorial. In the portal, the resource group name is on the Overview page of each service.
-
-
 ## See Also
 + [How to create a skillset or augmentation pipeline](cognitive-search-defining-skillset.md)
 + [Predefined skills](cognitive-search-predefined-skills.md)
