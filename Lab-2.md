@@ -4,10 +4,44 @@ In this lab we will verify the lack of images processing results we got from the
 
 
 ##The Problem
-There were png and jpg images within the provided dataset. If you decided to bring your own data, it was suggested to also include images. But we did not add any pre defined skillset for image analysis. This is exactly what we will do now, but first of all lets check the problem with steps 1 and 2
+There were png and jpg images within the provided dataset. If you decided to bring your own data, it was suggested to also include images. But we did not add any pre defined skillset for image analysis. This is exactly what we will do now, but first of all let's check the problem with steps 1 and 2
 
 
 ###Step 1
+Let's check the indexer status again, it has valuable information about our "images problem". It is the same command we used in the previos lab, pasted below again. If you used another indexer name, just change it in the URL.
+
+```http
+GET https://[servicename].search.windows.net/indexers/demoindexer/status?api-version=2017-11-11-Preview
+api-key: [api-key]
+Content-Type: application/json
+```
+If you look for the results of the image files, you will see that nothing was extracted. 
+
+###Step 2
+Now let's again repeat a previous lab request, but with another analysis. We will re-execute the verify content step but querying all fields. If you used another index name, just change it in the URL.
+
+```http
+GET https://[servicename].search.windows.net/indexes/demoindex/docs?search=*&$select=*&api-version=2017-11-11-Preview
+api-key: [api-key]
+Content-Type: application/json
+```
+You will problably see something similar to the image below, no information for the images we have. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
