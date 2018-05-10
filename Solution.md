@@ -5,7 +5,7 @@ In this workshop we will create a simple Cognitieve Search solution to ingest, e
 
 ##Use Cases
 
-Every company has this kind of unstructured data, making this solution usefull for all your clients. A common scenario has limited searching results because on lack of metadata and inexistence of AI processing to analyze the content. Cognitive Search uses the most advanced cognitive services, based no Microsoft AI Platform, to extract and create enriched metadadata about your documents, improving the search experiences. 
+Every company has this kind of unstructured data, making this solution usefull for all your clients. Since we are working with unstructured data, any file can be used. A common scenario has limited searching results because on lack of metadata and inexistence of AI processing to analyze the content. Cognitive Search uses the most advanced cognitive services, based no Microsoft AI Platform, to extract and create enriched metadadata about your documents, improving the search experiences. 
 
 Possible uses for this solution are:
 
@@ -39,6 +39,15 @@ This is a high level analysis, to be used only as a reference, based on the [Azu
 | Total | 2.65 | 74.08 |  | 
 
 That's the order of magnitude of the costs. In addition to all the factors cited above, prices can still be readjusted. Up or down, which has been the most common. For the exact price, look for your reseller or Account manager.
+
+##Interfaces
+After initial upload of the files to blob storage, what is done within the first lab, we will use Fiddle or Postman for [REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler). It is important to noitice some details about these tools:
++ You can save your commands, what is usefull for re-use not only within this workshop but also in the future.
++ You need to create a free account. A confirmation message is sent to your email.
++ You can export all your commands into json format. This file can be saved into the storage account of the lab, into a cloud storage like OneDrive or anywhere you like. This process help you to save, share and re-use your work.
++ Both return codes indicates success after an API call request: 201 and 204. 
++ Error messages and warnings are very clear.
++ Besides the API URL and call type, we will use GET/PUT/POST, you need to use the header for Content-Type and api-key. The json commands must be placed into the "body / raw" area.
 
 
 
