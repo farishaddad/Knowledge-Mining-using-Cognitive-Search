@@ -483,27 +483,6 @@ Repeat the previous exercise, including an `enriched` field to capture the conte
 ```
 <a name="reset"></a>
 
-## Reset and rerun
-
-In the early experimental stages of pipeline development, the most practical approach for design iterations is to delete the objects from Azure Search and allow your code to rebuild them. Resource names are unique. Deleting an object lets you recreate it using the same name.
-
-To reindex your documents with the new definitions:
-
-1. Delete the index to remove persisted data. Delete the indexer to recreate it on your service.
-2. Modify a skillset and index definition.
-3. Recreate an index and indexer on the service to run the pipeline. 
-
-You can use the portal to delete indexes and indexers. Skillsets can only be deleted through an HTTP command, should you decide to delete it.
-
-```http
-DELETE https://[servicename].search.windows.net/skillsets/demoskillset?api-version=2017-11-11-Preview
-api-key: [api-key]
-Content-Type: application/json
-```
-
-Status code 204 is returned on successful deletion.
-
-As your code matures, you might want to refine a rebuild strategy. For more information, see [How to rebuild an index](https://docs.microsoft.com/en-us/rest/api/searchservice/addupdate-or-delete-documents).
 
 ## Takeaways
 
