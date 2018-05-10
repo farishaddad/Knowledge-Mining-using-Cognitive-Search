@@ -45,6 +45,7 @@ If you don't want to keep the solution up and running for future use, you should
 + [Microsoft Analytics School](https://learnanalytics.microsoft.com/) 
 + [Microsoft AI Platform](https://www.microsoft.com/en-us/ai)
 + [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search)
++ [Cognitieve Search Official Demo - JFK Files](https://jfk-demo.azurewebsites.net/)
 + [How to rebuild an Azure Search Index](https://docs.microsoft.com/en-us/rest/api/searchservice/addupdate-or-delete-documents)
 + [Using Fiddle or Postman for REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler)
 
