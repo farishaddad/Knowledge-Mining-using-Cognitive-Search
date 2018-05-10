@@ -65,8 +65,8 @@ Use the same skillset definition but addind the 2 predefined image analysis skil
 ####Step 5.2
 Skipping the services and the data source creation, repeat the other steps of the LAB 1, in the same order.
 
-1. ~~Create the services at the portal~~ Not required, we did not deleted it.
-2. ~~Create the Data Source~~ Not required, we did not deleted it.
+1. ~~Create the services at the portal~~ **Not required, we did not deleted it**.
+2. ~~Create the Data Source~~ **Not required, we did not deleted it**.
 3. Create the SkillSet
 4. Create the Index
 5. Create the Indexer
