@@ -74,4 +74,9 @@ Skipping the services and the data source creation, repeat the other steps of th
 7. Check the Index Fields - Check the image fields you just created.
 8. Check the data - Here you can repeat the same verification of Step 2. If you don't have a different result, something went wrong.
 
+##Solution
+If you could not make it, [here](challenge-solution.md) is the challenge solution. You just need to folow the steps.
+
+##Next Step
++ [Lab 3](Lab-3.md)
 
