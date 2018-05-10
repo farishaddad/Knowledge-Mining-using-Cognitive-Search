@@ -12,6 +12,7 @@ At the end of this workshop, you should be able to:
 + Understand what this solution does and how it can be used
 + Implement Cognitive Search enrichment pipelines
 + Learn how to search for cognitive skills from business documents
++ Provide you a tool for demos, POCs and other business scenarios
 
 ##Pre-requisites
 Since this is an AI training on top of Microsoft Azure Services, there are certain things you need before we start.
