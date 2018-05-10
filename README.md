@@ -41,5 +41,8 @@ Since you have finished the pre-requisites, let's start the training. You just n
 + [Microsoft Analytics School](https://learnanalytics.microsoft.com/) 
 + [Microsoft AI Platform](https://www.microsoft.com/en-us/ai)
 
-#Thank you
+##Collaboration
+We appreciate your collaboration. If you make any improvement in the workshop, you can make a pull request on GitHub that we will analyze. Feedbacks and suggestions are welcome, just send us an email at rsouza1974@outlook.com .
+
+#Thank you!
 
