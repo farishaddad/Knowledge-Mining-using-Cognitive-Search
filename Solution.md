@@ -22,7 +22,7 @@ This simple architecture allows us to focus on the technology and at the same ti
 
 Please notice that:
 
-1. We will provide a data sample but you can use your own.
+1. We will provide a data sample but you can use your own (BYOD - Bring your own data). **If BYOD is your case, we suggest you to use documents with multiple languages and formats including HTML, doc, pdf, ppt, png and jpg. If your documents mention public companies and figures, the workshop experience will be better. But we are handling unstructured data, any files will be processed. This recomendations are suggestions for a better learing experience**.
 2. You can upload the data to blob storage using [Azure Portal](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal) or [Azure Storage Explorer](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-storage-explorer), among other options.
 3. We will start simple and add more complex Cognitive Skills in labs 2 and 3.
 4. We will use Azure Search query capabilities to analyze the results.
