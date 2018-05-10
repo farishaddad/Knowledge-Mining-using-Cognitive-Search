@@ -1,7 +1,14 @@
-#	Microsoft.Skills.Vision.ImageAnalysis cognitive skill
+#Lab 2 - Challenge!
 
-Important note:
-The analyze image skill is not working in the April 4 build. This will be fixed in the next drop.
+In this lab we will verify the lack of images processing results we got from the previous lab and fix it adding image analysis skill sets to our pipeline.
+
+
+##The Problem
+There were png and jpg images within the provided dataset. If you decided to bring your own data, it was suggested to also include images. But we did not add any pre defined skillset for image analysis. This is exactly what we will do now, but first of all lets check the problem with steps 1 and 2
+
+
+###Step 1
+
 
 
 The image analysis skill extracts a rich set of visual features based on the image content. For instance, you can generate a caption from an image, generate tags, or identify celebrities and landmarks.
