@@ -36,6 +36,10 @@ Since you have finished the pre-requisites, let's start the training. You just n
 + [Lab 2](Lab-2.md) - 1 hour - Create an Advanced Cognitive Search Skill
 + [Lab 3](Lab-3.md) - 2 hours - Create a Cognitive Search Custom Skill.
 
+##Clean up resources
+If you don't want to keep the solution up and running for future, you should get rid of the all environment. Assuming that you created all services in the same resource group, the fastest way to clean up is by deleting it. This will permanently remove the Azure Search service, the Azure Function app and Azure Blob service. Including the services and any stored content that you created for this workshop. In the portal, the resource group name is on the Overview page of each service.
+
+
 ##Useful Links
 + [Microsoft AI School](https://aischool.microsoft.com/learning-paths)
 + [Microsoft Analytics School](https://learnanalytics.microsoft.com/) 
