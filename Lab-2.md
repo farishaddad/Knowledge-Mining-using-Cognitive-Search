@@ -27,6 +27,35 @@ Content-Type: application/json
 ```
 You will problably see something similar to the image below, no information for the images we have. 
 
+![](media/no-images-info.png =800x)
+
+
+##How we will fix it?
+
+We will fix it, but there is a challenge for you increase your learning about Predefined Skills. The next steps will guide you trough the challenge and don't worry if you get stuck, we will share the solution too. 
+
+###Step 3
+Two of the nine [predefined skills](https://docs.microsoft.com/en-us/azure/search/cognitive-search-predefined-skills) are related to image analysis. Your first assignment is to read about how to use them using this [link](https://docs.microsoft.com/en-us/azure/search/cognitive-search-concept-image-scenarios). 
+
+As the example of this link, we will add both skills to our skillset, to create a solution really usefull for any kind of data.
+
+###Step 4
+We need to prepare the environment to add the image analysis we will create. The most practical approach is to delete the objects from Azure Search and rebuild them. Resource names are unique, deleting an object lets you recreate it using the same name. You can use Azure Portal do delete the index and the indexer.
+
+Skillsets can only be deleted through an HTTP command, let's use another API call request to delete it. If you used another skillset name, just change it in the URL.
+
+```http
+DELETE https://[servicename].search.windows.net/skillsets/demoskillset?api-version=2017-11-11-Preview
+api-key: [api-key]
+Content-Type: application/json
+```
+
+###Step 5
+
+
+
+
+ 
 
 
 
