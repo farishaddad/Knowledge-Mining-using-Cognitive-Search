@@ -42,7 +42,7 @@ Since you have finished the pre-requisites, let's start the training. You just n
 + [Microsoft AI Platform](https://www.microsoft.com/en-us/ai)
 
 ##Collaboration
-We appreciate your collaboration. If you make any improvement in the workshop, you can make a pull request on GitHub that we will analyze. Feedbacks and suggestions are welcome, just send us an email at rsouza1974@outlook.com .
+We appreciate your collaboration. The code and the data are free to be used as you need. You can clone the github repo or download the solution. If you make any improvement in the workshop, you can make a pull request on GitHub that we will analyze. Feedbacks and suggestions are welcome, just send us an email at rsouza1974@outlook.com .
 
 #Thank you!
 
