@@ -47,7 +47,12 @@ After initial upload of the files to blob storage, what is done within the first
 + You can export all your commands into json format. This file can be saved into the storage account of the lab, into a cloud storage like OneDrive or anywhere you like. This process help you to save, share and re-use your work.
 + Both return codes indicates success after an API call request: 201 and 204. 
 + Error messages and warnings are very clear.
-+ Besides the API URL and call type, we will use GET/PUT/POST, you need to use the header for Content-Type and api-key. The json commands must be placed into the "body / raw" area.
++ Besides the API URL and call type, we will use GET/PUT/POST, you need to use the header for Content-Type and api-key. The json commands must be placed into the "body / raw" area. 
+
+The image below has some visual examples of POSTMAN been used as suggested.
+
+![](media/postman.png)
+
 
 
 
