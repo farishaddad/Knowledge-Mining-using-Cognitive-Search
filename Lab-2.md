@@ -55,6 +55,7 @@ DELETE https://[servicename].search.windows.net/skillsets/demoskillset?api-versi
 api-key: [api-key]
 Content-Type: application/json
 ```
+Status code 204 is returned on successful deletion.
 
 ###Step 5 - Challenge!!!
 Now it is your time to guide the work. 
