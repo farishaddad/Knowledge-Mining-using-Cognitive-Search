@@ -3,13 +3,13 @@
 ##Welcome 
 Azure Cognitive Search is a new enrichment pipeline that allows you to find rich structured information from documents. This one day training will focus on hands-on activities that develop proficiency on Cognitive Search, an AI-oriented product announced on [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an introductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If this is not your case, we have quick start materials in the pre-requisites section of this training.
 
-##Goals - Bring Your Own Data!
-Today we will focus on hands-on activities to learn how to create a Cognitive Search solution for all types of business documents. You can bring your own documents or use the provided documents that include pdfs, docs, ppts and images. In this training you will create a cognitive data flow and the enriched information will become part of an Azure Search index. 
+##Goals
+Today we will focus on hands-on activities to learn how to create a Cognitive Search solution for all types of business documents. The multiple languages provided documents include pdfs, docs, ppts and images. In this training you will create a cognitive data flow and the enriched information will become part of an Azure Search index. 
 
 At the end of this workshop, you should be able to:
 
 + Understand what Cognitive Search is
-+ Understand what this solution does and how it can be used
++ Understand what this solution does and how it can be used, including the capability to process any unstructured data
 + Implement Cognitive Search enrichment pipelines
 + Learn how to search for cognitive skills from business documents
 + Provide you a tool for demos, POCs and other business scenarios
