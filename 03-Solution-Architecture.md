@@ -5,7 +5,7 @@ In this workshop we will create a simple Cognitieve Search solution to ingest, e
 
 ##Use Cases
 
-Every company has this kind of unstructured data, making this solution usefull for all your clients. Since we are working with unstructured data, any file can be used. A common scenario has limited searching results because on lack of metadata and inexistence of AI processing to analyze the content. Cognitive Search uses the most advanced cognitive services, based no Microsoft AI Platform, to extract and create enriched metadadata about your documents, improving the search experiences. 
+Every company has unstructured data, making this solution usefull for all your clients. Since we are working with unstructured data, any file can be used. A common scenario has limited searching results because on lack of metadata and inexistence of AI processing to analyze the content. Cognitive Search uses the most advanced cognitive services, based no Microsoft AI Platform, to extract and create enriched metadadata about your documents, improving the search experiences. 
 
 Possible uses for this solution are:
 
@@ -22,7 +22,7 @@ This simple architecture allows us to focus on the technology and at the same ti
 
 Please notice that:
 
-1. We will provide a data sample but you can use your own (BYOD - Bring your own data). **If BYOD is your case, we suggest you to use documents with multiple languages and formats including HTML, doc, pdf, ppt, png and jpg. If your documents mention public companies and figures, the workshop experience will be better. But we are handling unstructured data, any files will be processed. This recomendations are suggestions for a better learing experience**.
+1. We will provide a sample dataset. This are documents with multiple languages and formats including HTML, doc, pdf, ppt, png and jpg. They were slected for a better learing experience, testing most of the technology capabilities.
 2. You can upload the data to blob storage using [Azure Portal](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal) or [Azure Storage Explorer](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-storage-explorer), among other options.
 3. We will start simple and add more complex Cognitive Skills in labs 2 and 3.
 4. We will use Azure Search query capabilities to analyze the results.
@@ -52,10 +52,6 @@ It is important to noitice some details about these tools:
 + These return codes indicates success after an API call request: 200, 201 and 204. 
 + Error messages and warnings are very clear.
 + Besides the API URL and call type, we will use GET/PUT/POST, you need to use the header for Content-Type and api-key. The json commands must be placed into the "body / raw" area. 
-
-
-
-
 
 
 ## Next step
