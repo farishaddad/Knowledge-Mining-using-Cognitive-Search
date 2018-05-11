@@ -60,7 +60,7 @@ It is important to noitice some details about these tools:
 
 ## Next step
 
-+ [Lab 1](Lab-1.md)
++ [Lab 1](04-Lab-1.md)
 
 
 
