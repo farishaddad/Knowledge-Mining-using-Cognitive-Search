@@ -1,67 +1,68 @@
-#Cognitive Search Concepts
+# Introduction
 
-Cognitive search, currently in preview, transforms raw, unstructured content into rich searchable content in an Azure Search index. At the heart of cognitive search is an extensible enrichment pipeline powered by a number of cognitive skills (for instance, natural language processing and computer vision capabilities) that extract structure and semantics from unstructured and non-textual data, and feeds it into a search index. 
+In this section, we'll set the stage for the rest of the course. We'll start by talking about the motivation behind a cognitive search type of solution and what types of scenarios might call for it. Additionally, we'll give an overview of what Microsoft's Cognitive Search solution is and some of the key concepts you'll need understand before we go forward with the solution and labs.
 
-![Component diagram of enrichment, augmentation pipeline](./media/cogsearch-architecture.png)
+## Motivation and context
 
-## Pipeline components
+Developers are constantly looking for PaaS services in Azure (and elsewhere) to achieve better and faster results in the applications they build. While search is a key to many types of applications, search is also a hard and rarely a core expertise area. From an insfrastructure standpoint, it needs to have high availability, durability, scale, and operations. From a functionality standpoint, it needs to have ranking, language support, and geospatial capabilities. On top of that, web search engines have set the bar high for search. Users expect: instant results, auto-complete as they type, highlighting hits within the results, great ranking, and the ability to understand what they are looking for, even if they spell it incorrectly or include extra words.
 
-At both ends of the pipeline, you have persisted data: source data read from an Azure data source, a target Azure Search index at the end. In between is a run-time process that moves data through a series of transformations, culminating in an index accessed via search requests through all query types supported by Azure Search. 
+TODO ADD IMAGE AND REFERENCE
 
-Underneath it all, the engine driving the pipeline is an Azure Search *indexer*. An indexer pulls data from supported sources, adds field mappings and logic, and pushes it into a search index that you've defined in advance. Transformations and enrichment are added through individual *skills*, combined into a *skillset* attached to an indexer. The remaining sections explore each step in more detail.
+![Azure Search Demo](http://github.com/Azure/LearnAI-Bootcamp/blob/master/lab02.1-azure_search/resources/assets/AzureSearch-Example.png)
 
-### Source data and document cracking phase
 
-At the start of the pipeline, you have unstructured text or non-text content (such as image files, scanned document JPG files, audio files). Data must exist in an Azure data storage service that can be accessed by an indexer. Supported sources include Azure blob storage, Azure table storage, Azure SQL Database, and Azure Cosmos DB. Blobs can be image files, audio files, scanned documents, and so forth. Text-based content can be extracted from the following file types: PDFs, Word, PowerPoint, CSV files. For the full list, see [Supported formats](https://docs.microsoft.com/en-us/azure/search/search-howto-indexing-azure-blob-storage#supported-document-formats).
+The example above illustrates some of the components users are expecting in their search experience. [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search) can accomplish these user experience features, along with giving you [monitoring and reporting](https://docs.microsoft.com/en-us/azure/search/search-traffic-analytics), [simple scoring](https://docs.microsoft.com/en-us/rest/api/searchservice/add-scoring-profiles-to-a-search-index), and tools for [prototyping](https://docs.microsoft.com/en-us/azure/search/search-import-data-portal) and [inspection](https://docs.microsoft.com/en-us/azure/search/search-explorer).  
 
-### Cognitive skills and enrichment phase
+Since you're in this class, you're probably familiar with other search-related solutions like the [Bing Web Search API](https://docs.microsoft.com/azure/cognitive-services/bing-web-search/), [Bing Custom Search](https://docs.microsoft.com/azure/cognitive-services/bing-custom-search/), [SQL Server full text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search), or even creating dedicated search solutions.. You can see how Azure Search compares to the other solutions [here](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search#how-azure-search-compares).
 
-Enrichment is implemented as *cognitive skills* that invoke atomic transformations. For example, once you have the textual representation of a PDF file, you could apply natural language processing in the form of an entity recognition skill, a language detection skill, or a key phrase extraction skill to break up undifferentiated text into semantically rich parts, consumable in search workloads. Altogether, the entire collection of skills used in your pipeline is called a *skillset*.  
+While this is great, there may come a time when you want even more than what the [base Azure Search service provides](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search#feature-summary).  
 
-Cognitive search provides [predefined cognitive skills](cognitive-search-predefined-skills.md) that can be consumed out of the box. The pipeline is also extensible. You can build custom skills from the ground up, and connect it as part of the skillset. For more information, see [How to define a custom interface](cognitive-search-custom-skill-interface.md).
+Let's think about a specific example, the assassination of John F. Kennedy by Lee Harvey Oswald. Over the last 40-50 years, there has been significant controversy around the JFK files. Recently, over 50,000 documents were released related to the case. Now, let's say we want to analyze these documents and get to the bottom of what really happened that day in November 1963. It's an unreasonable request (or very time-consuming, depending on your opinion) for us to read all of those documents. With Azure Search, we can search text in some of the documents. But what else might we want to do?  
 
-A skillset can be minimal or highly complex. A skillset determines not only the type of processing, but also the order of operations. A skillset plus the field mappings defined as part of an indexer determines the augmentation pipeline. For more information about pulling all of these pieces together, see [How to create a skillset](cognitive-search-defining-skillset.md).
+1. Maybe we want to be able to extract various entities, perhaps, looking into the occurrences of Oswald in the documents. We don't want to see only the .doc results - we want the images of him, the hand-written notes about him, PDFs and more. Basically, we want to be able to pick out, intelligently, **all** the occurrences of Oswald.  
 
-### Enriched documents
+2. In the case, the investigators used many codenames, or "cryptonyms", which are defined [here](https://www.maryferrell.org/php/cryptdb.php#_GP). We can see that the cryptonym for Oswald was actually "GPFLOOR." So if really want to get **all** occurrences of Oswald, we also need to build into the system that Oswald = GPFLOOR (also that GPIDEAL = JFK, GPLOGIC = LBJ, etc.).
 
-Internally, the pipeline generates a collection of enriched documents. You can decide which parts of the enriched documents should be mapped to indexable fields in your search index. For example, if you applied the key phrases extraction and the entity recognition skills, then those new fields would become part of the enriched document, and they can be mapped to fields on your index.
+3. Maybe we also want to map how some of the key entities are related. This would take a long time and probably many lines of code, to develop.  
 
-### Search index and query-based access
+It turns out, that in the documents, you can find that it cost the CIA millions of dollars and a very long time to architect a system (and pay many people to manually tag all the documents) that they could use to try to accomplish the goals above. However, with [Cognitive Search](https://docs.microsoft.com/en-us/azure/search/cognitive-search-concept-intro), two people were able to accomplish the same amount of work in two days. First, they stored all the data in Azure blob storage and they extracted the content using Azure Search to import the data. Next, they were able to simply use [predefined Cognitive Skills](https://docs.microsoft.com/en-us/azure/search/cognitive-search-predefined-skills) ([OCR and handwriting](https://docs.microsoft.com/en-us/azure/search/cognitive-search-skill-ocr), [Computer Vision](https://docs.microsoft.com/en-us/azure/search/cognitive-search-skill-image-analysis), and [Entity extraction](https://docs.microsoft.com/en-us/azure/search/cognitive-search-skill-named-entity-recognition)) to do a lot of analyses that would have otherwise been very complicated to architect and develop. They were also able to create [custom skills](https://docs.microsoft.com/en-us/azure/search/cognitive-search-custom-skill-interface) quickly using [Azure Functions](https://docs.microsoft.com/en-us/azure/search/cognitive-search-create-custom-skill-example) (to address cryptonyms and redactions with Azure ML).  Finally, they created an Azure Search Index on top of it all with a nice web interface so we can explore (you can check it out at jfk-demo.azurewebsites.net/#/).  
 
-When processing is finished, you have a search corpus consisting of enriched documents, fully text-searchable in Azure Search. Querying the index is how developers and users utilize the enriched content generated by the pipeline. 
+As you can probably tell by now, Cognitive Search made the process more efficient and easier to implement. You can watch the full video on the JFK files project with Cognitive Search [here](https://developer.microsoft.com/en-us/events/build/content/cognitive-search-ai-powered-content-augmentation).
 
-The index is like any other you might create for Azure Search: you can supplement with custom analyzers, invoke fuzzy search queries, add filtered search, or experiment with scoring profiles to reshape the search results.
+### Brief Discussion
+Can you think of other scenarios where this technology might be useful? We've included a few ideas below:  
 
-Indexes are generated from an index schema that defines the fields, attributes, and other constructs attached to a specific index, such as scoring profiles and synonym maps. Once an index is defined and populated, you can refresh it to pick up new and updated source documents. Enrichment steps are seamlessly integrated with the indexing workload; the same operations performed during initial data ingestion also occur in subsequent refresh operations.
+- Education  
+    - For a student, in a class you may have resources in many different forms: 
+        - PowerPoint slides (as .pptx or .pdf)
+        - Handwritten notes (scanned on your phone to .pdf, .jpg, or .png)
+        - Old tests with answers (.pdf, .jpg, .png, .html)
+        - Pictures of whiteboard scribbles from the professor during lectures
+        - Etc. 
+    - Wouldn't it be nice if you could group them together, perform searches on topics, or create graphs that recognized relationships?
+- Manufacturing
+    - Even with technology advancements, lots of things are still handwritten in these environments
+        - Time sheets
+        - Notes during shifts: data about throughput, efficiency, etc.
+        - SOPs (standard operating procedures)
+    - In addition, there are PDFs (some SOPs), Excel files, Access databases, etc.
+    - This could be a good opportunity to coordinate and automate a lot of the analyses
+- Justice system
+    - Like the JFK files examples, many cases have lots of data in varying forms, similar value could be provided
+- Twitter and big events (e.g. festivals like Coachella or NFL games)
+    - Could use the service to ingest tweets in near-real time for big events to perform analyses
+- Enterprise systems
+    - Some companies may have internal websites or apps, and integrating this service to search resources effectively could increase productivity of employees.
 
-<a name="feature-concepts"></a>
 
 ## Key concepts
 
-| Concept | description|
-|---------|------------|
-| Indexer |  A crawler that extracts searchable data and metadata from an external data source and populates an index based on field-to-field mappings between the index and your data source for document cracking. For cognitive search enrichments, the indexer invokes a skillset, and contains the field mappings associating enrichment output to target fields in the index. The indexer definition contains all of the instructions and references for pipeline operations, and the pipeline is invoked when you run the indexer. |
-| Data Source  | An object used by an indexer to connect to an external data source of supported types on Azure. |
-| Index | A persisted search corpus in Azure Search, built from an index schema that defines field structure and usage. |
-| Document cracking | The process of extracting or creating text content from non-text sources. Optical character recognition (OCR) and audio-to-text translation are two examples. The data source and the indexer definition with field mappings are the key factors in document cracking. |
-| Cognitive skill | An atomic transformation in an augmentation pipeline. Often, it is a component that extracts or infers structure, and therefore augments an understanding of the input data. Almost always, the output is text-based and the processing is natural language processing. Output can be mapped to a field in an index, or used as an input for a downstream enrichment. |
-| Skillset | A top-level named resource containing a collection of skills. A skillset is the augmentation pipeline. |
-| Enriched documents | A transitory internal structure, not directly accessible in code. Enriched documents are generated during processing, but only final outputs are persisted in a search index. Field mappings determine which data elements are added to the index. |
+Now that you understand the value added by adding Cognitive Search to your solutions, let's dive in to what Cognitive Search is and how it works.  
 
+We'll do that by walking through the ["What is Cognitive Search?" documentation](https://docs.microsoft.com/en-us/azure/search/cognitive-search-concept-intro).
 
-## API (REST only)
+Throughout the course, we'll go through implementing a Cognitive Search solution for a specific use case, which we'll cover in the next section.
 
-Currently, only REST is available, but the .NET SDK is expected to follow shortly after the feature officially moves into public preview. Support for .NET will be announced as a service update. It will also be announced on this page if you want to check back later.
+[Continue to TODO INSERT NEXT MODULE NAME AND LINK](TODO)
 
-The following APIs are used in the cognitive search preview:
-
-| API | Description |
-|-----|-------------|
-| [Create Skillset](ref-create-skillset.md)  | Resource enumerating predefined and custom cognitive skills used in an augmentation pipeline during indexing.  |
-| [Create Data Source](ref-create-data-source.md)  | Resource identifying an external data source providing source data used to create enriched documents.  |
-| [Create Index](ref-create-index.md)  | Resource expressing an Azure Search index.  |
-| [Create Indexer](ref-create-indexer.md)  | Resource defining components used during indexing: including a data source, a skillset, field associations from source and intermediary data structures to target index, and the index itself.   |
-
-## Next step
- [Solution](03-Solution.md) or [Back to Main Menu](01-readme.md)
-
+Back to [README.md TODO INSERT CORRECT LINK](./readme.md)
