@@ -63,5 +63,5 @@ The following APIs are used in the cognitive search preview:
 | [Create Indexer](ref-create-indexer.md)  | Resource defining components used during indexing: including a data source, a skillset, field associations from source and intermediary data structures to target index, and the index itself.   |
 
 ## Next step
+ [Solution](03-Solution.md) or [Back to Main Menu](01-readme.md)
 
-+ [Solution](03-Solution.md)
