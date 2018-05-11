@@ -48,3 +48,8 @@ The enrichment pipeline pulls from Azure data sources. Source data must originat
       ```
 
 There are other ways to specify the connection string, such as providing a shared access signature. To learn more about data source credentials, see [Indexing Azure Blob Storage](https://docs.microsoft.com/en-us/azure/search/search-howto-indexing-azure-blob-storage).
+
+
+## Next Step
+[Lab 1](05-Lab-2.md) or
+[Back to Main Menu](01-readme.md)
