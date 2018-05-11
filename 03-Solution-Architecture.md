@@ -59,7 +59,7 @@ It is important to noitice some details about these tools:
 
 
 ## Next step
-[Lab 1](04-Lab-1.md) or [Back to Main Menu](01-readme.md)
+[Environment Creation](04-Environment-Creation.md) or [Back to Main Menu](01-readme.md)
 
 
 
