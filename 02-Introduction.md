@@ -61,6 +61,5 @@ We'll do that by walking through the ["What is Cognitive Search?" documentation]
 
 Throughout the course, we'll go through implementing a Cognitive Search solution for a specific use case, which we'll cover in the next section.
 
-[Continue to TODO INSERT NEXT MODULE NAME AND LINK](TODO)
-
-Back to [README.md TODO INSERT CORRECT LINK](./readme.md)
+##Next Step
++ [Solution Architecture](06-Lab-3.md) or [Back to Main Menu](01-readme.md)
