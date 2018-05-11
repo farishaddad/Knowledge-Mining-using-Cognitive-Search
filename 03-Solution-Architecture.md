@@ -5,7 +5,7 @@ In this workshop we will create a simple Cognitieve Search solution to ingest, e
 
 ##Use Cases
 
-Every company has unstructured data, making this solution usefull for all your clients. Since we are working with unstructured data, any file can be used. A common scenario has limited searching results because on lack of metadata and inexistence of AI processing to analyze the content. Cognitive Search uses the most advanced cognitive services, based no Microsoft AI Platform, to extract and create enriched metadadata about your documents, improving the search experiences. 
+Every company has unstructured data, making this solution usefull for all your clients. Since we are working with unstructured data, any file can be used. In other words, this is a **Bring Your Own Data** solution, you can test later with any dataset you want. A common business scenario has limited searching results because on lack of metadata and inexistence of AI processing to analyze the content. Cognitive Search uses the most advanced cognitive services, based no Microsoft AI Platform, to extract and create enriched metadadata about your documents, improving the search experiences. 
 
 Possible uses for this solution are:
 
