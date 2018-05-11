@@ -27,6 +27,8 @@ It turns out, that in the documents, you can find that it cost the CIA millions 
 
 As you can probably tell by now, Cognitive Search made the process more efficient and easier to implement. You can watch the full video on the JFK files project with Cognitive Search [here](https://developer.microsoft.com/en-us/events/build/content/cognitive-search-ai-powered-content-augmentation).
 
+
+
 ### Brief Discussion
 Can you think of other scenarios where this technology might be useful? We've included a few ideas below:  
 
@@ -49,8 +51,11 @@ Can you think of other scenarios where this technology might be useful? We've in
     - Like the JFK files examples, many cases have lots of data in varying forms, similar value could be provided
 - Twitter and big events (e.g. festivals like Coachella or NFL games)
     - Could use the service to ingest tweets in near-real time for big events to perform analyses
-- Enterprise systems
-    - Some companies may have internal websites or apps, and integrating this service to search resources effectively could increase productivity of employees.
+- And most of all: All enterprises, all industries
+    - Every company has unstructured data stored on file servers, cloud devices and local computers: images, pdfs, ppts, xls, docs, html and so on.
+    - Most of this huge data volume is soloed and has no metadata, making search a limited experience.
+    - Cognitive Search can help any company to enrich the metadata of its own data, any data, helping to increase productivity and even security/complience.
+    - This is the use case we implement in this workshop, what is detailed in the Solution Architecture section.
 
 
 ## Key concepts
