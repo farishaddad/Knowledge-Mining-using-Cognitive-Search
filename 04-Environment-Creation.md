@@ -1,114 +1,50 @@
-#	Microsoft.Skills.Text.NamedEntityRecognition cognitive skill
+#Environment Creation
 
-The named entity recognition skill extracts named entities from text. Available entities include the following types: person, location, and organization.
+In this lab we will create an Azure Search Service and a storage account. We recommend to keep both in a new and unique resource group, to make it easier to delete at the end of the workshop, if you want to. We will also upload the data to a blob storage within the storage account.
 
-## @odata.type  
-Microsoft.Skills.Text.NamedEntityRecognitionSkill
+##Step 1 - Create the Azure Search service
 
-## Skill Parameters
+1. Go to the [Azure portal](https://portal.azure.com) and sign in by using your Azure account.
 
-Parameters are case-sensitive.
+1. Click **Create a resource**, search for Azure Search, and click **Create**. See [Create an Azure Search service in the portal](https://docs.microsoft.com/en-us/azure/search/search-create-service-portal) if you are setting up a search service for the first time.
 
-| Parameter name	 | Description |
-|--------------------|-------------|
-| categories	| Array of categories that should be extracted.  Possible category types: "Person", "Location", "Organization". If no category is provided, all types will be returned.|
-|defaultLanguageCode |	Language code of the input text. The following languages are supported: ar, cs, da, de, en, es, fi, fr, he, hu, it, ko, pt-br, pt|
-| minimumPrecision	| A number between 0 and 1. If the precision is lower than this value, the entity is not returned. The default is 0.|
+  ![Dashboard portal](./media/create-service-full-portal.png "Create Azure Search service in the portal")
 
-## Inputs
+1. For Resource group, create a resource group to contain all the resources you create in this tutorial. This makes it easier to clean up the resources after you have finished the tutorial.
 
-| Input name	  | Description                   |
-|---------------|-------------------------------|
-| languageCode	| Optional. Default is "en".    |
-| text          | The text to analyze.          |
+1. For Location, choose either **South Central US** or **West Europe**. Currently, the preview is available only in these regions.
 
-##	Sample definition
+1. For Pricing tier, you can create a **Free** service to complete tutorials and quickstarts. For deeper investigation using your own data, create a [paid service](https://azure.microsoft.com/pricing/details/search/) such as **Basic** or **Standard**. 
 
-```json
-  {
-    "@odata.type": "#Microsoft.Skills.Text.NamedEntityRecognitionSkill",
-    "categories": [ "Person"],
-    "defaultLanguageCode": "en",
-    "inputs": [
-      {
-        "name": "text",
-        "source": "/document/content"
-      }
-    ],
-    "outputs": [
-      {
-        "name": "persons",
-        "targetName": "people"
-      }
-    ]
-  }
-```
-##	Sample Input
+  A Free service is limited to 3 indexes, 16 MB maximum blob size, and 2 minutes of indexing, which is insufficient for exercising the full capabilities of cognitive search. To review limits for different tiers, see [Service Limits](https://docs.microsoft.com/en-us/azure/search/search-limits-quotas-capacity).
 
-```json
-{
-    "values": [
-      {
-        "recordId": "1",
-        "data":
-           {
-             "text": "This is a the loan application for Joe Romero, he is a Microsoft employee who was born in Chile and then moved to Australia… Ana Smith is provided as a reference.",
-             "languageCode": "en"
-           }
-      }
-    ]
-```
+  > [!NOTE]
+  > Cognitive Search is in public preview. Skillset execution is currently available in all tiers, including free. At a later time, the pricing for this capability will be announced.
 
-##	Sample Output
+1. Pin the service to the dashboard for fast access to service information.
 
-```json
-{
-  "values": [
-    {
-      "recordId": "1",
-      "data" : 
-      {
-        "persons": [ "Joe Romero", "Ana Smith"],
-        "locations": ["Seattle"],
-        "organizations":["Microsoft Corporation"],
-        "entities":  
-        [
-          {
-            "category":"person",
-            "value": "Joe Romero",
-            "offset": 45,
-            "confidence": 0.87
-          },
-          {
-            "category":"person",
-            "value": "Ana Smith",
-            "offset": 59,
-            "confidence": 0.87
-          },
-          {
-            "category":"location",
-            "value": "Seattle",
-            "offset": 5,
-            "confidence": 0.99
-          },
-          {
-            "category":"organization",
-            "value": "Microsoft Corporation",
-            "offset": 120,
-            "confidence": 0.99
-          }
-        ]
-      }
-    }
-  ]
-}
-```
+  ![Service definition page in the portal](./media/create-search-service.png "Service definition page in the portal")
 
+1. After the service is created, collect the following information: **URL** from the Overview page, and **api-key** (either primary or secondary) from the Keys page.
 
-## Error cases
-If the provided language code is not supported or if the content does not match the language specified, an error is generated and no entities are extracted.
+  ![Endpoint and key information in the portal](./media/create-search-collect-info.png "Endpoint and key information in the portal")
 
-## See also
+##Step2 - Create the Azure Blob service and load sample data
 
-+ [Predefined skills](cognitive-search-predefined-skills.md)
-+ [How to define a skillset](cognitive-search-defining-skillset.md)
+The enrichment pipeline pulls from Azure data sources. Source data must originate from a supported data source type of an [Azure Search indexer](https://docs.microsoft.com/en-us/azure/search/search-indexer-overview). For this exercise, we use blob storage to showcase multiple content types.
+
+1. [Download sample data](https://1drv.ms/f/s!As7Oy81M_gVPa-LCb5lC_3hbS-4). Sample data consists of a small file set of different types. 
+
+1. Sign up for Azure Blob storage, create a storage account, log in to Storage Explorer, and create a container named `basicdemo`. See [Azure Storage Explorer Quickstart](https://azure.microsoft.com/en-us/features/storage-explorer) for instructions on all the steps.
+
+1. Using the Azure Storage Explorer, in the `basicdemo` container you created, click **Upload** to upload the sample files.
+
+1. After sample files are loaded, get the container name and a connection string for your Blob storage. You could do that by navigating to you storage account in the Azure portal. On **Access keys**, and then copy the **Connection String**  field.
+
+  The connection string should be a URL similar to the following hypothetical example:
+
+      ```http
+      DefaultEndpointsProtocol=https;AccountName=cogsrchdemostorage;AccountKey=<your key here>==;EndpointSuffix=core.windows.net
+      ```
+
+There are other ways to specify the connection string, such as providing a shared access signature. To learn more about data source credentials, see [Indexing Azure Blob Storage](https://docs.microsoft.com/en-us/azure/search/search-howto-indexing-azure-blob-storage).
