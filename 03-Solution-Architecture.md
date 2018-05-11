@@ -10,7 +10,7 @@ Every company has unstructured data, making this solution usefull for all your c
 Possible uses for this solution are:
 
 + Demos: You leave an environment ready, loaded. 
-+ POCs: You just need to upload some client's data. **You can proove the concept in front of the client, in minutes**.
++ POCs: You just need to upload some client's data and re-execute the enrichment pipeline. **You can proove the concept in front of the client, in minutes**.
 + Production: Since we are using PaaS, it has SLA and scallabilitty by design.
 + Personal Use: If you have lots of documents or photos, you can use it too.
 
