@@ -64,4 +64,4 @@ The following APIs are used in the cognitive search preview:
 
 ## Next step
 
-+ [Solution](Solution.md)
++ [Solution](03-Solution.md)
