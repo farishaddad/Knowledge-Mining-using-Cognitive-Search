@@ -32,9 +32,11 @@ Since you have finished the pre-requisites, let's start the training. You just n
 
 + [Introduction](02-Introduction.md) - 1 hour - Cognitive Search key concepts.
 + [Solution Architecture](03-Solution-Architecture.md) - 1 hour - Diagram, use cases, deployment options and costs.
-+ [Lab 1](04-Lab-1.md) - 2 hours - Create a Cognitive Search Skill.
-+ [Lab 2](05-Lab-2.md) - 1 hour - Create an Advanced Cognitive Search Skill
-+ [Lab 3](06-Lab-3.md) - 2 hours - Create a Cognitive Search Custom Skill.
++ [Lab 1](04-Lab-1.md) - 2 hours - Create a Cognitive Search Enrichment Process.
++ [Lab 2](05-Lab-2.md) - 1 hour - Create an extended Cognitive Search Skill and add it to the process.
++ [Lab 3](06-Lab-3.md) - 2 hours - Create a Cognitive Search **Custom** Skill.
++ [Lab 4](07-Lab-3.md) - 2 hours - Add the **Custom Skill** to the pipeline.
+
 
 ##Clean up resources
 If you don't want to keep the solution up and running for future use, you should get rid of the all environment. Assuming that you created all services in the same resource group, the fastest way to clean up is by deleting it. This will permanently remove the Azure Search service, the Azure Function app and Azure Blob service. Including the services and any stored content that you created for this workshop. In the portal, the resource group name is on the Overview page of each service.
