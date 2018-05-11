@@ -55,7 +55,7 @@ Can you think of other scenarios where this technology might be useful? We've in
 
 ## Key concepts
 
-Now that you understand the value added by adding Cognitive Search to your solutions, let's dive in to what Cognitive Search is and how it works.  
+Now that you understand the value added by adding Cognitive Search to your solutions, let's dive into what Cognitive Search is and how it works.  
 
 We'll do that by walking through the ["What is Cognitive Search?" documentation](https://docs.microsoft.com/en-us/azure/search/cognitive-search-concept-intro).
 
