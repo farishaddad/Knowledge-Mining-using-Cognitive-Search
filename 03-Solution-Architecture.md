@@ -1,6 +1,6 @@
 #Solution Architecture
 
-In this workshop we will create a simple Cognitieve Search solution to ingest, extract, index and search cognitive skills for any kind of enterprise documents: Microsoft Office, images, pdfs and much more.
+In this workshop we will create a simple Cognitieve Search solution to ingest, extract, index and search cognitive skills for any kind of enterprise documents: Microsoft Office, images, pdfs and much more. We will apply modern Artificial Intelligence technology into unstructured data like ppts and pdfs.
 
 
 ##Use Cases
