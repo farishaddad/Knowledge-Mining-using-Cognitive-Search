@@ -34,8 +34,7 @@ Since you have finished the pre-requisites, let's start the training. You just n
 + [Solution Architecture](03-Solution-Architecture.md) - 1 hour - Diagram, use cases, deployment options and costs.
 + [Lab 1](04-Lab-1.md) - 2 hours - Create a Cognitive Search Enrichment Process.
 + [Lab 2](05-Lab-2.md) - 1 hour - Create an extended Cognitive Search Skill and add it to the process.
-+ [Lab 3](06-Lab-3.md) - 1 hours - Create a Cognitive Search **Custom** Skill.
-+ [Lab 4](07-Lab-3.md) - 1 hours - Add the **Custom Skill** to the pipeline.
++ [Lab 3](06-Lab-3.md) - 2 hours - Create a Cognitive Search **Custom** Skill and add it to the process.
 
 
 ##Clean up resources
