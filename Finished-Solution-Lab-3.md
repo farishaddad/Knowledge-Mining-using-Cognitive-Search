@@ -6,120 +6,103 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
 ##Skillset
 ```json
 {
-    "@odata.context": "https://<your-azure-search>.search.windows.net/$metadata#skillsets/$entity",
-    "@odata.etag": "\"0x8D5B9CB6F0A77E2\"",
-    "name": "rodskillset2",
-    "description": "Extract entities, detect language and extract key-phrases",
-    "skills": [
+  "description": 
+  "Extract entities, detect language and extract key-phrases. Also, we translate from other languages to English",
+  "skills":
+  [
+    {
+      "@odata.type": "#Microsoft.Skills.Text.NamedEntityRecognitionSkill",
+      "categories": [ "Organization" ],
+      "defaultLanguageCode": "en",
+      "inputs": [
         {
-            "@odata.type": "#Microsoft.Skills.Text.NamedEntityRecognitionSkill",
-            "description": null,
-            "context": null,
-            "inputs": [
-                {
-                    "name": "text",
-                    "source": "/document/content"
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "organizations",
-                    "targetName": "organizations"
-                }
-            ],
-            "categories": [
-                "Organization"
-            ],
-            "defaultLanguageCode": "en",
-            "minimumPrecision": null
-        },
-        {
-            "@odata.type": "#Microsoft.Skills.Text.LanguageDetectionSkill",
-            "description": null,
-            "context": null,
-            "inputs": [
-                {
-                    "name": "text",
-                    "source": "/document/content"
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "languageCode",
-                    "targetName": "languageCode"
-                }
-            ]
-        },
-        {
-            "@odata.type": "#Microsoft.Skills.Text.SplitSkill",
-            "description": null,
-            "context": null,
-            "inputs": [
-                {
-                    "name": "text",
-                    "source": "/document/content"
-                },
-                {
-                    "name": "languageCode",
-                    "source": "/document/languageCode"
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "textItems",
-                    "targetName": "pages"
-                }
-            ],
-            "defaultLanguageCode": null,
-            "textSplitMode": "pages",
-            "maximumPageLength": 4000
-        },
-        {
-            "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
-            "description": null,
-            "context": "/document/pages/*",
-            "inputs": [
-                {
-                    "name": "text",
-                    "source": "/document/pages/*"
-                },
-                {
-                    "name": "languageCode",
-                    "source": "/document/languageCode"
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "keyPhrases",
-                    "targetName": "keyPhrases"
-                }
-            ],
-            "defaultLanguageCode": null,
-            "maxKeyPhraseCount": null
-        },
-        {
-            "@odata.type": "#Microsoft.Skills.Vision.OcrSkill",
-            "description": "Extracts text (plain and structured) from image.",
-            "context": "/document/normalized_images/*",
-            "inputs": [
-                {
-                    "name": "image",
-                    "source": "/document/normalized_images/*"
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "text",
-                    "targetName": "myOcrText"
-                }
-            ],
-            "textExtractionAlgorithm": null,
-            "defaultLanguageCode": null,
-            "detectOrientation": true
+          "name": "text", "source": "/document/content"
         }
+      ],
+      "outputs": [
+        {
+          "name": "organizations", "targetName": "organizations"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Text.LanguageDetectionSkill",
+      "inputs": [
+        {
+          "name": "text", "source": "/document/content"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "languageCode",
+          "targetName": "languageCode"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Text.SplitSkill",
+      "textSplitMode" : "pages", 
+      "maximumPageLength": 4000,
+      "inputs": [
+      {
+        "name": "text",
+        "source": "/document/content"
+      },
+      { 
+        "name": "languageCode",
+        "source": "/document/languageCode"
+      }
+    ],
+    "outputs": [
+      {
+            "name": "textItems",
+            "targetName": "pages"
+      }
     ]
+  },
+  {
+      "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+      "context": "/document/pages/*",
+      "inputs": [
+        {
+          "name": "text", "source": "/document/pages/*"
+        },
+        {
+          "name":"languageCode", "source": "/document/languageCode"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "keyPhrases",
+          "targetName": "keyPhrases"
+        }
+      ]
+    }, 
+    {
+        "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+        "description": "Our new translator custom skill",
+        "uri": "http://translatecogsrch.azurewebsites.net/api/Translate?code=[enter default host key here]",
+        "batchSize":1,
+        "context": "/document",
+        "inputs": [
+          {
+            "name": "text",
+            "source": "/document/content"
+          },
+          {
+            "name": "language",
+            "source": "/document/languageCode"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "text",
+            "targetName": "translatedText"
+          }
+        ]
+      }
+  ]
 }
-```
 
 ##Index
 ```json
@@ -199,7 +182,7 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
             "synonymMaps": []
         },
         {
-            "name": "myOcrText",
+            "name": "translatedText",
             "type": "Collection(Edm.String)",
             "searchable": true,
             "filterable": false,
@@ -257,8 +240,8 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
             "targetFieldName": "languageCode"
         },
          {
-            "sourceFieldName": "/document/normalized_images/*",
-            "targetFieldName": "myOcrText"
+            "sourceFieldName": "/document/Text",
+            "targetFieldName": "translatedText"
         }    
   ],
   "parameters":
