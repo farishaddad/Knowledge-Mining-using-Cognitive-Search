@@ -257,7 +257,7 @@ Here are the body requests for LAB 2 solution. Don't forget to ajust the URLs to
             "targetFieldName": "languageCode"
         },
          {
-            "sourceFieldName": "/document/normalized_images/*",
+            "sourceFieldName": "/document/normalized_images/*/myOcrText",
             "targetFieldName": "myOcrText"
         }    
   ],
