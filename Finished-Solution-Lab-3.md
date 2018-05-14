@@ -1,7 +1,7 @@
 #Finished Solution for LAB 2
 Hello!
 
-Here are the body requests for LAB 2 solution. Don't forget to ajust the URLs to use your Azure Search service name.
+Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to use your Azure Search service name.
 
 ##Skillset
 ```json
