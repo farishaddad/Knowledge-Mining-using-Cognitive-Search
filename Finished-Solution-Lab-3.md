@@ -103,6 +103,7 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
       }
   ]
 }
+````
 
 ##Index
 ```json
@@ -255,6 +256,24 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
 		}
   }
 }
+```
+
+
+##Check Status
+
+```http
+GET https://[servicename].search.windows.net/indexers/demoindexer/status?api-version=2017-11-11-Preview
+api-key: [api-key]
+Content-Type: application/json
+```
+
+##Check the OCR Content extracted
+
+```http
+GET https://[servicename].search.windows.net/indexes/demoindex/docs?search=*&$select=myOcrText&api-version=2017-11-11-Preview
+api-key: [api-key]
+Content-Type: application/json
+```
 
 
 
