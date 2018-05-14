@@ -6,7 +6,7 @@ Here are the body requests for LAB 2 solution. Don't forget to ajust the URLs to
 ##Skillset
 ```json
 {
-    "@odata.context": "https://<your-azure-search>.search.windows.net/$metadata#skillsets/$entity",
+    "@odata.context": "https://[servicename].search.windows.net/$metadata#skillsets/$entity",
     "@odata.etag": "\"0x8D5B9CB6F0A77E2\"",
     "name": "rodskillset2",
     "description": "Extract entities, detect language and extract key-phrases",
@@ -124,7 +124,7 @@ Here are the body requests for LAB 2 solution. Don't forget to ajust the URLs to
 ##Index
 ```json
 {
-    "@odata.context": "https://<your-azure-search>.search.windows.net/$metadata#indexes/$entity",
+    "@odata.context": "https://[servicename].search.windows.net/$metadata#indexes/$entity",
     "@odata.etag": "\"0x8D5B9CB96002CA5\"",
     "name": "rodindex2",
     "fields": [
@@ -272,6 +272,22 @@ Here are the body requests for LAB 2 solution. Don't forget to ajust the URLs to
 		}
   }
 }
+
+##Check Status
+
+```http
+GET https://[servicename].search.windows.net/indexers/demoindexer/status?api-version=2017-11-11-Preview
+api-key: [api-key]
+Content-Type: application/json
+```
+
+##Check the OCR Content extracted
+```http
+GET https://[servicename].search.windows.net/indexes/demoindex/docs?search=*&$select=myOcrText&api-version=2017-11-11-Preview
+api-key: [api-key]
+Content-Type: application/json
+```
+
 
 
 
