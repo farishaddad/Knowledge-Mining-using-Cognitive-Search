@@ -184,7 +184,7 @@ Here are the body requests for the solution to Lab 3. Don't forget to adjust the
         },
         {
             "name": "translatedText",
-            "type": "Collection(Edm.String)",
+            "type": "Edm.String",
             "searchable": true,
             "filterable": false,
             "retrievable": true,
