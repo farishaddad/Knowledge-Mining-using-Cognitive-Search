@@ -1,9 +1,9 @@
-#Finished Solution for LAB 2
+# Finished Solution for Lab 3
 Hello!
 
-Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to use your Azure Search service name.
+Here are the body requests for the solution to Lab 3. Don't forget to adjust the URLs to use your Azure Search service name.
 
-##Skillset
+## Skillset
 ```json
 {
   "description": 
@@ -105,7 +105,7 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
 }
 ````
 
-##Index
+## Index
 ```json
 {
     "@odata.context": "https://<your-azure-search>.search.windows.net/$metadata#indexes/$entity",
@@ -207,7 +207,7 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
     "charFilters": []
 }
 ```
-##Indexer
+## Indexer
 ```json
 {
   "name":"rodindexer2",	
@@ -259,7 +259,7 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
 ```
 
 
-##Check Status
+## Check Status
 
 ```http
 GET https://[servicename].search.windows.net/indexers/demoindexer/status?api-version=2017-11-11-Preview
@@ -267,7 +267,7 @@ api-key: [api-key]
 Content-Type: application/json
 ```
 
-##Check the OCR Content extracted
+## Check the Translated Content extracted
 
 ```http
 GET https://[servicename].search.windows.net/indexes/demoindex/docs?search=*&$select=translatedText&api-version=2017-11-11-Preview
