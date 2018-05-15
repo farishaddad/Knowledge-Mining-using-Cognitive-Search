@@ -12,7 +12,7 @@ Developers are constantly looking for PaaS services in Azure (and elsewhere) to 
 
 The example above illustrates some of the components users are expecting in their search experience. [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search) can accomplish these user experience features, along with giving you [monitoring and reporting](https://docs.microsoft.com/en-us/azure/search/search-traffic-analytics), [simple scoring](https://docs.microsoft.com/en-us/rest/api/searchservice/add-scoring-profiles-to-a-search-index), and tools for [prototyping](https://docs.microsoft.com/en-us/azure/search/search-import-data-portal) and [inspection](https://docs.microsoft.com/en-us/azure/search/search-explorer).  
 
-Since you're in this class, you're probably familiar with other search-related solutions like the [Bing Web Search API](https://docs.microsoft.com/azure/cognitive-services/bing-web-search/), [Bing Custom Search](https://docs.microsoft.com/azure/cognitive-services/bing-custom-search/), [SQL Server full text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search), or even creating dedicated search solutions.. You can see how Azure Search compares to the other solutions [here](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search#how-azure-search-compares).
+You're probably familiar with other search-related solutions like the [Bing Web Search API](https://docs.microsoft.com/azure/cognitive-services/bing-web-search/), [Bing Custom Search](https://docs.microsoft.com/azure/cognitive-services/bing-custom-search/), [SQL Server full text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search), or even creating dedicated search solutions.. You can see how Azure Search compares to the other solutions [here](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search#how-azure-search-compares).
 
 While this is great, there may come a time when you need more than what the [base Azure Search service provides](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search#feature-summary): intelligence. 
 ### Cognitive Search
@@ -23,7 +23,7 @@ Let's think about a specific example, the assassination of John F. Kennedy by Le
 
 1. Maybe we want to be able to extract various entities, perhaps, looking into the occurrences of Oswald in the documents. We don't want to see only the .doc results - we want the images of him, the hand-written notes about him, PDFs and more. Basically, we want to be able to pick out, intelligently, **all** the occurrences of Oswald.  
 
-2. In the case, the investigators used many codenames, or "cryptonyms", which are defined [here](https://www.maryferrell.org/php/cryptdb.php#_GP). We can see that the cryptonym for Oswald was actually "GPFLOOR." So if really want to get **all** occurrences of Oswald, we also need to build into the system that Oswald = GPFLOOR (also that GPIDEAL = JFK, GPLOGIC = LBJ, etc.).
+2. In the case, the investigators used many codenames, or "cryptonyms", which are defined [here](https://www.maryferrell.org/php/cryptdb.php#_GP). We can see that the cryptonym for Oswald was actually "GPFLOOR." So if you really want to get **all** occurrences of Oswald, we also need to build into the system that Oswald = GPFLOOR (also that GPIDEAL = JFK, GPLOGIC = LBJ, etc.).
 
 3. Maybe we also want to map how some of the key entities are related. This would take a long time and many lines of code to develop.  
 
