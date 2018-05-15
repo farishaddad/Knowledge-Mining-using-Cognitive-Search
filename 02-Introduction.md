@@ -5,7 +5,7 @@ In this section, we'll set the stage for the rest of the course. We'll start by 
 ## Motivation and context
 
 ### Azure Search
-Developers are constantly looking for PaaS services in Azure (and elsewhere) to achieve better and faster results in the applications they build. While search is a key to many types of applications, search is also a hard and rarely a core expertise area. From an infrastructure standpoint, it needs to have high availability, durability, scale, and operations. From a functionality standpoint, it needs to have ranking, language support, and geospatial capabilities. On top of that, web search engines have set the bar high for search. Users expect: instant results, auto-complete as they type, highlighting hits within the results, great ranking, and the ability to understand what they are looking for, even if they spell it incorrectly or include extra words.
+Developers are constantly looking for PaaS services in Azure (and elsewhere) to achieve better and faster results in the applications they build. While search is a key to many types of applications, few people are subject matter experts. From an infrastructure standpoint, it needs to have high availability, durability, scale, and operations. From a functionality standpoint, it needs to have ranking, language support, and geospatial capabilities. On top of that, web search engines have set the bar high for search. Users expect: instant results, auto-complete as they type, highlighting hits within the results, great ranking, and the ability to understand what they are looking for, even if they spell it incorrectly or include extra words.
 
 ![](media/AzureSearch-Example.png =800x)
 
