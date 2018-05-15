@@ -4,7 +4,7 @@ In this lab, you will learn how to create a web API custom skill that accepts te
 
 We will use an [Azure Function](https://azure.microsoft.com/services/functions/) to wrap the [Translate Text API](https://azure.microsoft.com/services/cognitive-services/translator-text-api/) so that it implements the custom skill interface.
 
-For documents in english we will replicate the original text in the output, so we can search only one field of our index. Another important detail, this function output is **Edm.String**, so you need to use the same type in the index definition.  
+For documents in english we will replicate the original text in the output, so we can search only one field of our index. Another important detail, this function output is **Edm.String**, so we need to use the same type in the index definition.  
 
 ## Step 1 - Extra Prerequisite
 
