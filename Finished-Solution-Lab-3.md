@@ -81,7 +81,7 @@ Here are the body requests for the solution to Lab 3. Don't forget to adjust the
     {
         "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
         "description": "Our new translator custom skill",
-        "uri": "http://translatecogsrch.azurewebsites.net/api/Translate?code=[enter default host key here]",
+        "uri": "https://[enter function name here].azurewebsites.net/api/Translate?code=[enter default host key here]",
         "batchSize":1,
         "context": "/document",
         "inputs": [
@@ -110,7 +110,7 @@ Here are the body requests for the solution to Lab 3. Don't forget to adjust the
 {
     "@odata.context": "https://<your-azure-search>.search.windows.net/$metadata#indexes/$entity",
     "@odata.etag": "\"0x8D5B9CB96002CA5\"",
-    "name": "rodindex2",
+    "name": "demoindex",
     "fields": [
         {
             "name": "id",
@@ -210,10 +210,10 @@ Here are the body requests for the solution to Lab 3. Don't forget to adjust the
 ## Indexer
 ```json
 {
-  "name":"rodindexer2",	
+  "name":"demoindexer",	
   "dataSourceName" : "demodata",
-  "targetIndexName" : "rodindex2",
-  "skillsetName" : "rodskillset2",
+  "targetIndexName" : "demoindex",
+  "skillsetName" : "demoskillset",
   "fieldMappings" : [
         {
           "sourceFieldName" : "metadata_storage_path",
