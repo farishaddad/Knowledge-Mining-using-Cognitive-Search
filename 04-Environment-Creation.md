@@ -51,5 +51,5 @@ There are other ways to specify the connection string, such as providing a share
 
 
 ## Next Step
-[Lab 1](05-Lab-1.md) or
+[Lab 1](05-Lab-1-Text-Skills.md) or
 [Back to Main Menu](01-readme.md)

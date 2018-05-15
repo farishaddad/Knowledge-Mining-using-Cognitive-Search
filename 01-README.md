@@ -33,9 +33,9 @@ Since you have finished the prerequisites, let's start the training. You just ne
 + [Introduction](02-Introduction.md) - 1 hour - Motivation, context, key concepts
 + [Solution Architecture](03-Solution-Architecture.md) - 1 hour - Diagram, use cases, deployment options and costs
 + [Environment Creation](04-Environment-Creation.md) - 1 hour - Using the Azure Portal, we will create the services we need fo the workshop
-+ [Lab 1](05-Lab-1.md) - 2 hours - Create a Cognitive Search Enrichment Process
-+ [Lab 2](06-Lab-2.md) - 1 hour - Create a Cognitive Search Skillset
-+ [Lab 3](07-Lab-3.md) - 2 hours - Create a Cognitive Search Skillset with **Custom** Skills
++ [Lab 1](05-Lab-1-Text-Skills.md) - 2 hours - Create a Cognitive Search Enrichment Process: Text Skills
++ [Lab 2](06-Lab-2-Image-Skills.md) - 1 hour - Create a Cognitive Search Skillset: Image Skills
++ [Lab 3](07-Lab-3-Custom-Skills.md) - 2 hours - Create a Cognitive Search Skillset with **Custom** Skills
 
 
 ## Clean up resources

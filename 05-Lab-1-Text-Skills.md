@@ -1,4 +1,4 @@
-# Lab 1: Create a Cognitive Search Enrichment Process
+# Lab 1: Create a Cognitive Search Enrichment Process: Text Skills
 
 In this lab, you will learn the mechanics of programming data enrichment in Azure Search using *cognitive skills*. Cognitive skills are natural language processing (NLP) and image analysis operations that extract text and text representations of an image, detect language, entities, key phrases, and more. The end result is rich additional content in an Azure Search index, created by a cognitive search indexing pipeline. 
 
@@ -371,6 +371,6 @@ You can use GET or POST, depending on query string complexity and length. For mo
 <a name="access-enriched-document"></a>
 
 ## Next Step
-[Lab 2](06-Lab-2.md) or
+[Lab 2](06-Lab-2-Image-Skills.md) or
 [Back to Main Menu](01-readme.md)
 
