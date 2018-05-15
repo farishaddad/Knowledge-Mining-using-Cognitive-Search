@@ -241,7 +241,7 @@ Here are the body requests for the solution to Lab 3. Don't forget to adjust the
             "targetFieldName": "languageCode"
         },
          {
-            "sourceFieldName": "/document/Text",
+            "sourceFieldName": "/document/translatedText",
             "targetFieldName": "translatedText"
         }    
   ],
