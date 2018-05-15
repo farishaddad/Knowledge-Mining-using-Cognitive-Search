@@ -291,13 +291,10 @@ As you can see, the custom skill works like all other predefined skills, but the
 Like we did in Lab 2, we suggest you add this new skill at the end of the body definition of the skillset.
 
 ```json
-{
-    "skills": [
-      ...,  
       {
         "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
         "description": "Our new translator custom skill",
-        "uri": "http://translatecogsrch.azurewebsites.net/api/Translate?code=[enter default host key here]",
+        "uri": "https://[enter function name here].azurewebsites.net/api/Translate?code=[enter default host key here]",
         "batchSize":1,
         "context": "/document",
         "inputs": [
@@ -317,8 +314,7 @@ Like we did in Lab 2, we suggest you add this new skill at the end of the body d
           }
         ]
       }
-  ]
-}
+
 ```
 
 #### Step 7.1 - Challenge!!
@@ -337,7 +333,7 @@ Skipping the services and the data source creation, repeat the other steps of th
 Now we have our data enriched with pre-defined and custom skills. Now we just need to learn how to [query the data using Azure Portal](https://docs.microsoft.com/en-us/azure/search/search-explorer). Since you know the entities and the key phrases of the documents, try to search for them. 
 
 ## Finished Solution
-If you could not make it, [here](Finished-Solutoin-Lab-3.md) is the challenge solution. You just need to follow the steps.
+If you could not make it, [here](Finished-Solution-Lab-3.md) is the challenge solution. You just need to follow the steps.
 
 
 ## Next Step
