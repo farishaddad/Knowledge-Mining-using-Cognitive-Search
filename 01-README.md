@@ -53,7 +53,7 @@ If you don't want to keep the solution up and running for future use, you should
 + [Using Fiddler or Postman for REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler)
 
 ## Collaboration
-We appreciate your collaboration. The code and the data are free to be used as you need. You can clone the GitHub repo or download the solution. If you make any improvement in the workshop, you can make a pull request on GitHub that we will analyze. Feedbacks and suggestions are welcome, just send us an email at rsouza1974@outlook.com .
+We appreciate your collaboration. The code and the data are free to be used as you need. You can clone the GitHub repo or download the solution. If you make any improvements to the workshop, you can make a pull request on GitHub that we will analyze. Additionally, if you have any feedback, issues, or suggestions, please create an issue in the "Issues" tab.
 
 # Thank you!
 
