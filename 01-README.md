@@ -30,12 +30,12 @@ Since this is an AI training on top of Microsoft Azure Services, there are certa
 ## Agenda
 Since you have finished the prerequisites, let's start the training. You just need to follow the workshop structure presented below.
 
-+ [Introduction](02-Introduction.md) - 1 hour - Cognitive Search key concepts.
-+ [Solution Architecture](03-Solution-Architecture.md) - 1 hour - Diagram, use cases, deployment options and costs.
-+ [Environment Creation](04-Environment-Creation.md) - 1 hour - Using Azure Portal, we will create the services we need fo the workshop.
-+ [Lab 1](05-Lab-1.md) - 2 hours - Create a Cognitive Search Enrichment Process.
-+ [Lab 2](06-Lab-2.md) - 1 hour - Create an extended Cognitive Search Skill and add it to the process.
-+ [Lab 3](07-Lab-3.md) - 2 hours - Create a Cognitive Search **Custom** Skill and add it to the process.
++ [Introduction](02-Introduction.md) - 1 hour - Motivation, context, key concepts
++ [Solution Architecture](03-Solution-Architecture.md) - 1 hour - Diagram, use cases, deployment options and costs
++ [Environment Creation](04-Environment-Creation.md) - 1 hour - Using the Azure Portal, we will create the services we need fo the workshop
++ [Lab 1](05-Lab-1.md) - 2 hours - Create a Cognitive Search Enrichment Process
++ [Lab 2](06-Lab-2.md) - 1 hour - Create a Cognitive Search Skillset
++ [Lab 3](07-Lab-3.md) - 2 hours - Create a Cognitive Search Skillset with **Custom** Skills
 
 
 ## Clean up resources
