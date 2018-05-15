@@ -5,16 +5,15 @@ In this workshop we will create a simple Cognitive Search solution to ingest, ex
 
 ## Use Case
 
-Every company has unstructured data, making this solution usefull for all your clients. Since we are working with unstructured data, any file can be used. In other words, this is a **Bring Your Own Data** solution; you can test later with any dataset you want. This is a common business scenario which usually has limited search results because of a lack of metadata and inexistence of AI processing to analyze the content. Cognitive Search uses the most advanced cognitive services, based on Microsoft's AI Platform, to extract and create enriched metadata about your documents, vastly improving the overall search experience. 
+Every company has unstructured data, making this solution useful for all your clients. Often, employees have various reasons they may want to search on the unstructured data that accumulates. This is a common business scenario which usually has limited search results, because of a lack of metadata and existence of AI processing to analyze the content. Cognitive Search uses the most advanced cognitive services, based on Microsoft's AI Platform, to extract and create enriched metadata about your documents, vastly improving the overall search experience. Unless instructed otherwise, you will use a sample dataset that contains documents of different formats (docs, pdfs, images, ppts, etc.) and languages.  
+> Note: Since we are working with unstructured data, any set of files can be used. In other words, this could be a **Bring Your Own Data** solution; you can test later with any dataset you want.  
+> Some other possible uses for the labs could be:  
+>  
+>  + Demos: You could keep an environment ready, loaded. 
+>  + POCs: You just need to upload some of the client's data and re-execute the enrichment pipeline. **You can prove the concept in front of the client, in minutes**.
+>  + Production: Since we are using PaaS, it has SLA and scalability by design.
+>  + Personal Use: If you have lots of documents or photos, you can use these labs to analyze them, too.
 
-Possible uses for this solution are:
-
-+ Demos: You could keep an environment ready, loaded. 
-+ POCs: You just need to upload some of the client's data and re-execute the enrichment pipeline. **You can prove the concept in front of the client, in minutes**.
-+ Production: Since we are using PaaS, it has SLA and scalability by design.
-+ Personal Use: If you have lots of documents or photos, you can use these labs to analyze them, too.
-
-> If you are taking this workshop in person, **follow instructor guidance** with regards to what data you should use to complete the labs.
 
 ## Architecture
 
