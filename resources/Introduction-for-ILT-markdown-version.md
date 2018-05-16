@@ -1,1 +1,1 @@
-# Alternative for the PDF file. Exact same content.
+![](/slides/slide 01.PNG =800x)
