@@ -1,1 +1,0 @@
-Slides of the pdf file, used into the md file.
