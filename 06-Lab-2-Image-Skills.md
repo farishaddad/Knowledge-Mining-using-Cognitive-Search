@@ -1,4 +1,4 @@
-# Lab 2: Create a Cognitive Search Skillset: Image Skills
+# Lab 2: Re-create a Cognitive Search Skillset: **Image** Skills
 
 In this lab, we will verify the lack of image processing results we got from the previous lab and fix it by adding image analysis skill sets to our pipeline. 
 
