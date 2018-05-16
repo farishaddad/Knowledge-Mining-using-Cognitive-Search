@@ -46,6 +46,7 @@ If you don't want to keep the solution up and running for future use, you should
 + [Microsoft AI School](https://aischool.microsoft.com/learning-paths)
 + [Microsoft Analytics School](https://learnanalytics.microsoft.com/) 
 + [Microsoft AI Platform](https://www.microsoft.com/en-us/ai)
++ [Microsoft AI Principles](https://www.microsoft.com/en-us/AI/our-approach-to-ai)
 + [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search)
 + [Cognitive Search Official Demo - JFK Files](https://jfk-demo.azurewebsites.net/)
 + [Cognitive Search Official Code - JFK Files](https://github.com/Microsoft/AzureSearch_JFK_Files)
