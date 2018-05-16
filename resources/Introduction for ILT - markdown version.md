@@ -1,0 +1,1 @@
+# Alternative for the PDF file. Exact same content.
