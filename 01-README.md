@@ -9,23 +9,23 @@ This one day training will focus on hands-on activities that develop proficiency
 We will focus on hands-on activities to learn how to create a Cognitive Search solution for all types of business documents. The documents include pdfs, docs, ppts and images, as well as documents with multiple languages. 
 In this training, you will create a data flow that uses cognitive skills to enrich your business documents. These enrichments will become part of an Azure Search index. 
 
-At the end of this workshop, you should be able to:
+At the end of this workshop, you should have learned:
 
-+ Understand what Cognitive Search is
-+ Understand what this solution does and how it can be used, including the capability to process any unstructured data
-+ Implement Cognitive Search enrichment pipelines
-+ Learn how to search business documents enriched with cognitive skills
-+ Use the materials as a tool for demos, POCs and other business scenarios
++ **What** Cognitive Search is 
++ **When** to use it
++ **How** to implement and use this Cognitive Search Solution
++ **Why** this solutoin can help you with demos, POCs and other business scenarios
 
 ## Prerequisites
-Since this is an AI training on top of Microsoft Azure Services, there are certain things you need before we start.
+Since this is an AI training on top of Microsoft Azure Services, there are a few things you need to do before we start.
 
-1. We will use Visual Studio for some activities. Read this [link](https://docs.microsoft.com/en-us/visualstudio/ide/visual-studio-ide) to gain the knowledge you need to do this workshop. 
-2. We will create a small C# applications. If you haven't worked with C#, we recommend watching these [short videos](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949) from Microsoft Virtual Academy.
-3. You need a Microsoft Azure account to create the services we use in our solution. You can create a [free account](https://azure.microsoft.com/en-us/free/), use your [MSDN account](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/) or use any other subscription where you have permission to create services.
-4. Install [Visual Studio 2017 version 15.5](https://www.visualstudio.com/vs/) or later, including the Azure development workload.
-5. You need a computer with [Postman](https://www.getpostman.com/) or [Fiddler](https://www.telerik.com/download/fiddler) installed to test the APIs we will interact with, so come to the training with one installed. We will use this software to  make REST calls to Azure Search and complete many of the labs. If these tools are new to you, you **need to carefully read** how to [explore Azure Search REST APIs using Fiddler or Postman](https://docs.microsoft.com/en-us/azure/search/search-fiddler) **before** the course. If you're new to Postman/Fiddler, we recommend using Postman, as many of the screenshots and instructions are geared specifically for Postman. That being said, if Fiddler is your tool of choice or you are more comfortable with it, you shouldn't have any problems completing the lab.
-6. You should have some understanding and, preferably, some experience with Azure Functions and Azure Search. Review the documentation and complete the quickstart trainings before starting this training: [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/) and [Azure Search](https://docs.microsoft.com/en-us/azure/search/).
+1. **To Read:** This [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/visual-studio-ide) quick introduction
+1. **To Read:** This [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) quick introduction 
+1. **To Read:** This [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search) quick introduction
+1. **To Watch:** This small Microsoft Virtual Academy [C# video](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949).
+1. **To Create:** You need a Microsoft Azure account to create the services we use in our solution. You can create a [free account](https://azure.microsoft.com/en-us/free/), use your [MSDN account](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/) or use any other subscription where you have permission to create services.
+1. **To Install:** [Visual Studio 2017 version 15.5](https://www.visualstudio.com/vs/) or later, including the Azure development workload.
+1. **To Install:** [Postman](https://www.getpostman.com/) or [Fiddler](https://www.telerik.com/download/fiddler) installed to test the APIs we will interact with, so come to the training with one installed. We will use this software to  make REST calls to Azure Search and complete many of the labs. If these tools are new to you, you **need to carefully read** how to [explore Azure Search REST APIs using Fiddler or Postman](https://docs.microsoft.com/en-us/azure/search/search-fiddler) **before** the course. If you're new to Postman/Fiddler, we recommend using Postman, as many of the screenshots and instructions are geared specifically for Postman. That being said, if Fiddler is your tool of choice or you are more comfortable with it, you shouldn't have any problems completing the lab.
 
 
 
