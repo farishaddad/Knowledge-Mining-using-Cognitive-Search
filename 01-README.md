@@ -19,13 +19,17 @@ At the end of this workshop, you should have learned:
 ## Prerequisites
 Since this is an AI training on top of Microsoft Azure Services, before we start you need:
 
-1. **To Read:** This [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/visual-studio-ide) quick introduction
+1. **To Read:** This [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/visual-studio-ide) tutorial
 1. **To Read:** This [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) quick introduction 
-1. **To Read:** This [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search) quick introduction
+1. **To Read:** This [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search) overview
+1. **To Read:** This [Using Fiddler and Postman](https://docs.microsoft.com/en-us/azure/search/search-fiddler) tutorial
 1. **To Watch:** This small Microsoft Virtual Academy [C# video](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949).
 1. **To Create:** You need a Microsoft Azure account to create the services we use in our solution. You can create a [free account](https://azure.microsoft.com/en-us/free/), use your [MSDN account](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/) or use any other subscription where you have permission to create services.
 1. **To Install:** [Visual Studio 2017 version 15.5](https://www.visualstudio.com/vs/) or later, including the Azure development workload.
-1. **To Install:** [Postman](https://www.getpostman.com/) or [Fiddler](https://www.telerik.com/download/fiddler) installed to test the APIs we will interact with, so come to the training with one installed. We will use this software to  make REST calls to Azure Search and complete many of the labs. If these tools are new to you, you **need to carefully read** how to [explore Azure Search REST APIs using Fiddler or Postman](https://docs.microsoft.com/en-us/azure/search/search-fiddler) **before** the course. If you're new to Postman/Fiddler, we recommend using Postman, as many of the screenshots and instructions are geared specifically for Postman. That being said, if Fiddler is your tool of choice or you are more comfortable with it, you shouldn't have any problems completing the lab.
+1. **To Install:** [Postman](https://www.getpostman.com/) or [Fiddler](https://www.telerik.com/download/fiddler) 
+
+Fiddler and Postman
+installed to test the APIs we will interact with, so come to the training with one installed. We will use this software to  make REST calls to Azure Search and complete many of the labs. If these tools are new to you, you **need to carefully read** how to [explore Azure Search REST APIs using Fiddler or Postman](https://docs.microsoft.com/en-us/azure/search/search-fiddler) **before** the course. If you're new to Postman/Fiddler, we recommend using Postman, as many of the screenshots and instructions are geared specifically for Postman. That being said, if Fiddler is your tool of choice or you are more comfortable with it, you shouldn't have any problems completing the lab.
 
 
 
@@ -56,7 +60,6 @@ If you don't want to keep the solution up and running for future use, you should
 + [Cognitive Search Official Demo - JFK Files](https://jfk-demo.azurewebsites.net/)
 + [Cognitive Search Official Code - JFK Files](https://github.com/Microsoft/AzureSearch_JFK_Files)
 + [How to rebuild an Azure Search Index](https://docs.microsoft.com/en-us/rest/api/searchservice/addupdate-or-delete-documents)
-+ [Using Fiddler or Postman for REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler)
 
 ## Collaboration
 We appreciate your collaboration. The code and the data are free to be used as you need. You can clone the GitHub repo or download the solution. If you make any improvements to the workshop, you can make a pull request on GitHub that we will analyze. Additionally, if you have any feedback, issues, or suggestions, please create an issue in the "Issues" tab.
