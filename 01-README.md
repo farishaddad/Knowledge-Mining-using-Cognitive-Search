@@ -1,10 +1,13 @@
 # Azure Search Workshop - Building an Enterprise Cognitive Search Solution
 
 ## Welcome 
-Cognitive Search is an enrichment pipeline that allows you to find rich structured information from documents. This one day training will focus on hands-on activities that develop proficiency with Cognitive Search, an AI-oriented product announced on [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an introductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), the [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If you are not at that skill level, we have prerequisites materials below that you **need** to complete prior to beginning this training.
+Cognitive search (preview) adds data extraction, natural language processing (NLP), and image processing skills to an Azure Search indexing pipeline, making unsearchable or unstructured content more searchable. Information created by a skill, such as entity recognition or image analysis, gets added to an index in Azure Search.
+
+This one day training will focus on hands-on activities that develop proficiency with Cognitive Search, an Azure Search AI-oriented capability announced at [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an introductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), the [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If you are not at that skill level, we have prerequisites materials below that you **need** to complete prior to beginning this training.
 
 ## Goals
-We will focus on hands-on activities to learn how to create a Cognitive Search solution for all types of business documents. The documents include pdfs, docs, ppts and images, as well as documents with multiple languages. In this training, you will create a cognitive data flow and the enriched information will become part of an Azure Search index. 
+We will focus on hands-on activities to learn how to create a Cognitive Search solution for all types of business documents. The documents include pdfs, docs, ppts and images, as well as documents with multiple languages. 
+In this training, you will create a data flow that uses cognitive skills to enrich your business documents. These enrichments will become part of an Azure Search index. 
 
 At the end of this workshop, you should be able to:
 
