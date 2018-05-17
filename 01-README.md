@@ -1,4 +1,4 @@
-# Azure Cognitive Search Workshop - Building an Enterprise Cognitive Search Solution
+# Azure Search Workshop - Building an Enterprise Cognitive Search Solution
 
 ## Welcome 
 Azure Cognitive Search is an enrichment pipeline that allows you to find rich structured information from documents. This one day training will focus on hands-on activities that develop proficiency with Cognitive Search, an AI-oriented product announced on [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an introductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), the [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If you are not at that skill level, we have prerequisites materials below that you **need** to complete prior to beginning this training.
