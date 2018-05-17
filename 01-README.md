@@ -28,8 +28,8 @@ Since this is an AI training on top of Microsoft Azure Services, before we start
 1. **To Install:** [Visual Studio 2017 version 15.5](https://www.visualstudio.com/vs/) or later, including the Azure development workload.
 1. **To Install:** [Postman](https://www.getpostman.com/) or [Fiddler](https://www.telerik.com/download/fiddler) 
 
-Fiddler and Postman
-installed to test the APIs we will interact with, so come to the training with one installed. We will use this software to  make REST calls to Azure Search and complete many of the labs. If these tools are new to you, you **need to carefully read** how to [explore Azure Search REST APIs using Fiddler or Postman](https://docs.microsoft.com/en-us/azure/search/search-fiddler) **before** the course. If you're new to Postman/Fiddler, we recommend using Postman, as many of the screenshots and instructions are geared specifically for Postman. That being said, if Fiddler is your tool of choice or you are more comfortable with it, you shouldn't have any problems completing the lab.
+> [!TIP]
+> Fiddler and Postman are used to call the Azure Search APIs we will interact with, so come to the training with one installed. If you're new to Postman/Fiddler, we recommend using Postman, as many of the screenshots and instructions are geared specifically for Postman. That being said, if Fiddler is your tool of choice or you are more comfortable with it, you shouldn't have any problems completing the lab.
 
 
 
