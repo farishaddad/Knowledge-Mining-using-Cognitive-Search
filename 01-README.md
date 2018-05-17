@@ -17,7 +17,7 @@ At the end of this workshop, you should have learned:
 + **Why** this solutoin can help you with demos, POCs and other business scenarios
 
 ## Prerequisites
-Since this is an AI training on top of Microsoft Azure Services, there are a few things you need to do before we start.
+Since this is an AI training on top of Microsoft Azure Services, before we start you need to:
 
 1. **To Read:** This [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/visual-studio-ide) quick introduction
 1. **To Read:** This [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) quick introduction 
