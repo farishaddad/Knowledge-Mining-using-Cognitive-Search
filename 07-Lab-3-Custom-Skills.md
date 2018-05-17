@@ -334,6 +334,9 @@ Skipping the services and the data source creation, repeat the other steps of th
 ### Step 8
 Now we have our data enriched with pre-defined and custom skills. Now we just need to learn how to [query the data using Azure Portal](https://docs.microsoft.com/en-us/azure/search/search-explorer). Since you know the entities and the key phrases of the documents, try to search for them. 
 
+![](media/Portal-Search.png =800x)
+
+
 ## Finished Solution
 If you could not make it, [here](Finished-Solution-Lab-3.md) is the challenge solution. You just need to follow the steps.
 
