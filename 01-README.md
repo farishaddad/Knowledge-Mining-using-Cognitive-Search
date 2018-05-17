@@ -12,8 +12,9 @@ In this training, you will create a data flow that uses cognitive skills to enri
 At the end of this workshop, you should have learned:
 
 + **What** Cognitive Search is 
-+ **How** to implement this Cognitive Search Solution
 + **Why** this solution can help with demos, POCs and other business scenarios
++ **How** to implement this Cognitive Search Solution
+
 
 ## Prerequisites
 Since this is an AI training on top of Microsoft Azure Services, before we start you need:
