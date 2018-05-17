@@ -13,7 +13,7 @@ At the end of this workshop, you should have learned:
 
 + **What** Cognitive Search is 
 + **How** to implement and **when** to use this Cognitive Search Solution
-+ **Why** this solutoin can help you with demos, POCs and other business scenarios
++ **Why** this solution can help you with demos, POCs and other business scenarios
 
 ## Prerequisites
 Since this is an AI training on top of Microsoft Azure Services, before we start you need:
