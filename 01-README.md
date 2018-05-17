@@ -11,7 +11,7 @@ At the end of this workshop, you should be able to:
 + Understand what Cognitive Search is
 + Understand what this solution does and how it can be used, including the capability to process any unstructured data
 + Implement Cognitive Search enrichment pipelines
-+ Learn how to search business documents with cognitive skills
++ Learn how to search business documents enriched with cognitive skills
 + Use the materials as a tool for demos, POCs and other business scenarios
 
 ## Prerequisites
