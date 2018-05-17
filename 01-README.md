@@ -24,7 +24,7 @@ Since this is an AI training on top of Microsoft Azure Services, before we start
 1. **To Read:** This [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) quick introduction 
 1. **To Read:** This [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search) overview
 1. **To Read:** This [Using Fiddler and Postman](https://docs.microsoft.com/en-us/azure/search/search-fiddler) tutorial
-1. **To Watch:** This short Microsoft Virtual Academy [course on C#](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949) if you don't have prior experience with C#.
+1. **To Watch:** This short Microsoft Virtual Academy [course on C#](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949)
 
 + **Mandatory**
 1. **To Create:** You need a Microsoft Azure account to create the services we use in our solution. You can create a [free account](https://azure.microsoft.com/en-us/free/), use your [MSDN account](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/) or use any other subscription where you have permission to create services.
