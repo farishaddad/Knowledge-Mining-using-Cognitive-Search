@@ -12,7 +12,7 @@ In this training, you will create a data flow that uses cognitive skills to enri
 At the end of this workshop, you should have learned:
 
 + **What** Cognitive Search is 
-+ **How** to implement and **when** to use this Cognitive Search Solution
++ **How** to implement this Cognitive Search Solution
 + **Why** this solution can help you with demos, POCs and other business scenarios
 
 ## Prerequisites
