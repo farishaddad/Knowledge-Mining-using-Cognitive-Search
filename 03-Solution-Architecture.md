@@ -8,12 +8,12 @@ This solution uses a variety of pre-built cognitive skills and extend the featur
 
 ## Use Case
 
-Every company has unstructured data, their business documents, making this solution useful for all your clients. Often, employees have various reasons they may want to search on the unstructured data that accumulates. 
-This is a common business scenario which usually has limited search results, because of a lack of metadata as the example you can see in the image below. 
+Every company has business documents. Usually these documents lack metadata necessary to be searchable. Cognitive Search uses the most advanced cognitive capabilities, based on Microsoft's AI Platform, to extract and create enriched metadata about your documents, vastly improving the overall search experience.
+
+
 
 ![](media/no-meta.png =400x)
 
-**Cognitive Search uses the most advanced cognitive services, based on Microsoft's AI Platform, to extract and create enriched metadata about your documents, vastly improving the overall search experience.** 
 
 Unless instructed otherwise, in this training you will use a sample dataset that contains documents of different formats (docs, pdfs, images, ppts, etc.) and languages.  
 
@@ -30,7 +30,6 @@ Unless instructed otherwise, in this training you will use a sample dataset that
 
 ## Architecture
 
-This simple architecture allows us to focus on the technology and, at the same time, brings flexibility for multiple uses.
 
 ![](media/architecture.png =1080x)
 
