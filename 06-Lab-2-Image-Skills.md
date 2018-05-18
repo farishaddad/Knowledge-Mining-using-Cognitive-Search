@@ -90,7 +90,7 @@ Content-Type: application/json
 **TIP 4:** Your indexer sourceFieldName for the OCR text field has to be /document/normalized_images/*/myOcrText if your field is named myOcrText.  
 
 ## Finished Solution
-If you could not make it, [here](Finished-Solutoin-Lab-2.md) is the challenge solution. You just need to follow the steps.
+If you could not make it, [here](Finished-Solution-Lab-2.md) is the challenge solution. You just need to follow the steps.
 
 ## Next Step
 + [Lab 3](07-Lab-3-Custom-Skills.md) or [Back to Main Menu](01-readme.md)
