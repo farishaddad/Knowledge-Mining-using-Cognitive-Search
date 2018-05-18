@@ -13,7 +13,9 @@ This is a common business scenario which usually has limited search results, bec
 
 ![](media/no-meta.png =400x)
 
-**Cognitive Search uses the most advanced cognitive services, based on Microsoft's AI Platform, to extract and create enriched metadata about your documents, vastly improving the overall search experience.** Unless instructed otherwise, you will use a sample dataset that contains documents of different formats (docs, pdfs, images, ppts, etc.) and languages.  
+**Cognitive Search uses the most advanced cognitive services, based on Microsoft's AI Platform, to extract and create enriched metadata about your documents, vastly improving the overall search experience.** 
+
+Unless instructed otherwise, in this training you will use a sample dataset that contains documents of different formats (docs, pdfs, images, ppts, etc.) and languages.  
 
 
 
