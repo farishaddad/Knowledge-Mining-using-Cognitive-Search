@@ -8,7 +8,7 @@ For documents in english we will replicate the original text in the output, so w
 
 ## Step 1 - Extra Prerequisite
 
-+ [Sign up for the Translator Text API](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-text-how-to-signup), and get an API key to consume it.
++ [Sign up for the Translator Text API](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-text-how-to-signup), and get an API key to use  it later in this lab.
 
 
 ## Step 2 - Create an Azure Function
