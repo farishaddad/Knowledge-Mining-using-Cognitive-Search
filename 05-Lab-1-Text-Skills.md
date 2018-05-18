@@ -4,17 +4,21 @@ In this lab, you will learn the mechanics of programming data enrichment in Azur
 
 **All the links in this lab are extra content for your learning, but you don't need them to perform the required activities.**
 
-In this lab, you make REST API calls to perform following tasks:
+In this lab, we will learn how to create a Cognitive Search indexing pipeline that enriches source data in route to an index. The output is a full text searchable index on Azure Search. 
 
-* Create an indexing pipeline that enriches source data in route to an index
-* Use built-in entity recognition, language detection, text manipulation, and key phrase extraction skills on a sample data set
-* Learn how to chain skills together by mapping inputs to outputs in a skillset
-* Execute requests and review results
-* Reset the index and indexers for further development
 
-Output is a full text searchable index on Azure Search. 
+The list of activities we will do, using Azure Search REST APIs, is:
 
->TIP for Later: You can enhance the index with other standard capabilities, such as [synonyms](https://docs.microsoft.com/en-us/azure/search/search-synonyms), [scoring profiles](https://docs.microsoft.com/rest/api/searchservice/add-scoring-profiles-to-a-search-index), [analyzers](https://docs.microsoft.com/en-us/rest/api/searchservice/custom-analyzers-in-azure-search), and [filters](https://docs.microsoft.com/en-us/azure/search/search-filters).
++ Create a data source for the uploaded data.
++ Create a Cognitive Search Skillset with entity recognition, language detection, text manipulation and key phrase extraction.
++ Create an index to store the enriched metadata.
++ Create an indexer processo to execute the enrichment.
++ Check the indexer status
++ Check the enriched metadata
++ Query specicic metadata
+
+
+>TIP for Later: You can enhance the index with other Azure Search standard capabilities, such as [synonyms](https://docs.microsoft.com/en-us/azure/search/search-synonyms), [scoring profiles](https://docs.microsoft.com/rest/api/searchservice/add-scoring-profiles-to-a-search-index), [analyzers](https://docs.microsoft.com/en-us/rest/api/searchservice/custom-analyzers-in-azure-search), and [filters](https://docs.microsoft.com/en-us/azure/search/search-filters).
 
 ## Step 1 - Create a data source
 
