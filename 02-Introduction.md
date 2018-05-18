@@ -1,11 +1,11 @@
 # Introduction
 
-In this section, we'll set the stage for the rest of the course. We'll start by talking about the motivation behind a cognitive search type of solution and what types of scenarios might call for it. Additionally, we'll give an overview of what Microsoft's Cognitive Search solution is and some of the key concepts you'll need understand before we go forward with the solution and labs.
+In this section, we'll set the stage for the rest of the course. We'll start by talking about the motivation behind a cognitive search type of solution and what types of scenarios might call for it. Additionally, we'll give an overview of what a Microsoft's Cognitive Search solution is and some of the key concepts you'll need understand before we go forward with the solution and labs.
 
 ## Motivation and context
 
 ### Azure Search
-Developers are constantly looking for PaaS services in Azure (and elsewhere) to achieve better and faster results in the applications they build. While search is a key to many types of applications, few people are subject matter experts. From an infrastructure standpoint, it needs to have high availability, durability, scale, and operations. From a functionality standpoint, it needs to have ranking, language support, and geospatial capabilities. On top of that, web search engines have set the bar high for search. Users expect: instant results, auto-complete as they type, highlighting hits within the results, great ranking, and the ability to understand what they are looking for, even if they spell it incorrectly or include extra words.
+Developers are constantly looking for PaaS services in Azure to achieve better and faster results in the applications they build. While search is key to many types of applications, few people are subject matter experts. From an infrastructure standpoint, it needs to have high availability, durability and scalability. From a functionality standpoint, it needs to have ranking, language support, and geospatial capabilities. Users have come to expect instant results, auto-complete as they type, highlighting hits within the results, great ranking, and the ability to understand what they are looking for, even if they spell it incorrectly or include extra words.
 
 ![](media/AzureSearch-Example.png =800x)
 
@@ -14,10 +14,9 @@ The example above illustrates some of the components users are expecting in thei
 
 You're probably familiar with other search-related solutions like the [Bing Web Search API](https://docs.microsoft.com/azure/cognitive-services/bing-web-search/), [Bing Custom Search](https://docs.microsoft.com/azure/cognitive-services/bing-custom-search/), [SQL Server full text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search), or even creating dedicated search solutions.. You can see how Azure Search compares to the other solutions [here](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search#how-azure-search-compares).
 
-While this is great, there may come a time when you need more than what the [base Azure Search service provides](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search#feature-summary): intelligence. 
 ### Cognitive Search
 
-Cognitive Search adds intelligence to your indexing workloads. Workloads often have unstructured text or non-text content (such as images or scanned document files) - wouldn't it be better if you could still search on them? Cognitive Search is able to extract text-based content, and then cognitive skills can be used to apply entity recognition, language detection, sentiment analysis, OCR (recognize handwriting), and more to your search service. You can also use cognitive skills to analyze images to identify content, famous people or landmarks, and descriptions - and search on that!  
+Cognitive Search adds intelligence to your indexing workloads. Workloads often have unstructured text or non-text content (such as images or scanned document files) - wouldn't it be better if you could still search on them? Cognitive Search is able to extract text-based content, and then cognitive skills can be used to apply entity recognition, language detection, sentiment analysis, OCR (recognize handwriting), and more to your content. You can also use cognitive skills to analyze images to identify content, famous people or landmarks, and descriptions - and search on that!  
 
 Let's think about a specific example, the assassination of John F. Kennedy by Lee Harvey Oswald. Over the last 40-50 years, there has been significant controversy around the JFK files. Recently, over 50,000 documents were released related to the case. Now, let's say we want to analyze these documents and get to the bottom of what really happened that day in November 1963. It's an unreasonable request (or very time-consuming, depending on your opinion) for us to read all of those documents. With Azure Search, we can search text in some of the documents. But what else might we want to do? And can using Cognitive Search help us?  
 
