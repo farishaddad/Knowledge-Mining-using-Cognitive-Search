@@ -6,7 +6,7 @@ We will use an [Azure Function](https://azure.microsoft.com/services/functions/)
 
 For documents in english we will replicate the original text in the output, so we can search only one field of our index. Another important detail, this function output is **Edm.String**, so we need to use the same type in the index definition.  
 
-## Step 1 - Extra Prerequisite
+## Step 1 - Translator Text API
 
 + [Sign up for the Translator Text API](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-text-how-to-signup), and get an API key to use  it later in this lab.
 
