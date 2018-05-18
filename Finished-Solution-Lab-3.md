@@ -276,7 +276,6 @@ Content-Type: application/json
 ```
 
 ## Next Step
-[Back to Labs Menu](README.md)
-
+[Back to Main Menu](01-readme.md)
 
 
