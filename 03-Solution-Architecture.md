@@ -32,7 +32,7 @@ Unless instructed otherwise, in this training you will use a sample dataset that
 
 This simple architecture allows us to focus on the technology and, at the same time, brings flexibility for multiple uses.
 
-![](media/architecture.png)
+![](media/architecture.png =1080x)
 
 Please note that:
 
