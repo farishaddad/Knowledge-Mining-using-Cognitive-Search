@@ -15,8 +15,6 @@ Every company has business documents. Usually these documents lack metadata nece
 ![](media/no-meta.png =400x)
 
 
-Unless instructed otherwise, in this training you will use a sample dataset that contains documents of different formats (docs, pdfs, images, ppts, etc.) and languages.  
-
 
 
 > Note: Since we are working with unstructured data, any set of files can be used. In other words, this could be a **Bring Your Own Data** solution; you can test later with any dataset you want.  
