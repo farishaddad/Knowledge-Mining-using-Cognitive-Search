@@ -42,7 +42,7 @@ Please note that:
 4. We will use Azure Search query capabilities to analyze the results.
 
 ## Costs
-This is a **high level** analysis, to be used only as a reference, based on the [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) and on the provided dataset. There are many details that will change your final price like region, taxes, discounts, EA and partner fee. The costs will stop being incurred as soon as you delete the services. Another option is to generate templates of everything and create a process to deploy it all on demand, paying for only the minutes that the services existed.
+This is a **high level** analysis, to be used only as a reference, based on the [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) and on the provided dataset. Many other details will change your final price, like region, taxes, discounts, EA and partner fee. The costs will stop being incurred as soon as you delete the services. Another option is to generate templates of everything and create a process to deploy it all on demand, paying for only the minutes that the services existed.
 
 | Item |Cost per day - USD$ | Cost per month - USD$ | Description
 |-------|----------|----------|----------|
