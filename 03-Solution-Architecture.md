@@ -9,7 +9,7 @@ This solution uses a variety of pre-built cognitive skills and extend the featur
 ## Use Case
 
 Every company has unstructured data, their business documents, making this solution useful for all your clients. Often, employees have various reasons they may want to search on the unstructured data that accumulates. 
-This is a common business scenario which usually has limited search results, because of a lack of metadata and existence of AI processing to analyze the content. 
+This is a common business scenario which usually has limited search results, because of a lack of metadata as the example you can see in the image below. 
 
 ![](media/no-meta.png =400x)
 
