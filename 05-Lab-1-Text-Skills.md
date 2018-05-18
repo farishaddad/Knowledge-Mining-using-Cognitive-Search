@@ -12,7 +12,9 @@ In this lab, you make REST API calls to perform following tasks:
 * Execute requests and review results
 * Reset the index and indexers for further development
 
-Output is a full text searchable index on Azure Search. You can enhance the index with other standard capabilities, such as [synonyms](https://docs.microsoft.com/en-us/azure/search/search-synonyms), [scoring profiles](https://docs.microsoft.com/rest/api/searchservice/add-scoring-profiles-to-a-search-index), [analyzers](https://docs.microsoft.com/en-us/rest/api/searchservice/custom-analyzers-in-azure-search), and [filters](https://docs.microsoft.com/en-us/azure/search/search-filters).
+Output is a full text searchable index on Azure Search. 
+
+>TIP for Later: You can enhance the index with other standard capabilities, such as [synonyms](https://docs.microsoft.com/en-us/azure/search/search-synonyms), [scoring profiles](https://docs.microsoft.com/rest/api/searchservice/add-scoring-profiles-to-a-search-index), [analyzers](https://docs.microsoft.com/en-us/rest/api/searchservice/custom-analyzers-in-azure-search), and [filters](https://docs.microsoft.com/en-us/azure/search/search-filters).
 
 ## Step 1 - Create a data source
 
