@@ -1,9 +1,9 @@
-#Finished Solution for LAB 2
+# Finished Solution for Lab 3
 Hello!
 
-Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to use your Azure Search service name.
+Here are the body requests for the solution to Lab 3. Don't forget to adjust the URLs to use your Azure Search service name.
 
-##Skillset
+## Skillset
 ```json
 {
   "description": 
@@ -81,7 +81,7 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
     {
         "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
         "description": "Our new translator custom skill",
-        "uri": "http://translatecogsrch.azurewebsites.net/api/Translate?code=[enter default host key here]",
+        "uri": "https://[enter function name here].azurewebsites.net/api/Translate?code=[enter default host key here]",
         "batchSize":1,
         "context": "/document",
         "inputs": [
@@ -105,12 +105,12 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
 }
 ````
 
-##Index
+## Index
 ```json
 {
     "@odata.context": "https://<your-azure-search>.search.windows.net/$metadata#indexes/$entity",
     "@odata.etag": "\"0x8D5B9CB96002CA5\"",
-    "name": "rodindex2",
+    "name": "demoindex",
     "fields": [
         {
             "name": "id",
@@ -184,7 +184,7 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
         },
         {
             "name": "translatedText",
-            "type": "Collection(Edm.String)",
+            "type": "Edm.String",
             "searchable": true,
             "filterable": false,
             "retrievable": true,
@@ -207,13 +207,13 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
     "charFilters": []
 }
 ```
-##Indexer
+## Indexer
 ```json
 {
-  "name":"rodindexer2",	
+  "name":"demoindexer",	
   "dataSourceName" : "demodata",
-  "targetIndexName" : "rodindex2",
-  "skillsetName" : "rodskillset2",
+  "targetIndexName" : "demoindex",
+  "skillsetName" : "demoskillset",
   "fieldMappings" : [
         {
           "sourceFieldName" : "metadata_storage_path",
@@ -241,7 +241,7 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
             "targetFieldName": "languageCode"
         },
          {
-            "sourceFieldName": "/document/Text",
+            "sourceFieldName": "/document/translatedText",
             "targetFieldName": "translatedText"
         }    
   ],
@@ -259,7 +259,7 @@ Here are the body requests for LAB 3 solution. Don't forget to ajust the URLs to
 ```
 
 
-##Check Status
+## Check Status
 
 ```http
 GET https://[servicename].search.windows.net/indexers/demoindexer/status?api-version=2017-11-11-Preview
@@ -267,7 +267,7 @@ api-key: [api-key]
 Content-Type: application/json
 ```
 
-##Check the OCR Content extracted
+## Check the Translated Content extracted
 
 ```http
 GET https://[servicename].search.windows.net/indexes/demoindex/docs?search=*&$select=translatedText&api-version=2017-11-11-Preview
@@ -275,6 +275,7 @@ api-key: [api-key]
 Content-Type: application/json
 ```
 
-
+## Next Step
+[Back to Main Menu](01-readme.md)
 
 
