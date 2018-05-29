@@ -377,6 +377,6 @@ You can use GET or POST, depending on query string complexity and length. For mo
 <a name="access-enriched-document"></a>
 
 ## Next Step
-[Lab 2](06-Lab-2-Image-Skills.md) or
-[Back to Main Menu](01-readme.md)
+[Lab 2](05-Lab-2-Image-Skills.md) or
+[Back to Main Menu](readme.md)
 

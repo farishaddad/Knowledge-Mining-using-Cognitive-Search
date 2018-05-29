@@ -13,7 +13,7 @@ Use this [link](https://docs.microsoft.com/en-us/azure/cognitive-services/transl
 
 ## Step 2 - Create an Azure Function
 
-Although this example uses an Azure Function to host a web API, it is not required.  As long as you meet the [interface requirements for a cognitive skill](cognitive-search-custom-skill-interface.md), the approach you take is immaterial. Azure Functions, however, make it easy to create a custom skill.
+Although this example uses an Azure Function to host a web API, it is not required.  As long as you meet the [interface requirements for a cognitive skill](https://docs.microsoft.com/en-us/azure/search/cognitive-search-custom-skill-interface), the approach you take is immaterial. Azure Functions, however, make it easy to create a custom skill.
 
 ### Step 3 - Create a function app
 
@@ -340,8 +340,8 @@ Check the image below to see how Azure Search returns the metadata about your da
 
 
 ## Finished Solution
-If you could not make it, [here](Finished-Solution-Lab-3.md) is the challenge solution. You just need to follow the steps.
+If you could not make it, [here](10-Finished-Solution-Lab-3.md) is the challenge solution. You just need to follow the steps.
 
 
 ## Next Step
-[Back to Labs Menu](readme.md)
+[Final Case](07-Final-Case.md) or [Back to Labs Menu](readme.md)

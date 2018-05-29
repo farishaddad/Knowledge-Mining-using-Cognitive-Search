@@ -69,4 +69,4 @@ We'll do that by walking through the ["What is Cognitive Search?" documentation]
 Throughout the course, we'll go through implementing a Cognitive Search solution for a specific use case, which we'll cover in the next section.
 
 ## Next Step
-+ [Solution Architecture](03-Solution-Architecture.md) or [Back to Main Menu](01-readme.md)
++ [Solution Architecture](02-Solution-Architecture.md) or [Back to Main Menu](readme.md)
