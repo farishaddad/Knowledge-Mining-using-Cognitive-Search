@@ -12,7 +12,7 @@ Every company has business documents. Usually these documents lack metadata nece
 
 
 
-![](media/no-meta.png =400x)
+![](./media/no-meta.png =400x)
 
 
 
@@ -29,7 +29,7 @@ Every company has business documents. Usually these documents lack metadata nece
 ## Architecture
 
 
-![](media/architecture.png =1080x)
+![](./media/architecture.png =1080x)
 
 Please note that:
 
@@ -54,7 +54,7 @@ That's the order of magnitude of the costs. In addition to all the factors cited
 ## Interfaces
 After initial upload of the files to blob storage,  we will use Fiddler or Postman for [REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler). The image below shows a visual example of Postman being used for Cognitive Search.
 
-![](media/postman.png =800x)
+![](./media/postman.png =800x)
 
 It is important to notice some details about these tools (Fiddler and Postman):
 + You can save your commands, which is useful for reuse, not only within this workshop, but also in your future projects.
