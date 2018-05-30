@@ -1,5 +1,5 @@
-title: Learn AI Materials on Artificial Intelligence on IaaS++
-description: Microsoft labs for learning how to build AI solutions leveraging Infrastructure-as-a-service (IaaS) through Platform-as-a-service environments.
+title: Learn AI Materials on Cognitive Search
+description: Microsoft labs for learning how to build AI solutions using Cognitive Search.
 show_downloads: true
 theme: jekyll-theme-cayman
-repository: Azure/LearnAI-AIonIaaS
+repository: Azure/LearnAI-Cognitive-Search
