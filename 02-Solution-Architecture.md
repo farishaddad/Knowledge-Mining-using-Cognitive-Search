@@ -12,7 +12,7 @@ Every company has business documents. Usually these documents lack metadata nece
 
 
 
-![](./media/no-meta.png =400x)
+![](./media/no-meta.PNG)
 
 
 
