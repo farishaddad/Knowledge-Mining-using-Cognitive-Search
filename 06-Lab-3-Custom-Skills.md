@@ -336,7 +336,7 @@ Now we have our data enriched with pre-defined and custom skills. Now we just ne
 
 Check the image below to see how Azure Search returns the metadata about your data. This image also helps to understand how to use the Search Explorer at the Azure Portal.
 
-![](media/Portal-Search.png =800x)
+![](./media/Portal-Search.PNG)
 
 
 ## Finished Solution
