@@ -56,13 +56,13 @@ After initial upload of the files to blob storage,  we will use Fiddler or Postm
 
 ![](./media/postman.PNG)
 
-It is important to notice some details about these tools (Fiddler and Postman):
-+ You can save your commands, which is useful for reuse, not only within this workshop, but also in your future projects.
-+ You need to create a free account. A confirmation message is emailed to you.
-+ You can export all your commands into json format. This file can then be saved into the storage account of the lab, into a cloud storage like OneDrive, or anywhere you like. This process helps you save, share, and reuse your work.
-+ These return codes indicate success after an API call request: 200, 201 and 204. 
-+ Error messages and warnings are very clear.
-+ Besides the API URL and call type, we will use GET/PUT/POST (depending on what action we are taking), and you need to use the header for Content-Type and api-key. The json commands must be placed into the "body / raw" area. If you are struggling using Postman/Fiddler, here's a friendly reminder to [review the resource from the prerequisites](https://docs.microsoft.com/en-us/azure/search/search-fiddler).
+> Note: Important details about these tools (Fiddler and Postman):
+> + You can save your commands, which is useful for reuse, not only within this workshop, but also in your future projects.
+> + You need to create a free account. A confirmation message is emailed to you.
+> + You can export all your commands into json format. This file can then be saved into the storage account of the lab, into a cloud storage like OneDrive, or anywhere you like. This process helps you save, share, and reuse your work.
+> + These return codes indicate success after an API call request: 200, 201 and 204. 
+> + Error messages and warnings are very clear.
+> + Besides the API URL and call type, we will use GET/PUT/POST (depending on what action we are taking), and you need to use the header for Content-Type and api-key. The json commands must be placed into the "body / raw" area. If you are struggling using Postman/Fiddler, here's a friendly reminder to [review the resource from the prerequisites](https://docs.microsoft.com/en-us/azure/search/search-fiddler).
 
 
 ## Next step
