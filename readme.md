@@ -59,6 +59,7 @@ If you don't want to keep the solution up and running for future use, you should
 + [Microsoft AI Ethics](https://aka.ms/ai-ethics)
 + [Microsoft AI Customer Cases](https://www.microsoft.com/en-us/ai/customer-stories)
 + [Microsoft AI Lab](https://www.ailab.microsoft.com/) **-> Released on May, 2018**
++ [Microsoft AI TV](https://aka.ms/AzureTV) **-> Released on May, 2018**
 + [Azure Search Portal](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search)
 + [Cognitive Search Official Demo - JFK Files](https://jfk-demo.azurewebsites.net/)
 + [Cognitive Search Official Code - JFK Files](https://github.com/Microsoft/AzureSearch_JFK_Files)
