@@ -39,17 +39,18 @@ Please note that:
 4. We will use Azure Search query capabilities to analyze the results.
 
 ## Costs
-This is a **high level** analysis, to be used only as a reference, based on the [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) and on the provided dataset. Many other details will change your final price, like region, taxes, discounts, EA and partner fee. The costs will stop being incurred as soon as you delete the services. Another option is to generate templates of everything and create a process to deploy it all on demand, paying for only the minutes that the services existed.
+Here you can see a list of the resources used in this training. The [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) can be used for a pricing estimation. 
+Prices are estimates and are not intended as actual price quotes. Actual prices may vary depending upon the date of purchase, currency of payment, and type of agreement you enter with Microsoft. Contact a Microsoft sales representative for additional information on pricing.
+**The estimated daily cost of this training, with the provided data source, is close to 15,00.**  
 
-| Item |Cost per day - USD$ | Cost per month - USD$ | Description
-|-------|----------|----------|----------|
-| Blob Storage | 0.03 | 1.16 |To store the documents |
-| Azure Search | 2.42 | 72.72 | To execute all cognitive processing - Basic Tier |
-| Azure Functions | 0.20 | 0.20 | To host the custom cognitive service we will create |
-| Cognitive Services | 0.00 | 0.00 | To execute the custom cognitive service - Free tier | 
-| Total | 2.65 | 74.08 |  | 
 
-That's the order of magnitude of the costs. In addition to all the factors cited above, prices can still be readjusted. Up or down, which has been the most common. For the exact price, look for your reseller or Account manager.
+| Item | Detail | Description
+|-------|----------|----------|
+| Blob Storage | 20 MB |To store the documents |
+| Azure Search | Basic Tear: 16 documents, 1 index | To execute all cognitive processing |
+| Azure Functions | Up to 100 executions| To host and execute the custom cognitive service we will create |
+| Cognitive Services | Up to 100 executions, 1000 seconds | To execute the custom cognitive service | 
+
 
 ## Interfaces
 After initial upload of the files to blob storage,  we will use Fiddler or Postman for [REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler). The image below shows a visual example of Postman being used for Cognitive Search.
