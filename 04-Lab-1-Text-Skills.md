@@ -15,7 +15,7 @@ The list of activities we will do, using Azure Search REST APIs, is:
 + Create an indexer processo to execute the enrichment.
 + Check the indexer status
 + Check the enriched metadata
-+ Query specicic metadata
++ Query the metadata
 
 
 >TIP for Later: You can enhance the index with other Azure Search standard capabilities, such as [synonyms](https://docs.microsoft.com/en-us/azure/search/search-synonyms), [scoring profiles](https://docs.microsoft.com/rest/api/searchservice/add-scoring-profiles-to-a-search-index), [analyzers](https://docs.microsoft.com/en-us/rest/api/searchservice/custom-analyzers-in-azure-search), and [filters](https://docs.microsoft.com/en-us/azure/search/search-filters).
