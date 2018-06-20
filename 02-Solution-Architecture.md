@@ -39,8 +39,9 @@ Please note that:
 4. We will use Azure Search query capabilities to analyze the results.
 
 
-## Demo
-[Here](https://text-analytics-demo-dev.azurewebsites.net/) is an interesting demo of the Cognitive Search Pipeline, similar to what will be implented. It is useful to understand how a cognitive skill output is input for another one, in the same pipeline.
+## Demo - Cognitive Search Pipeline
+
+The [AI Sandbox](https://text-analytics-demo-dev.azurewebsites.net/) is an interesting demo of the Cognitive Search Pipeline, similar to what will be implented. It is useful to understand how a cognitive skill output is input for another one, in the same pipeline.
 This demo is public and you can use with clients and partners.
 
 
