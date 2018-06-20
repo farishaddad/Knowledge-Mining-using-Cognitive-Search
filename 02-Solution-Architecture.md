@@ -38,6 +38,11 @@ Please note that:
 3. We will start with a few simple skills and add more complex Cognitive Skills in labs 2 and 3.
 4. We will use Azure Search query capabilities to analyze the results.
 
+
+## Demo
+[Here](https://text-analytics-demo-dev.azurewebsites.net/) is an interesting demo of the Cognitive Search Pipeline, similar to what will be implented. This demo is public and you can use with clients and partners.
+
+
 ## Costs
 Here you can see a list of the resources used in this training. The [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) can be used for a pricing estimation. 
 Prices are estimates and are not intended as actual price quotes. Actual prices may vary depending upon the date of purchase, currency of payment, and type of agreement you enter with Microsoft. Contact a Microsoft sales representative for additional information on pricing.
