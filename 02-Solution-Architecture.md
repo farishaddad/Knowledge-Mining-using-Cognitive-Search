@@ -9,9 +9,19 @@ This solution uses a variety of pre-built cognitive skills and extend the featur
 ## Use Case
 
 Every company has business documents: contracts, memos, presentations, images, spreadsheets. Usually these documents lack metadata necessary to be searchable, **as you can see in the image below**. 
-Cognitive Search uses the most advanced cognitive capabilities, based on Microsoft's AI Platform, to extract and create enriched metadata about your documents, vastly improving the overall search experience.
+Cognitive Search uses the most advanced cognitive capabilities, based on Microsoft's AI Platform, to extract and create enriched metadata about your documents, 
+vastly improving the overall search experience.
 
-This Lab solution addresses this problems, extracting insights from multiple documents formats and languages.
+Enterprises may need to search for:
+
++ Words like "risk" and "fraud" in pdf/word contracts, when they are 10 or less words distant one from the other.
++ Specific people or objects in images.
++ Document content instead of its name, the only option for the situation of the image below.
++ Entities like companies or technologies in memos or reports.
++ Compliance violations like forbidden words or phrases in any document or image.
++ Forms content, handwritten or not.
+
+This Cognitive Search solution addresses these problems, extracting insights from multiple documents formats and languages.
 
 
 
