@@ -8,7 +8,10 @@ This solution uses a variety of pre-built cognitive skills and extend the featur
 
 ## Use Case
 
-Every company has business documents. Usually these documents lack metadata necessary to be searchable. Cognitive Search uses the most advanced cognitive capabilities, based on Microsoft's AI Platform, to extract and create enriched metadata about your documents, vastly improving the overall search experience.
+Every company has business documents: contracts, memos, presentations, images, spreadsheets. Usually these documents lack metadata necessary to be searchable. Cognitive Search uses the most advanced cognitive capabilities, based on Microsoft's AI Platform, 
+to extract and create enriched metadata about your documents, vastly improving the overall search experience.
+
+This Lab solution addresses this problems, extracting insights from multiple documents formats and languages.
 
 
 
