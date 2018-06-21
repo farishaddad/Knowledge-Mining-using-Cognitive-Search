@@ -90,7 +90,7 @@ One of the stored information is the file location, allowing users to visualize,
 
 
 ## Lab Tools for APIs
-After the initial data upload to blob storage, we will use Postman for [REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler). The image below shows a visual example of Postman being used for Cognitive Search.
+After the initial data upload to blob storage, we will use Postman for [REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler). You can use any other REST API tool that can formulate and send HTTP requests, but we suggest you to use Postman since the trainig was created with/for it. The image below shows a visual example of Postman being used for Cognitive Search.
 
 ![](./media/postman.PNG)
 
