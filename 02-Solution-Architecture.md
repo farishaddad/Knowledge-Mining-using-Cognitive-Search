@@ -60,12 +60,13 @@ Prices are estimates and are not intended as actual price quotes. Actual prices 
 
 ## Information Delivery - User Interface
 The enriched metadadata created by the Cognitive Search Pipeline is always loaded to an Azure Search Index. **How the final users would benefit from that?** 
-Web and Mobile applications can search this index using the [Azure Search .net SDK](https://docs.microsoft.com/en-us/azure/search/search-query-dotnet) 
+
++ Web and Mobile applications can search this index using the [Azure Search .net SDK](https://docs.microsoft.com/en-us/azure/search/search-query-dotnet) 
 or the [Azure Search Rest API](https://docs.microsoft.com/en-us/azure/search/search-query-rest-api). 
 
-Another option is a [Search Bot](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-search-azure?view=azure-bot-service-3.0), a CaaP (Conversation as a Platform) interface for interactive search using NLP (Natural Language Processing).
++ Another option is a [Search Bot](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-search-azure?view=azure-bot-service-3.0), a CaaP (Conversation as a Platform) interface for interactive search using NLP (Natural Language Processing).
 
-The Microsoft Learn AI team has a 2 days [Bootcamp Training](https://azure.github.io/LearnAI-Bootcamp/emergingaidev_bootcamp) that shows you how to create an intelligent bot with Azure Search and Cognitive Services.
+> The Microsoft Learn AI team has a 2 days [Bootcamp Training](https://azure.github.io/LearnAI-Bootcamp/emergingaidev_bootcamp) that shows you how to create an intelligent bot with Azure Search and Cognitive Services.
 
 
 ## Lab Tools for APIs
@@ -73,7 +74,7 @@ After the initial data upload to blob storage, we will use Fiddler or Postman fo
 
 ![](./media/postman.PNG)
 
-> Note: Important details about these tools (Fiddler and Postman):
+> Important details about these tools (Fiddler and Postman):
 > + You can save your commands, which is useful for reuse, not only within this workshop, but also in your future projects.
 > + You need to create a free account. A confirmation message is emailed to you.
 > + You can export all your commands into json format. This file can then be saved into the storage account of the lab, into a cloud storage like OneDrive, or anywhere you like. This process helps you save, share, and reuse your work.
