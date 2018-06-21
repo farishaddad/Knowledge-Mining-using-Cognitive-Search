@@ -81,7 +81,7 @@ or the [Azure Search Rest API](https://docs.microsoft.com/en-us/azure/search/sea
 One of the stored information is the file location, allowing users to visualize, download and open the documents.
 
 + Another option is a [Search Bot](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-search-azure?view=azure-bot-service-3.0), a CaaP (Conversation as a Platform) interface for interactive search using NLP (Natural Language Processing).
-In the image below you can see one example of architecture you can build using Cognitive Search, LUIS and a Bot as user interface.
+**In the image below you can see one example of architecture you can build using Cognitive Search, LUIS and a Bot as user interface**.
 
 ![](./media/just-a-bots-sample-architecture.PNG)
 
