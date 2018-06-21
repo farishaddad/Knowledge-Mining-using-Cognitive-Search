@@ -59,7 +59,7 @@ Prices are estimates and are not intended as actual price quotes. Actual prices 
 | Cognitive Services | Up to 100 executions, 1000 seconds | To execute the custom cognitive service | 
 
 ## Information Delivery - User Interface
-Building an interface is not in the field of this one day training, but we will address the topic by listing the possible options for a Cognitive Search solution.
+Building an interface is not in the scope of this one day training, but we will address the topic by listing the possible options for a Cognitive Search solution.
 
 The enriched metadadata created by the Cognitive Search Pipeline is always loaded to an Azure Search Index. **How the final users would benefit from that?** 
 
