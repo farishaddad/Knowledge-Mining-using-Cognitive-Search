@@ -15,7 +15,7 @@ This Lab solution addresses this problems, extracting insights from multiple doc
 
 
 
-![](./media/no-meta.PNG)
+![Lack of Metadata](./media/no-meta.PNG)
 
 
 
