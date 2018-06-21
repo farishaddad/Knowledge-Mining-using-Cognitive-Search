@@ -58,9 +58,18 @@ Prices are estimates and are not intended as actual price quotes. Actual prices 
 | Azure Functions | Up to 100 executions| To host and execute the custom cognitive service we will create |
 | Cognitive Services | Up to 100 executions, 1000 seconds | To execute the custom cognitive service | 
 
+## Information Delivery - User Interface
+The enriched metadadata created by the Cognitive Search Pipeline is always loaded to an Azure Search Index. **How the final users would benefit from that?** 
+Web and Mobile applications can search this index using the [Azure Search .net SDK](https://docs.microsoft.com/en-us/azure/search/search-query-dotnet) 
+or the [Azure Search Rest API](https://docs.microsoft.com/en-us/azure/search/search-query-rest-api). 
 
-## Interfaces
-After initial upload of the files to blob storage,  we will use Fiddler or Postman for [REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler). The image below shows a visual example of Postman being used for Cognitive Search.
+Another option is a [Search Bot](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-search-azure?view=azure-bot-service-3.0), a CaaP (Conversation as a Platform) interface for interactive search using NLP (Natural Language Processing).
+
+The Microsoft Learn AI team has a 2 days [Bootcamp Training](https://azure.github.io/LearnAI-Bootcamp/emergingaidev_bootcamp) that shows you how to create an intelligent bot with Azure Search and Cognitive Services.
+
+
+## Lab Tools for APIs
+After the initial data upload to blob storage, we will use Fiddler or Postman for [REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler). The image below shows a visual example of Postman being used for Cognitive Search.
 
 ![](./media/postman.PNG)
 
