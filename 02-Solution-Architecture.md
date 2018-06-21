@@ -29,7 +29,7 @@ Every company has business documents. Usually these documents lack metadata nece
 ## Labs Architecture
 
 
-![](./media/architecture.PNG)
+![](./media/new-architecture.PNG)
 
 Please note that:
 
