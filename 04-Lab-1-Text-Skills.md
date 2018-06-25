@@ -12,7 +12,7 @@ The list of activities we will do, using Azure Search REST APIs, is:
 + Create a data source for the uploaded data.
 + Create a Cognitive Search Skillset with entity recognition, language detection, text manipulation and key phrase extraction.
 + Create an index to store the enriched metadata.
-+ Create an indexer processo to execute the enrichment.
++ Create an indexer process to execute the enrichment.
 + Check the indexer status
 + Check the enriched metadata
 + Query the metadata
