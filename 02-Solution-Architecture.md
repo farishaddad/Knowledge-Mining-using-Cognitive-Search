@@ -4,7 +4,7 @@ In this workshop you will learn how to create a Cognitive Search solution for En
 
 Cognitive Search is an Azure Search feature that lets you use artificial intelligence to extract insights and structured information from business documents like pdf, ppt, docx, xls, html and more. We will create pipelines that use cognitive skills to enrich and bring structure to your data before it gets indexed. 
 
-This solution uses a variety of pre-built cognitive skills and extend the feature by adding a custom skills.
+This solution uses a variety of pre-built cognitive skills and extend the feature by adding some custom skills.
 
 ## Use Case
 
