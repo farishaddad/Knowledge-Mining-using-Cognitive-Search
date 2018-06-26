@@ -86,7 +86,7 @@ One of the stored information is the file location, allowing users to visualize,
 ![](./media/just-a-bots-sample-architecture.PNG)
 
 
-> The Microsoft Learn AI Team has a 2 days [Bootcamp Training](https://azure.github.io/LearnAI-Bootcamp/emergingaidev_bootcamp) that shows you how to create an intelligent bot with Azure Search and Cognitive Services.
+> The Microsoft Learn AI Team has a 2 day [Bootcamp Training](https://azure.github.io/LearnAI-Bootcamp/emergingaidev_bootcamp) that shows you how to create an intelligent bot with Azure Search and Cognitive Services.
 
 
 ## Lab Tools for APIs
