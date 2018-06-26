@@ -12,10 +12,10 @@ The list of activities we will do, using Azure Search REST APIs, is:
 + Create a data source for the uploaded data.
 + Create a Cognitive Search Skillset with entity recognition, language detection, text manipulation and key phrase extraction.
 + Create an index to store the enriched metadata.
-+ Create an indexer processo to execute the enrichment.
++ Create an indexer process to execute the enrichment.
 + Check the indexer status
 + Check the enriched metadata
-+ Query specicic metadata
++ Query the metadata
 
 
 >TIP for Later: You can enhance the index with other Azure Search standard capabilities, such as [synonyms](https://docs.microsoft.com/en-us/azure/search/search-synonyms), [scoring profiles](https://docs.microsoft.com/rest/api/searchservice/add-scoring-profiles-to-a-search-index), [analyzers](https://docs.microsoft.com/en-us/rest/api/searchservice/custom-analyzers-in-azure-search), and [filters](https://docs.microsoft.com/en-us/azure/search/search-filters).
@@ -24,7 +24,7 @@ The list of activities we will do, using Azure Search REST APIs, is:
 
 Now that your services and source files are prepared, start assembling the components of your indexing pipeline. We'll begin by creating a [data source object](https://docs.microsoft.com/rest/api/searchservice/create-data-source) that tells Azure Search how to retrieve external source data.
 
-For this tutorial, use the REST API and a tool that can formulate and send HTTP requests, such as Postman or Fiddler. In the request header, provide the service name you used while creating the Azure Search service, and the api-key generated for your search service. In the request body, specify the blob container name and connection string.
+For this tutorial, we will use Postman to call Azure Search service APIs. In the request header, provide the service name you used while creating the Azure Search service, and the api-key generated for your search service. In the request body, specify the blob container name and connection string.
 
 ### Sample Request
 ```http

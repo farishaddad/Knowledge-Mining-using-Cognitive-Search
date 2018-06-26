@@ -1,7 +1,7 @@
 # Azure Search Workshop - Building an Enterprise Cognitive Search Solution
 
 ## Welcome 
-Cognitive Search (preview) adds data extraction, natural language processing (NLP), and image processing skills to an Azure Search indexing pipeline, making previously unsearchable or unstructured content more searchable. Information created by Cognitive Search Skills, such as entity recognition or image analysis, gets added to an index in Azure Search.
+Cognitive Search adds data extraction, natural language processing (NLP), and image processing skills to an Azure Search indexing pipeline, making previously unsearchable or unstructured content more searchable. Information created by Cognitive Search Skills, such as entity recognition or image analysis, gets added to an index in Azure Search.
 
 This one day training will focus on hands-on activities that develop proficiency with Cognitive Search, an Azure Search AI-oriented capability announced at [Microsoft Build 2018](https://www.microsoft.com/en-us/build). These labs assume an introductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), the [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If you are not at that skill level, we have prerequisite materials below that you **need** to complete prior to beginning this training.
 
@@ -29,7 +29,7 @@ Since this is an AI training on top of Microsoft Azure Services, before we start
 + **Mandatory**
 1. **To Create:** You need a Microsoft Azure account to create the services we use in our solution. You can create a [free account](https://azure.microsoft.com/en-us/free/), use your [MSDN account](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/) or use any other subscription where you have permission to create services.
 1. **To Install:** [Visual Studio 2017](https://www.visualstudio.com/vs/) version version 15.5 or later, including the Azure development workload.
-1. **To Install:** [Postman](https://www.getpostman.com/) or [Fiddler](https://www.telerik.com/download/fiddler) 
+1. **To Install:** [Postman](https://www.getpostman.com/).
 
 > Fiddler and Postman are used to call the Azure Search APIs we will interact with, so come to the training with one installed. If you're new to Postman/Fiddler, we recommend using Postman, as many of the screenshots and instructions are geared specifically for Postman. That being said, if Fiddler is your tool of choice or you are more comfortable with it, you shouldn't have any problems completing the lab.
 
@@ -53,16 +53,16 @@ If you don't want to keep the solution up and running for future use, you should
 
 ## Useful Links
 + [Microsoft AI School](https://aischool.microsoft.com/learning-paths)
-+ [Microsoft Analytics School](https://learnanalytics.microsoft.com/) 
 + [Microsoft AI Platform](https://www.microsoft.com/en-us/ai)
 + [Microsoft AI Principles](https://www.microsoft.com/en-us/AI/our-approach-to-ai)
 + [Microsoft AI Ethics](https://aka.ms/ai-ethics)
 + [Microsoft AI Customer Cases](https://www.microsoft.com/en-us/ai/customer-stories)
-+ [Microsoft AI Lab](https://www.ailab.microsoft.com/) **-> Released on May, 2018**
-+ [Azure Search Portal](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search)
++ [Microsoft AI Lab](https://www.ailab.microsoft.com/) **-> Released May, 2018**
++ [Microsoft AI TV](https://aka.ms/AzureTV) **-> Released May, 2018**
++ [Microsoft AI Analytics School](https://learnanalytics.microsoft.com/) 
++ [Microsoft Research Open Data](https://msropendata.com/)
 + [Cognitive Search Official Demo - JFK Files](https://jfk-demo.azurewebsites.net/)
 + [Cognitive Search Official Code - JFK Files](https://github.com/Microsoft/AzureSearch_JFK_Files)
-+ [How to rebuild an Azure Search Index](https://docs.microsoft.com/en-us/rest/api/searchservice/addupdate-or-delete-documents)
 
 ## Contributing
 
