@@ -29,10 +29,7 @@ Since this is an AI training on top of Microsoft Azure Services, before we start
 + **Mandatory**
 1. **To Create:** You need a Microsoft Azure account to create the services we use in our solution. You can create a [free account](https://azure.microsoft.com/en-us/free/), use your [MSDN account](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/) or use any other subscription where you have permission to create services.
 1. **To Install:** [Visual Studio 2017](https://www.visualstudio.com/vs/) version version 15.5 or later, including the Azure development workload.
-1. **To Install:** [Postman](https://www.getpostman.com/).
-
-> Fiddler and Postman are used to call the Azure Search APIs we will interact with, so come to the training with one installed. If you're new to Postman/Fiddler, we recommend using Postman, as many of the screenshots and instructions are geared specifically for Postman. That being said, if Fiddler is your tool of choice or you are more comfortable with it, you shouldn't have any problems completing the lab.
-
+1. **To Install:** [Postman](https://www.getpostman.com/). To call the labs APIs.
 
 ## Agenda
 Since you have finished the prerequisites, let's start the training. You just need to follow the workshop structure presented below.
