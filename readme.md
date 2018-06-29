@@ -23,7 +23,7 @@ Since this is an AI training on top of Microsoft Azure Services, before we start
 1. **To Read:** [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/visual-studio-ide) tutorial
 1. **To Read:** [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) quick introduction 
 1. **To Read:** [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search) overview
-1. **To Read:** [Using Fiddler and Postman](https://docs.microsoft.com/en-us/azure/search/search-fiddler) tutorial
+1. **To Read:** [Using Postman](https://docs.microsoft.com/en-us/azure/search/search-fiddler) tutorial
 1. **To Watch:** [MVA: C# Fundamentals](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949) short videos
 
 + **Mandatory**
