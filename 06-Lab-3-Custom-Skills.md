@@ -11,7 +11,7 @@ For documents in english we will replicate the original text in the output, so w
 Use this [link](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-text-how-to-signup) to sign up for the Translator Text API. Keep the API key, you will use it later in this lab.
 
 
-## Step 2 - Create an Azure Function
+## Step 2 - Create an Azure Function 
 
 Although this example uses an Azure Function to host a web API, it is not required.  As long as you meet the [interface requirements for a cognitive skill](https://docs.microsoft.com/en-us/azure/search/cognitive-search-custom-skill-interface), the approach you take is immaterial. Azure Functions, however, make it easy to create a custom skill.
 
