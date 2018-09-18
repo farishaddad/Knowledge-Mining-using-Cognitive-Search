@@ -63,6 +63,7 @@ If you don't want to keep the solution up and running for future use, you should
 + [Cognitive Search Business Documents Demo - Wolters Kluwer](https://wolterskluwereap.azurewebsites.net/)
 + [Cognitive Search Business Oil & Gas Demo - Exxon Mobile](http://seismicsearch.azurewebsites.net/)
 + [Cognitive Search Business Healthcare Demo - CTakes](http://webmedsearch.azurewebsites.net/)
++ [Cognitive Services Enrichment Pipeline Demo](https://text-analytics-demo-dev.azurewebsites.net/)
 
 
 
