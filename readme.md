@@ -60,6 +60,13 @@ If you don't want to keep the solution up and running for future use, you should
 + [Microsoft Research Open Data](https://msropendata.com/)
 + [Cognitive Search Official Demo - JFK Files](https://jfk-demo.azurewebsites.net/)
 + [Cognitive Search Official Code - JFK Files](https://github.com/Microsoft/AzureSearch_JFK_Files)
++ [Cognitive Search Business Documents Demo - Wolters Kluwer](https://wolterskluwereap.azurewebsites.net/)
++ [Cognitive Search Business Oil & Gas Demo - Exxon Mobile](http://seismicsearch.azurewebsites.net/)
++ [Cognitive Search Business Healthcare Demo - CTakes](http://webmedsearch.azurewebsites.net/)
++ [Cognitive Services Enrichment Pipeline Demo](https://text-analytics-demo-dev.azurewebsites.net/)
+
+
+
 
 ## Contributing
 
