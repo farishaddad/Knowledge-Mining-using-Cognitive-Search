@@ -1,7 +1,12 @@
 # Building an Enterprise Cognitive Search Solution
 
 ## Welcome 
+Real-world data is messy. It often spans media types (e.g. text documents, PDF files, images, databases), changes constantly, and carries valuable knowledge in ways that is not readily usable.
+
 Cognitive Search adds data extraction, natural language processing (NLP), and image processing skills to an Azure Search indexing pipeline, making previously unsearchable or unstructured content more searchable. Information created by Cognitive Search Skills, such as entity recognition or image analysis, gets added to an index in Azure Search.
+
+This solution alleviates the large effort needed to accomplish the typical solution pattern needed for this: ingest-enrich-explore. Sidesteps usual challenges like large scale change tracking to file format support, and even composition of multiple AI models. Today it takes a huge amount of effort, requires branching into multiple unrelated domains (from cracking PDFs to handling AI model composition). This is where Cognitive Search comes in.
+
 
 This one day training will focus on hands-on activities that develop proficiency with Cognitive Search, an Azure Search AI-oriented capability. These labs assume an introductory to intermediate knowledge of [Visual Studio](https://www.visualstudio.com/vs/community/), the [Azure Portal](https://portal.azure.com), [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) and [Azure Search](https://azure.microsoft.com/en-us/services/search/). If you are not at that skill level, we have prerequisite materials below that you **need** to complete prior to beginning this training.
 
