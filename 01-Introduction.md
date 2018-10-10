@@ -54,10 +54,20 @@ Can you think of other scenarios where this technology might be useful? We've in
     - Like the JFK files examples, many cases have lots of data in varying forms, similar value could be provided
 - Twitter and big events (e.g. festivals like Coachella or NFL games)
     - Could use the service to ingest tweets for big events and perform sentiment analysis and key phrases extraction.
-- Business documents, fom all enterprises in all industries
+- Business documents, from all enterprises in all industries
     - Every company has unstructured data stored on file servers, cloud devices and local computers: images, pdfs, ppts, xls, docs, html and so on.
     - Most of this huge data volume is siloed and has no metadata, making search a limited experience.
     - Cognitive Search can help any company to enrich the metadata of its own data, helping to increase productivity and even security/compliance.
+- Healthcare challenge with clinical data. 
+    - Large volume of text includes references to general entities (e.g. people’s names) and domain-specific ones (e.g. drug and disease names) that need to be connected and related. Sometimes they also need to combine this with imagery that’s analysed in well-known ways (e.g. OCR) as well as applying leading-edge methods (e.g. AI-assisted diagnostics).
+
+- In the Financial Services space.
+    - The need to handle the challenge of extensive regulation described as large volume of documents, forms produced by their customers, contracts they handle with customers and providers, and more. When combined with specialized content understanding models, it enables them to provide their employees and customers with a global view of their information assets.
+
+- Oil & Gas
+    - Companies have teams of geologists and other specialists that need to understand seismic and geologic data. They often have decades of PDFs with pictures of samples over sample sheets full of handwritten field notes. They need to connect places, people (domain experts), events, and navigate all this information to make key decisions.
+
+   
 
 
 ## Key concepts
