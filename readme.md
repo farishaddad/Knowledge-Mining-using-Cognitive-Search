@@ -1,4 +1,4 @@
-# Azure Search Workshop - Building an Enterprise Cognitive Search Solution
+# Building an Enterprise Cognitive Search Solution
 
 ## Welcome 
 Cognitive Search adds data extraction, natural language processing (NLP), and image processing skills to an Azure Search indexing pipeline, making previously unsearchable or unstructured content more searchable. Information created by Cognitive Search Skills, such as entity recognition or image analysis, gets added to an index in Azure Search.
