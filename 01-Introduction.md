@@ -61,7 +61,7 @@ Can you think of other scenarios where this technology might be useful? We've in
 - Healthcare challenge with clinical data. 
     - Large volume of text includes references to general entities (e.g. people’s names) and domain-specific ones (e.g. drug and disease names) that need to be connected and related. Sometimes they also need to combine this with imagery that’s analysed in well-known ways (e.g. OCR) as well as applying leading-edge methods (e.g. AI-assisted diagnostics).
 
-- In the Financial Services space.
+- Financial Services space.
     - The need to handle the challenge of extensive regulation described as large volume of documents, forms produced by their customers, contracts they handle with customers and providers, and more. When combined with specialized content understanding models, it enables them to provide their employees and customers with a global view of their information assets.
 
 - Oil & Gas
