@@ -83,7 +83,7 @@ Skipping the services and the data source creation, repeat the other steps of th
 
 **TIP 3:** You can query only the OCR field, to better visualize the results. Suppose that your new index field name is myOcrTex. You can query it using:
 ```http
-GET https://[servicename].search.search.windows.net/indexes/rodindex2/docs?search=*&$select=myOcrText&api-version=2017-11-11-Preview
+GET https://[servicename].search.search.windows.net/indexes/demoindex/docs?search=*&$select=myOcrText&api-version=2017-11-11-Preview
 api-key: [api-key]
 Content-Type: application/json
 ```
