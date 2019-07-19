@@ -1,5 +1,20 @@
 # Building an Enterprise Cognitive Search Solution
 
+WARNING - This Training is OUTDATED
+
+Warning - Tuesday, July 1, 2019
+
+This training is OUTDATED. Many of the labs will not work from January onwards. Much information no longer reflects the reality of the product. The LearnAI Team strongly recommends the use of the new version: http://aka.ms/kmb
+
+The new version is also free and public. It contains all the knowledge presented within this training, with the addition of:
+
+    Azure Search Fundamentals
+    Content Moderator API
+    A Bot using Bot Framework V4
+    Cognitive Search last updates
+    All new Cognitive Search pricing information and requirements
+
+
 ## Welcome 
 Real-world data is messy. It often spans media types (e.g. text documents, PDF files, images, databases), changes constantly, and carries valuable knowledge in ways that is not readily usable.
 
